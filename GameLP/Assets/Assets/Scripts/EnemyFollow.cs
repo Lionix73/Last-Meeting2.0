@@ -2,22 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemyLvl1 : MonoBehaviour
+public class EnemyFollow : MonoBehaviour
 {
     Vector2 EnemyPosition;
 
     public GameObject PlayerMovement;
 
-    public float health;
-    public float maxHealth;
-
     bool chasePlayer;
     public float velocity;
-
-    void Start()
-    {
-        health = maxHealth;
-    }
 
     void Update()
     {
@@ -41,25 +33,4 @@ public class EnemyLvl1 : MonoBehaviour
         }
     }
 
-    public void Damage(float damage)
-    {
-        health -= damage;
-        CheckDeath();
-    }
-
-    private void CheckOverHeal()
-    {
-        if (health > maxHealth)
-        {
-            health = maxHealth;
-        }
-    }
-
-    private void CheckDeath()
-    {
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
-    }
 }

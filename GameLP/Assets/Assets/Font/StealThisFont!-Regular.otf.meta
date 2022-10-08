@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 146c6a2fefbdb1d40b781b361d8c127d
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Steal This Font!
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 50f706574d94c48498ef3dfb34bb8b9c, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

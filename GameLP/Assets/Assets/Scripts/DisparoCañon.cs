@@ -4,16 +4,21 @@ using UnityEngine;
 
 public class DisparoCañon : MonoBehaviour
 {
-    /* public GameObject projectile;
+   public GameObject projectile;
    public float minDamage;
    public float maxDamage;
    public float projectileForce;
+
    void Update()
    {
-       if (Input.GetButtonDown('e'))
+       if (Input.GetMouseButtonDown(1))
        {
-           GameObject spell = Instantiate(projectile, transform.position, Quaternion.identity);
-           spell.GetComponent<Rigidbody2d>().velocity = move * projectileForce;
+            GameObject spell = Instantiate(projectile, transform.position, Quaternion.identity);
+            Vector2 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 myPos = transform.position;
+            Vector2 direction = (mousePos - myPos).normalized;
+            spell.GetComponent<Rigidbody2D>().velocity = direction * projectileForce;
+            spell.GetComponent<BalaCañon>().damage = Random.Range(minDamage, maxDamage);
        }
-   } */
+   } 
 }
