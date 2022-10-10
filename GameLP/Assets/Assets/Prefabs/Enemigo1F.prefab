@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4615211035654439013}
   - component: {fileID: 4615211035654439014}
   - component: {fileID: -568924415942636842}
-  - component: {fileID: 4578943000386799590}
+  - component: {fileID: 3146476284526823527}
   m_Layer: 0
   m_Name: Enemigo1F
   m_TagString: Enemy
@@ -144,7 +144,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 100
---- !u!114 &4578943000386799590
+--- !u!114 &3146476284526823527
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -153,8 +153,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4615211035654439008}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c10b28a671ea135439fa4ed266fd0f97, type: 3}
+  m_Script: {fileID: 11500000, guid: cf5c0f07b2162f0469b3278aafb068fc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   PlayerMovement: {fileID: 3989458339388963286, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
-  velocity: 2
+  velocity: 3
+  damage: 30

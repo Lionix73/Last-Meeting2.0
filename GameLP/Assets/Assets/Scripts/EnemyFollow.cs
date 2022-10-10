@@ -2,12 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemigoFollow : MonoBehaviour
+public class EnemyFollow : MonoBehaviour
 {
     Vector2 EnemyPosition;
     public GameObject PlayerMovement;
     bool chasePlayer;
     public float velocity;
+
+    public float damage;
 
     void Start()
     {
@@ -34,5 +36,16 @@ public class EnemigoFollow : MonoBehaviour
             EnemyPosition = PlayerMovement.transform.position;
             chasePlayer = true;
         }    
+    }
+
+    void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.tag != "Enemy")
+        {
+            if (collision.tag == "Player")
+            {
+                PlayerStats.playerStats.DealDamage(damage);
+            }
+        }
     }
 }

@@ -151,6 +151,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.8
+  activeMoveSpeed: 3.8
+  dashSpeed: 10
+  dashLength: 4
+  dashCoolDown: 3
 --- !u!114 &8558062027395957787
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -181,7 +185,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   controladorGolpe: {fileID: 8773159549548931787}
   radioGolpe: 0.55
-  danoGolpe: 0
+  danoGolpe: 20
 --- !u!95 &2853548023689415769
 Animator:
   serializedVersion: 4

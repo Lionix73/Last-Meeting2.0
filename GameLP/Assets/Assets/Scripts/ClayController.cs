@@ -6,17 +6,21 @@ public class ClayController : MonoBehaviour
 {
     public float speed = 3.0f;
 
-    Rigidbody2D rigidbody2d;
-    Animator animator;
-    Vector2 lookDirection = new Vector2(1, 0);
+    public float activeMoveSpeed;
+    public float dashSpeed;
+    public float dashLength = 0.5f, dashCoolDown = 1f;
 
+    private float dashCounter;
+    private float dashCoolCounter;
+
+    Rigidbody2D rigidbody2d;
     float horizontal;
     float vertical;
 
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
-        animator = GetComponent<Animator>(); 
+        activeMoveSpeed = speed;
     }
 
     void Update()
@@ -26,15 +30,29 @@ public class ClayController : MonoBehaviour
 
         Vector2 move = new Vector2(horizontal, vertical);
 
-        if(!Mathf.Approximately(move.x, 0.0f) || !Mathf.Approximately(move.y, 0.0f))
+        if (Input.GetKeyDown(KeyCode.C))
         {
-            lookDirection.Set(move.x, move.y);
-            lookDirection.Normalize();
+            if (dashCoolCounter <= 0 && dashCounter <= 0)
+            {
+                activeMoveSpeed = dashSpeed;
+                dashCounter = dashLength;
+            }
         }
-        
-        animator.SetFloat("Speed", move.magnitude);
-        animator.SetFloat("Look X", lookDirection.x);
-        animator.SetFloat("Look Y", lookDirection.y);
+
+        if (dashCounter <= 0)
+        {
+            dashCounter -= Time.deltaTime;
+            if (dashCoolCounter <= 0)
+            {
+                activeMoveSpeed = speed;
+                dashCoolCounter = dashCoolDown;
+            }
+        }
+
+        if (dashCounter > 0)
+        {
+            dashCoolCounter -= Time.deltaTime;
+        }
     }
 
     private void FixedUpdate()
