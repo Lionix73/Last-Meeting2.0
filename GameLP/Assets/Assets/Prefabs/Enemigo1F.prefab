@@ -10,11 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 4615211035654439066}
   - component: {fileID: 4615211035654439067}
-  - component: {fileID: 4615211035654439012}
   - component: {fileID: 4615211035654439013}
   - component: {fileID: 4615211035654439014}
-  - component: {fileID: 4615211035654439015}
   - component: {fileID: -568924415942636842}
+  - component: {fileID: 4578943000386799590}
   m_Layer: 0
   m_Name: Enemigo1F
   m_TagString: Enemy
@@ -89,27 +88,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!50 &4615211035654439012
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4615211035654439008}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &4615211035654439013
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -152,20 +130,6 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 3
---- !u!114 &4615211035654439015
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4615211035654439008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf5c0f07b2162f0469b3278aafb068fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PlayerMovement: {fileID: 3989458339388963286, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
-  velocity: 3
 --- !u!114 &-568924415942636842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -180,3 +144,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxHealth: 100
+--- !u!114 &4578943000386799590
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4615211035654439008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c10b28a671ea135439fa4ed266fd0f97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerMovement: {fileID: 3989458339388963286, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+  velocity: 2
