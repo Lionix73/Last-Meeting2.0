@@ -30,14 +30,14 @@ public class MeleeCombat : MonoBehaviour
 
         Collider2D[] objetos = Physics2D.OverlapCircleAll(controladorGolpe.position, radioGolpe);
 
-        // Enviar informacion del dano al enemigo
-        /*foreach (Collider2D colisionador in objetos)
+        foreach(Collider2D collider in objetos)
         {
-            if (colisionador.CompareTag("Enemy"))
+            if(collider.CompareTag("Enemy")) 
             {
-                colisionador.transform.GetComponent<Enemy>().tomarDano(danoGolpe);
+                Debug.Log("atacando a un enemigo");
+                collider.transform.GetComponent<EnemyReciebeDamage>().DealDamage(danoGolpe);
             }
-        }*/
+        }        
     }
 
     private void OnDrawGizmos()
