@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class ClayController : MonoBehaviour
 {
-    public float speed = 3.0f;
+    public float moveSpeed;
+    public Rigidbody2D rigidbody2d;
+
+    private Vector2 moveDirection;
+    private Vector2 lastMoveDirection;
 
     public float activeMoveSpeed;
     public float dashSpeed;
@@ -13,24 +17,20 @@ public class ClayController : MonoBehaviour
     private float dashCounter;
     private float dashCoolCounter;
 
-    Rigidbody2D rigidbody2d;
-    float horizontal;
-    float vertical;
+    public Animator anim;
 
     void Start()
     {
         rigidbody2d = GetComponent<Rigidbody2D>();
-        activeMoveSpeed = speed;
+        activeMoveSpeed = moveSpeed;
     }
 
     void Update()
     {
-        horizontal = Input.GetAxis("Horizontal");
-        vertical = Input.GetAxis("Vertical");
+        ProcessInputs();
+        Animate();
 
-        Vector2 move = new Vector2(horizontal, vertical);
-
-        if (Input.GetKeyDown(KeyCode.C))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             if (dashCoolCounter <= 0 && dashCounter <= 0)
             {
@@ -42,9 +42,10 @@ public class ClayController : MonoBehaviour
         if (dashCounter <= 0)
         {
             dashCounter -= Time.deltaTime;
+
             if (dashCoolCounter <= 0)
             {
-                activeMoveSpeed = speed;
+                activeMoveSpeed = moveSpeed;
                 dashCoolCounter = dashCoolDown;
             }
         }
@@ -57,10 +58,34 @@ public class ClayController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Vector2 position = rigidbody2d.position;
-        position.y = position.y + speed * vertical * Time.deltaTime;
-        position.x = position.x + speed * horizontal * Time.deltaTime;
+        Move();
+    }
 
-        rigidbody2d.position = position;
+    private void ProcessInputs()
+    {
+        float moveX = Input.GetAxisRaw("Horizontal");
+        float moveY = Input.GetAxisRaw("Vertical");
+
+        moveDirection = new Vector2(moveX, moveY).normalized;
+
+        if((moveX == 0 && moveY == 0) && moveDirection.x != 0 || moveDirection.y != 0)
+        {
+            lastMoveDirection = moveDirection;
+        }
+    }
+
+    void Move() 
+    {
+        rigidbody2d.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
+    }
+   
+
+    void Animate()
+    {
+        anim.SetFloat("AnimMoveX", moveDirection.x);
+        anim.SetFloat("AnimMoveY", moveDirection.y);
+        anim.SetFloat("AnimMoveMagnitude", moveDirection.magnitude);
+        anim.SetFloat("AnimLastMoveX", lastMoveDirection.x);
+        anim.SetFloat("AnimLastMoveY", lastMoveDirection.y);
     }
 }

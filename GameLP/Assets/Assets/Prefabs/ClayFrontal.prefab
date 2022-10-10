@@ -151,8 +151,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3.8
-  activeMoveSpeed: 3.8
-  dashSpeed: 10
+  rigidbody2d: {fileID: 3989458339388963285}
+  activeMoveSpeed: 0
+  dashSpeed: 100
   dashLength: 4
   dashCoolDown: 3
 --- !u!114 &8558062027395957787

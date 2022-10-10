@@ -17053,9 +17053,25 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2853548023689415769, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 34fb648536a368b4f9524d7c52f0b4bc, type: 2}
     - target: {fileID: 3989458339388963286, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
       propertyPath: m_Name
       value: ClayFrontal
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989458339388963287, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 1378809681}
+    - target: {fileID: 3989458339388963287, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+      propertyPath: moveSpeed
+      value: 3.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989458339388963287, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+      propertyPath: dashLength
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3989458339388963291, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
       propertyPath: m_RootOrder
@@ -17103,6 +17119,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+--- !u!1 &720082813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3989458339388963286, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+  m_PrefabInstance: {fileID: 562146888}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &876490287 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4615211035654439066, guid: 648e42814a362184d96761500f01d995, type: 3}
@@ -17111,6 +17132,11 @@ Transform:
 --- !u!4 &1378809680 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3989458339388963291, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+  m_PrefabInstance: {fileID: 562146888}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1378809681 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 2853548023689415769, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
   m_PrefabInstance: {fileID: 562146888}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1919493533
@@ -17153,6 +17179,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1919493534}
     m_Modifications:
+    - target: {fileID: 3146476284526823527, guid: 648e42814a362184d96761500f01d995, type: 3}
+      propertyPath: PlayerMovement
+      value: 
+      objectReference: {fileID: 720082813}
     - target: {fileID: 4615211035654439008, guid: 648e42814a362184d96761500f01d995, type: 3}
       propertyPath: m_Name
       value: Enemigo1F
