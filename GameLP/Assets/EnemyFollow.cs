@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EnemigoFollow : MonoBehaviour
+public class EnemyFollow : MonoBehaviour
 {
     Vector2 EnemyPosition;
     public GameObject PlayerMovement;
@@ -21,7 +21,7 @@ public class EnemigoFollow : MonoBehaviour
             transform.position = Vector2.MoveTowards(transform.position, EnemyPosition, velocity * Time.deltaTime);
         }
 
-        if(Vector2.Distance(transform.position, EnemyPosition) > 12)
+        if(Vector2.Distance(transform.position, EnemyPosition) > 25)
         {
             chasePlayer = false;
         }
