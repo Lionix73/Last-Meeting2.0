@@ -38,11 +38,8 @@ public class EnemyFollow : MonoBehaviour
         }    
     }
 
-    void OnCollisionEnter2D(Collider2D collision)
+    void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.tag == "Player")
-        {
-            PlayerStats.playerStats.DealDamage(damage);
-        }
+        PlayerStats.playerStats.DealDamage(damage);
     }
 }

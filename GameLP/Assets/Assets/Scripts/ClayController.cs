@@ -11,7 +11,7 @@ public class ClayController : MonoBehaviour
     private Vector2 lastMoveDirection;
 
     public float activeMoveSpeed;
-    public float dashSpeed;
+    public float dashSpeed = 5;
     public float dashLength = 0.5f, dashCoolDown = 1f;
 
     private float dashCounter;
