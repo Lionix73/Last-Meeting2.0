@@ -17830,6 +17830,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8773159549548931787, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.56
+      objectReference: {fileID: 0}
+    - target: {fileID: 8773159549548931787, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.98
+      objectReference: {fileID: 0}
     - target: {fileID: 8855624891011993234, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
       propertyPath: radioGolpe
       value: 0.4

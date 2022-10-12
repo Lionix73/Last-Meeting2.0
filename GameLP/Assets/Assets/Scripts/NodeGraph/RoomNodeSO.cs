@@ -18,6 +18,9 @@ public class RoomNodeSO : ScriptableObject
 #if UNITY_EDITOR
 
     [HideInInspector] public Rect rect;
+    [HideInInspector] public bool isLeftClickDraging = false;
+    [HideInInspector] public bool isSelected = false;
+
 
     ///<summary>
     ///Initialise node
@@ -77,6 +80,108 @@ public class RoomNodeSO : ScriptableObject
         }
 
         return roomArray;
+    }
+
+    public void ProcessEvents(Event currentEvent)
+    {
+        switch(currentEvent.type)
+        {
+            case EventType.MouseDown:
+                ProcessMouseDownEvent(currentEvent);
+                break;
+
+            case EventType.MouseUp:
+                ProcessMouseUpEvent(currentEvent);
+                break;
+
+            case EventType.MouseDrag:
+                ProcessMouseDragEvent(currentEvent);
+                break;
+
+            default:
+                break;
+        }
+    }
+
+    public void ProcessMouseDownEvent(Event currentEvent)
+    {
+        if(currentEvent.button == 0)
+        {
+            ProcessLeftClickDownEvent();
+        }
+        else if(currentEvent.button == 1)
+        {
+            ProcessRightClickDownEvent(currentEvent);
+        }
+    }
+
+    private void ProcessLeftClickDownEvent()
+    {
+        Selection.activeObject = this;
+        
+        if(isSelected == true)
+        {
+            isSelected = false;
+        }
+        else
+        {
+            isSelected = true;
+        }
+    }
+
+    private void ProcessRightClickDownEvent(Event currentEvent)
+    {
+        roomNodeGraph.SetNodeToDrawConectionLineFrom(this, currentEvent.mousePosition);
+    }
+
+    public void ProcessMouseUpEvent(Event currentEvent)
+    {
+        if(currentEvent.button == 0)
+        {
+            ProcessLeftClickUpEvent();
+        }
+    }
+
+    private void ProcessLeftClickUpEvent()
+    {
+        if(isLeftClickDraging)
+        {
+            isLeftClickDraging = false;
+        }
+    }
+
+    public void ProcessMouseDragEvent(Event currentEvent)
+    {
+        if(currentEvent.button == 0)
+        {
+            ProcessLeftMouseDragEvent(currentEvent);
+        }
+    }
+
+    private void ProcessLeftMouseDragEvent(Event currentEvent)
+    {
+        isLeftClickDraging = true;
+
+        DragNode(currentEvent.delta);
+        GUI.changed = true;
+    }
+
+    public void DragNode(Vector2 delta)
+    {
+        rect.position += delta;
+        EditorUtility.SetDirty(this);
+    }
+
+    public bool AddChildRoomNodeIDToRoomNode(string chlidID)
+    {
+        childRoomNodeIDList.Add(chlidID);
+        return true;
+    }
+
+    public bool AdParentRoomNodeIDToRoomNode(string parentID)
+    {
+        parentRoomNodeIDList.Add(parentID);
+        return true;
     }
 
 #endif
