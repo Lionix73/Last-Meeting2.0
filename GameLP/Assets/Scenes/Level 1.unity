@@ -17775,12 +17775,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1378809681}
     - target: {fileID: 3989458339388963287, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
+      propertyPath: dashSpeed
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3989458339388963287, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
       propertyPath: moveSpeed
       value: 3.8
       objectReference: {fileID: 0}
     - target: {fileID: 3989458339388963287, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
       propertyPath: dashLength
-      value: 100
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3989458339388963291, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
       propertyPath: m_RootOrder

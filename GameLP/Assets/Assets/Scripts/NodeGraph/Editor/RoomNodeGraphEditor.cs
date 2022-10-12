@@ -6,6 +6,7 @@ public class RoomNodeGraphEditor : EditorWindow
 {
     private GUIStyle roomNodeStyle;
     private static RoomNodeGraphSO currentRoomNodeGraph;
+    private RoomNodeSO currentRoomNode = null;
     private RoomNodeTypeListSO roomNodeTypeList;
 
     // Node layout
@@ -16,7 +17,6 @@ public class RoomNodeGraphEditor : EditorWindow
 
 
     [MenuItem("Room Node Graph Editor", menuItem = "Window/Dungeon Editor/Room Node Graph Editor")]
-
     private static void OpenWindow()
     {
         GetWindow<RoomNodeGraphEditor>("Room Node Graph Editor");
@@ -32,7 +32,7 @@ public class RoomNodeGraphEditor : EditorWindow
         roomNodeStyle.border = new RectOffset(nodeBorder, nodeBorder, nodeBorder, nodeBorder);
 
         //load Room node types
-        roomNodeTypeList = GameResources.Instance.RoomNodeTypeList;
+        roomNodeTypeList = GameResources.Instance.roomNodeTypeList;
     }
 
     ///<summary>
@@ -44,7 +44,7 @@ public class RoomNodeGraphEditor : EditorWindow
     {
         RoomNodeGraphSO roomNodeGraph = EditorUtility.InstanceIDToObject(instanceID) as RoomNodeGraphSO;
 
-        if(roomNodeGraph != null)
+        if (roomNodeGraph != null)
         {
             OpenWindow();
 

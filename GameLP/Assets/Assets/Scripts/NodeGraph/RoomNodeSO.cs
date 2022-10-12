@@ -31,7 +31,7 @@ public class RoomNodeSO : ScriptableObject
         this.roomNodeType = roomNodeType;
 
         //Load room node types list
-        roomNodeTypeList = GameResources.Instance.RoomNodeTypeList;
+        roomNodeTypeList = GameResources.Instance.roomNodeTypeList;
     }
 
     ///<summary>
@@ -47,7 +47,7 @@ public class RoomNodeSO : ScriptableObject
 
         //Display a popup using the RoomNodeTypes name values that can be selected from (default to the currently set roomNodeTypes)
 
-        int selected = roomNodeTypeList.list.FindIndex(x => roomNodeType);
+        int selected = roomNodeTypeList.list.FindIndex(x => x == roomNodeType);
 
         int selection = EditorGUILayout.Popup("", selected, GetRoomNodeTypesToDisplay());
 
