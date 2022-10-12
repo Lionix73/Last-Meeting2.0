@@ -122,18 +122,18 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.049969345, y: -0.019466043}
+  m_Offset: {x: 0.049969345, y: 0.96030605}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.5, y: 2.5}
+    pivot: {x: 0.5, y: 0}
+    oldSize: {x: 2, y: 2}
     newSize: {x: 2.5, y: 2.5}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.7887626, y: 0.31836867}
+  m_Size: {x: 0.7887626, y: 0.23238397}
   m_EdgeRadius: 0
 --- !u!114 &6577306102358745602
 MonoBehaviour:
@@ -148,7 +148,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectile: {fileID: 437162893514913024, guid: cf256c6a0403db1499f90f386809ce37, type: 3}
-  player: {fileID: 3989458339388963291, guid: afedff2f132ccb84cb61047e3d9eef5a, type: 3}
   minDamage: 20
   maxDamage: 30
   projectileForce: 10
