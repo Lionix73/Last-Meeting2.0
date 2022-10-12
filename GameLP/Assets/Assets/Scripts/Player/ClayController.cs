@@ -32,28 +32,40 @@ public class ClayController : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.F))
         {
-            if (dashCoolCounter <= 0 && dashCounter <= 0)
-            {
-                activeMoveSpeed = dashSpeed;
-                dashCounter = dashLength;
+        //     if (dashCoolCounter <= 0 && dashCounter <= 0)
+        //     {
+        //         activeMoveSpeed = dashSpeed;
+        //         dashCounter = dashLength;
+        //     }
+
+            if(moveDirection.x < 1) {
+                moveDirection.y *= dashSpeed;
             }
-        }
-
-        if (dashCounter <= 0)
-        {
-            dashCounter -= Time.deltaTime;
-
-            if (dashCoolCounter <= 0)
+            else if(moveDirection.y < 1)
             {
-                activeMoveSpeed = moveSpeed;
-                dashCoolCounter = dashCoolDown;
+                moveDirection.x *= dashSpeed;
             }
+            moveDirection.x *= dashSpeed;
+            moveDirection.y *= dashSpeed;
+
+            transform.Translate(moveDirection);
         }
 
-        if (dashCounter > 0)
-        {
-            dashCoolCounter -= Time.deltaTime;
-        }
+        // if (dashCounter <= 0)
+        // {
+        //     dashCounter -= Time.deltaTime;
+
+        //     if (dashCoolCounter <= 0)
+        //     {
+        //         activeMoveSpeed = moveSpeed;
+        //         dashCoolCounter = dashCoolDown;
+        //     }
+        // }
+
+        // if (dashCounter > 0)
+        // {
+        //     dashCoolCounter -= Time.deltaTime;
+        // }
     }
 
     private void FixedUpdate()
@@ -78,7 +90,6 @@ public class ClayController : MonoBehaviour
     {
         rigidbody2d.velocity = new Vector2(moveDirection.x * moveSpeed, moveDirection.y * moveSpeed);
     }
-   
 
     void Animate()
     {
