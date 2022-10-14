@@ -44,10 +44,12 @@ SpriteAtlas:
     cachedData: {fileID: 0}
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: 05fdac90a83560a4dace94ff59056e31, type: 3}
   - {fileID: 21300000, guid: a85366015f29a9e4ab1f21645df9051d, type: 3}
   - {fileID: 21300000, guid: 9ee0203163d6c3b4fb7efe95a2f26d61, type: 3}
   - {fileID: 21300000, guid: cb976331a1826594b8fd3098ec90dc0f, type: 3}
   - {fileID: 21300000, guid: d7395041f50609a4fb517bc34a41ede9, type: 3}
+  - {fileID: 21300000, guid: fed09642b7cf30f4e8d921fd0b63a682, type: 3}
   - {fileID: 21300000, guid: f2631a92db445b94dbdcf26012f384ae, type: 3}
   - {fileID: 21300000, guid: 65f185d2e74690844986fd1e7d8438ac, type: 3}
   - {fileID: 21300000, guid: fe3ef9735e0235540965900a6dff8339, type: 3}
@@ -59,9 +61,12 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 3cd245d421589ca4c8a4aeaeacca3ad8, type: 3}
   - {fileID: 21300000, guid: d7243dd489f3fdc49b30fefbfd508c9b, type: 3}
   - {fileID: 21300000, guid: a826d435dfd34d648aba31808d96c82f, type: 3}
+  - {fileID: 21300000, guid: 1517c97542b53444290420940ca21c99, type: 3}
   - {fileID: 21300000, guid: 9f406396756ba154aab6d3f3afa1c87c, type: 3}
   - {fileID: 21300000, guid: 748a2a961421ced479936f8689cfdad5, type: 3}
   - {fileID: 21300000, guid: 9dfa20b6a90611048b84274e5ab5a299, type: 3}
+  - {fileID: 21300000, guid: 1f7e1107b9cdb694fbf76df9933e77d1, type: 3}
+  - {fileID: 21300000, guid: 64c808170ad862740b923d64feb6890d, type: 3}
   - {fileID: 21300000, guid: b784d1379b32a9d45844714109851d98, type: 3}
   - {fileID: 21300000, guid: fa15c5383cd996345ae60465a9339984, type: 3}
   - {fileID: 21300000, guid: 4e799d983a8d1694da486d6cc55b65e4, type: 3}
@@ -98,6 +103,7 @@ SpriteAtlas:
   - {fileID: 515972866, guid: e0a5666dd9e246640ae7ea887fcf5f6a, type: 3}
   - {fileID: 21300000, guid: 4540fa6dcfe4df34d865350378d29d64, type: 3}
   - {fileID: 21300000, guid: 22fc8a7d2e772a34fa505b8ca2063965, type: 3}
+  - {fileID: 21300000, guid: d774b9dd1baec5d4d9003e5cc9472850, type: 3}
   - {fileID: -1313467977, guid: 3915cddd6522cd243b934cfd624a7065, type: 3}
   - {fileID: 1501240559, guid: 3915cddd6522cd243b934cfd624a7065, type: 3}
   - {fileID: 751888979, guid: 3915cddd6522cd243b934cfd624a7065, type: 3}
@@ -122,13 +128,17 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 30ed5a2e093f84d47addf2fbac18254a, type: 3}
   - {fileID: 21300000, guid: 7a6663ae32234d44db724608593bfdcf, type: 3}
   - {fileID: 21300000, guid: da52feae7d71af04da043579a2af26d9, type: 3}
+  - {fileID: 21300000, guid: 1cb9761f34285974c80e82a37a6bd4e7, type: 3}
   - {fileID: 21300000, guid: 10e61abf1321e084b92236e60989adec, type: 3}
+  - {fileID: 21300000, guid: b6b5b7cfa4fc20d47a5771753f075a9f, type: 3}
   - {fileID: 21300000, guid: 2619e9ff15c926a439d1586df2f39e92, type: 3}
   m_PackedSpriteNamesToIndex:
+  - pared3
   - BarrelFire
   - Enemigo2E
   - IvoFrontal
   - pared1
+  - pared2izq
   - ItemHealV1
   - Limbo1
   - Boss
@@ -140,9 +150,12 @@ SpriteAtlas:
   - Enemigo1E
   - Forest1
   - LayLateral
+  - pared3der
   - super_hongosisimo
   - silla
   - LaurelFrontal
+  - pared3abajo
+  - pared3izq
   - ItemHealV2
   - pared1izq
   - Enemigo3E
@@ -179,6 +192,7 @@ SpriteAtlas:
   - Clay1.1_15
   - ClayEspalda
   - pared1der
+  - pared2abajo
   - Clay1.0_15
   - Clay1.0_14
   - Clay1.0_17
@@ -203,7 +217,9 @@ SpriteAtlas:
   - ClayLateral
   - cama
   - ClayFrontal
+  - pared2
   - Enemigo4E
+  - pared2der
   - tile_hospital1
   m_RenderDataMap: {}
   m_Tag: Sprite Atlas
