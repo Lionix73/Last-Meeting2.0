@@ -22,7 +22,5 @@ public class Doorway
     public bool isConnected = false;
 
     [HideInInspector]
-    public bool isUnvailable = false;
-
-    
+    public bool isUnavailable = false;    
 }

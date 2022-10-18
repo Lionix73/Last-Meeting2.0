@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEditor;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "Room_", menuName = "Scriptable Object/Dungeon/Room")]
+[CreateAssetMenu(fileName = "Room_", menuName = "Scriptable Objects/Dungeon/Room")]
 
 public class RoomTemplateSO : ScriptableObject
 {
