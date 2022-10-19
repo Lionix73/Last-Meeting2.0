@@ -1,0 +1,2907 @@
+fileFormatVersion: 2
+guid: 1418169dc31b04649bdfeb385720f85c
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 50
+  spriteBorder: {x: 0, y: 56, z: 0, w: 39}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: wRollPlaceHolder_0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 500
+        width: 18
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 396cf32afd30f9741908dcce6ded372c
+      internalID: -161903725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_1
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 500
+        width: 5
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef4ae47e489157e48954b66f8bbe85c3
+      internalID: 730326594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 518
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aab7fc5b2205cb24db2ddedec46a6387
+      internalID: 2036480725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_3
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 500
+        width: 35
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb665a669e5b6a6489995845b9968f02
+      internalID: -235379132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 518
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4890b2c08f0221f45a4b4c79527f3763
+      internalID: 267611776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 499
+        width: 20
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28c002f317e7c214d9d92739279e0f0c
+      internalID: 1901706296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_6
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 517
+        width: 6
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9493566134408ed40859dfda30a5b575
+      internalID: 1964633701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_7
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 499
+        width: 14
+        height: 21
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d048f885a26781544aabf213af045116
+      internalID: 460035165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 500
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b79bdb908def124eb1d9c04af634af6
+      internalID: 1756074316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_9
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 500
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91476506fda5e2f49b1e267dc929286f
+      internalID: 1001481203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_10
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 500
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d11012f85e20dd4e96f8b5e9a271d1c
+      internalID: 1150016611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_11
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 500
+        width: 5
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 719eb1d834bf2864b922b1d9591b1f1c
+      internalID: 1198361890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_12
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 500
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711ee310aa43e1947b646e14f8e1e988
+      internalID: 1641827965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_13
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 500
+        width: 14
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4dfd561d3634fb4eb80195aa684f11e
+      internalID: -2119049134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_14
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 500
+        width: 5
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de5bedb633fcfc4c867f7ed6a9cac9d
+      internalID: 1292293596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 500
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d433321abd5a5894e969a0c8b1079b92
+      internalID: 30262943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_16
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 492
+        width: 15
+        height: 23
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32902fa7c8022cf4da1fa103a612bb4b
+      internalID: -205992304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_17
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 499
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a30238b75c565624a8e743d4924e969b
+      internalID: -738444700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_18
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 499
+        width: 5
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6218094cc6361984c94055f6d97bcf88
+      internalID: 1819933139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 499
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5f8c40dd0a0634fa4e6a4b936e65bf
+      internalID: -1810713502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_20
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 499
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca4783da4cd5444d921c3d3b0a42488
+      internalID: 1035060986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_21
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 447
+        width: 29
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb45ddcaa6dfdfe45b5b72bd6ccbec31
+      internalID: -1493891530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_22
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 447
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce7c7a2e6ffffef46814044d62ea7c7b
+      internalID: -553022702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_23
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 447
+        width: 28
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51c488edd31dad4aa950f8b38a0a7a3
+      internalID: 1366757106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_24
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 447
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ddbf4579067cb14194e69cabd04b375
+      internalID: -1980986316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_25
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 447
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaa84fcf181b8ac49b68ed4dbf5d1e16
+      internalID: -1196547043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_26
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 447
+        width: 30
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcb9181e36189e34480f996e5aadb4ef
+      internalID: 1979169405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_27
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 447
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 088f7a0d048915f4cabbe54e22093e24
+      internalID: -935111842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_28
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 448
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8362105e8e6ef940b18213a70df6441
+      internalID: 702659259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_29
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 448
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42b2cdbf5de325b4caffb3ef2ee5c498
+      internalID: 272293839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_30
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 448
+        width: 24
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b7a500669b8854795cc0e5808a99a9
+      internalID: -700443655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_31
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 448
+        width: 29
+        height: 26
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d776de5128c70e94fb359c341efae875
+      internalID: -97807935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_32
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 408
+        width: 26
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ceeddad322dabc488b79cf02e6b2288
+      internalID: 1236382181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_33
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 408
+        width: 27
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 833a9754dd63abf40be6b20ed288af1d
+      internalID: -1877594352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_34
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 407
+        width: 31
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1158b234bb55cf448ef755df9794f32
+      internalID: -1506389315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_35
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 408
+        width: 37
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d0e243f930efc24780540fd6a724465
+      internalID: 709072913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_36
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 410
+        width: 32
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8dd1fec1fc3837459a879fcb539c0ca
+      internalID: -1798425599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_37
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 408
+        width: 32
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 808bc4e478adb434e912a5b3442e9989
+      internalID: -1875303971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_38
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 408
+        width: 26
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2311ee6c84779054282af4b500594dfc
+      internalID: -2037303688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_39
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 408
+        width: 24
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b31e86e8bbb30748a2729e04760b4de
+      internalID: -2003206322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_40
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 408
+        width: 30
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bd1566027d7bd54186781136eb2709a
+      internalID: 963961657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_41
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 408
+        width: 36
+        height: 37
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e724b29e069353a4b8b3039bcae0b0ba
+      internalID: -732901075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_42
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 409
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6630819eadee5f4e9e347777917494e
+      internalID: 1034229212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_43
+      rect:
+        serializedVersion: 2
+        x: 370
+        y: 408
+        width: 29
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72885109a9f22214bb3e5c304d643840
+      internalID: 1962355594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_44
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 361
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9817bbd143a2f478b0723a638dfa26
+      internalID: -899289068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_45
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 362
+        width: 35
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafde1b8be7ad0e49a4e1229cab37b69
+      internalID: -1124259338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_46
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 362
+        width: 35
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cf52e85b1ce263429cb70eb44f8ddd5
+      internalID: -299376455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_47
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 362
+        width: 34
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8126dae571e3f342916116e297dd642
+      internalID: -1177286057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_48
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 362
+        width: 34
+        height: 41
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95f71c40c63ab1a4db9a665734b71e78
+      internalID: 821368075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_49
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 363
+        width: 33
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f3beee4588b91e4e8c590d0f49d1ad9
+      internalID: 1018290684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_50
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 326
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40ccc7a712890c545aaf9e182a42cb8a
+      internalID: 732199942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_51
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 327
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86dab63209af4b94db1a3e6c4befca7d
+      internalID: -81633099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_52
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 327
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e305820fce3ccf341a5de182613b99d8
+      internalID: -1948216815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_53
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 327
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a63775ffe6786c45afaa547ac967f42
+      internalID: 455057081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_54
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 327
+        width: 29
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e069111957abb3418a697b5deecf408
+      internalID: 1837989441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_55
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 326
+        width: 29
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d38927ce1bd5641a17ce58794b71d5
+      internalID: 1132385280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_56
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 326
+        width: 30
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ade4e11cc5c48449cb609ab04b91ce
+      internalID: -1627019474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_57
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 326
+        width: 31
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c0569032015d044198ebe03d424d024
+      internalID: -1537042536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_58
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 325
+        width: 30
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e617d3669acc4cb4ab82cc9545a98c65
+      internalID: -595230815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_59
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 292
+        width: 30
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2201f4553920a1d40bcb086c1acec4c1
+      internalID: 981195456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_60
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 292
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 799f88a5ed392b7489fbb17fa84ff77c
+      internalID: -928420257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_61
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 292
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49be67c6f7343424b8d1231c1bb5f2ca
+      internalID: 628538261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_62
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 292
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1202c9f79de680b45ab66f611fedb18c
+      internalID: -1688920644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_63
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 292
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa54520f6ecd8194abc331b61b9510d7
+      internalID: 697419207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_64
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 292
+        width: 29
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aac1326f513f76d4e8714b02a082d5f1
+      internalID: -963530997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_65
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 251
+        width: 29
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d18719dea438c4e46a966b83dc64750d
+      internalID: -1189243344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_66
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 251
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d94bed2380d13a4409d326267337235e
+      internalID: 454089598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_67
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 251
+        width: 31
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e82a97420f05b94686cedd4c23327c3
+      internalID: -455592917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_68
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 251
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165ffd2ed9c81ae449d0ed5e1eac7a5e
+      internalID: 1258094261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_69
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 251
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4880641dd1279419875acbd1a048cf
+      internalID: -1611920596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_70
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 251
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78db6821afc9c0f4ca6cb7114b07813e
+      internalID: 451972665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_71
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 207
+        width: 29
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a98f576ac3e1d541b9a2f3c40d08d17
+      internalID: -31609079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_72
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 207
+        width: 30
+        height: 35
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 296b8ccf034180340a19e524e2017e94
+      internalID: 1089201060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_73
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 208
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e17647c18ba2047a058abe602901cb
+      internalID: 1528114162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_74
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 208
+        width: 39
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9fb3e7e34efd0940899d457de6ca643
+      internalID: -1233314265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_75
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 208
+        width: 39
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf9edb3c1224c941a35d018b9a70f9c
+      internalID: -1185656784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_76
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 208
+        width: 38
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c273dab36316b4cbc78ca85da9c33e
+      internalID: 1178836932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_77
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 154
+        width: 24
+        height: 45
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3e083179341b294e88a2f7da95024dd
+      internalID: -462606458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_78
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 154
+        width: 29
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7563fdbce6457924baf826d8c28ab9c2
+      internalID: 1670475726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_79
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 154
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4378c1a5da6c2304e91e946079347ba2
+      internalID: 1792537464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_80
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 155
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f155297a16a98374389af83b34780020
+      internalID: -1354672010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_81
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 155
+        width: 25
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3486a649cc9e16499bdd62733f8dbf1
+      internalID: -1275468643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_82
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 154
+        width: 20
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17d798f96e6e4be439c81a5b1bb66356
+      internalID: 734386221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_83
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 156
+        width: 40
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 998487a7bb8760d44aa4dbeedae5d442
+      internalID: 412582135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_84
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 157
+        width: 39
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fe97a38226ca547a56368f0f0b6c02
+      internalID: -735216146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_85
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 108
+        width: 27
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f2910245aafb649a91d944402d55c7
+      internalID: -1100280067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_86
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 110
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9338337fb003844eb3adb2a3b0a5616
+      internalID: 1680342086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 110
+        width: 31
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e282de463a43f394abd2a2bbd7dab76e
+      internalID: 781562418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_88
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 110
+        width: 33
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48588262cc90a144fb63b2e54ff5df96
+      internalID: -1178688241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_89
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 110
+        width: 32
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9281fc5b6eb20b54fa74eed5c8ebdf68
+      internalID: 1858140948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_90
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 110
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c5a6b857579fe429cbf2b7634e764b
+      internalID: -1159284948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_91
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 110
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59ca47ceccdfc3b47830decbf93aa176
+      internalID: 1236390073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_92
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 111
+        width: 33
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65be2bc022ca7b245b3e20cfca6b7c90
+      internalID: 970889097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_93
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 56
+        width: 34
+        height: 40
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a08f9fdac618570438194824799f849d
+      internalID: 94413958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_94
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 56
+        width: 34
+        height: 43
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc74c387806b6774990c432d897fb4dc
+      internalID: -1593767930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 59
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d38598c8d0397d4fadc049af10755df
+      internalID: -1030177267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_96
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 59
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4009829f9169a2e498d504b676c6e0c5
+      internalID: 1412544295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_97
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 42
+        width: 40
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa09cfc1d2bfe5544bc1d834ce6d5337
+      internalID: 871575399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_98
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 42
+        width: 16
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caa4f62e7333e0f41afc21aab8a5afca
+      internalID: 1658245853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_99
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 42
+        width: 34
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29e7de40049996247b3443eafd29a045
+      internalID: 761492174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_100
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 44
+        width: 11
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54ed8afcc33465e4ab187cab47532ccb
+      internalID: -1798570445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_101
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 44
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5597b3d9f283b7a4ba4c54d2203d9f9f
+      internalID: 704586603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_102
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 44
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc5fff187c6eb0f4db7ebdef35207795
+      internalID: 195131238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_103
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 44
+        width: 13
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99bf8461335d19047aac745c6eca2cad
+      internalID: 379997155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_104
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 42
+        width: 6
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6693ec5d5c084e4cbd72bd7f64c7362
+      internalID: 1615198455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_105
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 44
+        width: 13
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb05ebf0db382247ae34d8de626938a
+      internalID: 1473553502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_106
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 42
+        width: 13
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d0447c39d0016e48a046caa5bdd7a96
+      internalID: 693686657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_107
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 35
+        width: 8
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c48f1907707637d4f82324e3e7fda1de
+      internalID: 756526254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_108
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 35
+        width: 8
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892f3e1acfb9f734d8e5d493b0a3f046
+      internalID: 2071057710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_109
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 35
+        width: 8
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 495c6fc9433b9dc4bbe494e8ce4c922f
+      internalID: -46689373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_110
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 35
+        width: 8
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84dda28e158baed44bc4af9e95d84c35
+      internalID: 930769796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_111
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 35
+        width: 11
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7ade0f17625854bb14a02aeb2b9d4d
+      internalID: -385122780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_112
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 35
+        width: 18
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6ddfd1e97096549822d68fe7c1844f
+      internalID: 2070330818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_113
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 28
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc93b8a0f7b5064b86fc98b4ab79701
+      internalID: -619367269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_114
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 28
+        width: 25
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8faabfeb919f41b4689fa45a7c557aa9
+      internalID: 319850568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_115
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 28
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a26a298973375643b8bdfd61f6efdfe
+      internalID: -1089660215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_116
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 28
+        width: 20
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e0393534b5bf394083d2a2f7940fe42
+      internalID: 744502896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_117
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 28
+        width: 13
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0de0b7d26d6a0914f9e2ad100a924537
+      internalID: -97210371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_118
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 26
+        width: 10
+        height: 11
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc0d8b37813f854f989d614c6dfbace
+      internalID: 211055576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_119
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 0
+        width: 27
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6176f338c96c584ca61c5b1b213f968
+      internalID: -1090271802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_120
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 1
+        width: 23
+        height: 39
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0d78cd662ff00468be129dcf7f35c0
+      internalID: 1726000781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_121
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 35
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6e5ecde2fde0f42b6cfadccebb8050
+      internalID: 207352795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_122
+      rect:
+        serializedVersion: 2
+        x: 226
+        y: 35
+        width: 7
+        height: 9
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38a425129b66d1c4ca743c6a235612fe
+      internalID: -1146344560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_123
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 32
+        width: 9
+        height: 12
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9837e68cb76707c48a70b223902a41e9
+      internalID: 1134805391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_124
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 28
+        width: 7
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e59b0af90255ad54595997ce44757325
+      internalID: -977611205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: wRollPlaceHolder_125
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 28
+        width: 6
+        height: 7
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d667fe06d167df43b0a492a6ec16212
+      internalID: 307761557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      wRollPlaceHolder_35: 709072913
+      wRollPlaceHolder_24: -1980986316
+      wRollPlaceHolder_56: -1627019474
+      wRollPlaceHolder_90: -1159284948
+      wRollPlaceHolder_100: -1798570445
+      wRollPlaceHolder_18: 1819933139
+      wRollPlaceHolder_16: -205992304
+      wRollPlaceHolder_27: -935111842
+      wRollPlaceHolder_64: -963530997
+      wRollPlaceHolder_48: 821368075
+      wRollPlaceHolder_57: -1537042536
+      wRollPlaceHolder_75: -1185656784
+      wRollPlaceHolder_50: 732199942
+      wRollPlaceHolder_58: -595230815
+      wRollPlaceHolder_22: -553022702
+      wRollPlaceHolder_34: -1506389315
+      wRollPlaceHolder_80: -1354672010
+      wRollPlaceHolder_7: 460035165
+      wRollPlaceHolder_1: 730326594
+      wRollPlaceHolder_20: 1035060986
+      wRollPlaceHolder_77: -462606458
+      wRollPlaceHolder_104: 1615198455
+      wRollPlaceHolder_125: 307761557
+      wRollPlaceHolder_40: 963961657
+      wRollPlaceHolder_2: 2036480725
+      wRollPlaceHolder_51: -81633099
+      wRollPlaceHolder_81: -1275468643
+      wRollPlaceHolder_84: -735216146
+      wRollPlaceHolder_76: 1178836932
+      wRollPlaceHolder_43: 1962355594
+      wRollPlaceHolder_74: -1233314265
+      wRollPlaceHolder_0: -161903725
+      wRollPlaceHolder_105: 1473553502
+      wRollPlaceHolder_5: 1901706296
+      wRollPlaceHolder_33: -1877594352
+      wRollPlaceHolder_73: 1528114162
+      wRollPlaceHolder_25: -1196547043
+      wRollPlaceHolder_98: 1658245853
+      wRollPlaceHolder_54: 1837989441
+      wRollPlaceHolder_4: 267611776
+      wRollPlaceHolder_42: 1034229212
+      wRollPlaceHolder_60: -928420257
+      wRollPlaceHolder_17: -738444700
+      wRollPlaceHolder_79: 1792537464
+      wRollPlaceHolder_124: -977611205
+      wRollPlaceHolder_85: -1100280067
+      wRollPlaceHolder_70: 451972665
+      wRollPlaceHolder_49: 1018290684
+      wRollPlaceHolder_39: -2003206322
+      wRollPlaceHolder_82: 734386221
+      wRollPlaceHolder_41: -732901075
+      wRollPlaceHolder_109: -46689373
+      wRollPlaceHolder_29: 272293839
+      wRollPlaceHolder_122: -1146344560
+      wRollPlaceHolder_101: 704586603
+      wRollPlaceHolder_120: 1726000781
+      wRollPlaceHolder_52: -1948216815
+      wRollPlaceHolder_8: 1756074316
+      wRollPlaceHolder_68: 1258094261
+      wRollPlaceHolder_26: 1979169405
+      wRollPlaceHolder_78: 1670475726
+      wRollPlaceHolder_86: 1680342086
+      wRollPlaceHolder_67: -455592917
+      wRollPlaceHolder_114: 319850568
+      wRollPlaceHolder_110: 930769796
+      wRollPlaceHolder_97: 871575399
+      wRollPlaceHolder_69: -1611920596
+      wRollPlaceHolder_93: 94413958
+      wRollPlaceHolder_107: 756526254
+      wRollPlaceHolder_10: 1150016611
+      wRollPlaceHolder_106: 693686657
+      wRollPlaceHolder_99: 761492174
+      wRollPlaceHolder_46: -299376455
+      wRollPlaceHolder_108: 2071057710
+      wRollPlaceHolder_61: 628538261
+      wRollPlaceHolder_37: -1875303971
+      wRollPlaceHolder_87: 781562418
+      wRollPlaceHolder_47: -1177286057
+      wRollPlaceHolder_121: 207352795
+      wRollPlaceHolder_59: 981195456
+      wRollPlaceHolder_36: -1798425599
+      wRollPlaceHolder_6: 1964633701
+      wRollPlaceHolder_72: 1089201060
+      wRollPlaceHolder_63: 697419207
+      wRollPlaceHolder_71: -31609079
+      wRollPlaceHolder_123: 1134805391
+      wRollPlaceHolder_92: 970889097
+      wRollPlaceHolder_89: 1858140948
+      wRollPlaceHolder_117: -97210371
+      wRollPlaceHolder_94: -1593767930
+      wRollPlaceHolder_3: -235379132
+      wRollPlaceHolder_116: 744502896
+      wRollPlaceHolder_9: 1001481203
+      wRollPlaceHolder_23: 1366757106
+      wRollPlaceHolder_62: -1688920644
+      wRollPlaceHolder_102: 195131238
+      wRollPlaceHolder_53: 455057081
+      wRollPlaceHolder_44: -899289068
+      wRollPlaceHolder_103: 379997155
+      wRollPlaceHolder_31: -97807935
+      wRollPlaceHolder_112: 2070330818
+      wRollPlaceHolder_15: 30262943
+      wRollPlaceHolder_113: -619367269
+      wRollPlaceHolder_28: 702659259
+      wRollPlaceHolder_11: 1198361890
+      wRollPlaceHolder_91: 1236390073
+      wRollPlaceHolder_55: 1132385280
+      wRollPlaceHolder_13: -2119049134
+      wRollPlaceHolder_14: 1292293596
+      wRollPlaceHolder_96: 1412544295
+      wRollPlaceHolder_21: -1493891530
+      wRollPlaceHolder_30: -700443655
+      wRollPlaceHolder_88: -1178688241
+      wRollPlaceHolder_12: 1641827965
+      wRollPlaceHolder_45: -1124259338
+      wRollPlaceHolder_65: -1189243344
+      wRollPlaceHolder_32: 1236382181
+      wRollPlaceHolder_95: -1030177267
+      wRollPlaceHolder_19: -1810713502
+      wRollPlaceHolder_111: -385122780
+      wRollPlaceHolder_83: 412582135
+      wRollPlaceHolder_118: 211055576
+      wRollPlaceHolder_66: 454089598
+      wRollPlaceHolder_119: -1090271802
+      wRollPlaceHolder_115: -1089660215
+      wRollPlaceHolder_38: -2037303688
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

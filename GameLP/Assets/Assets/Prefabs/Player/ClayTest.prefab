@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 8855624891011993234}
   - component: {fileID: 2853548023689415769}
   m_Layer: 0
-  m_Name: ClayFrontal
+  m_Name: ClayTest
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

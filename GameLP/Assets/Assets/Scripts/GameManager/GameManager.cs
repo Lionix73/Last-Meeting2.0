@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [DisallowMultipleComponent]
@@ -28,8 +29,30 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     #endregion Tooltip
 
     [SerializeField] private int currentDungeonLevelListIndex = 0;
+    private Room currentRoom;
+    private Room previousRoom;
+    private PlayerDetailsSO playerDetails;
+    private Player player;
 
     [HideInInspector] public GameState gameState;
+
+    protected override void Awake()
+    {
+        base.Awake();
+
+        playerDetails = GameResources.Instance.currentPlayer.playerDetails;
+
+        InstantiatePlayer();
+    }
+
+    private void InstantiatePlayer()
+    {
+        GameObject playerGameObject = Instantiate(playerDetails.playerPrefab);
+
+        player = playerGameObject.GetComponent<Player>();
+
+        player.Initialize(playerDetails);
+    }
 
     void Start()
     {
@@ -60,6 +83,12 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         }
     }
 
+    public void SetCurrentRoom(Room room)
+    {
+        previousRoom = currentRoom;
+        currentRoom = room;
+    }
+
     private void PlayDungeonLevel(int dungeonLevelListIndex)
     {
         bool dungeonBuildSuccessfully = DungeonBuilder.Instance.GenerateDungeon(dungeonLevelList[dungeonLevelListIndex]);
@@ -67,7 +96,21 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         if(!dungeonBuildSuccessfully)
         {
             Debug.LogError("Couldnt build dungeon from specified rooms and node graphs");
-        }    
+        }
+
+        player.gameObject.transform.position = new Vector3((currentRoom.lowerBounds.x + currentRoom.upperBounds.x) / 2f, (currentRoom.lowerBounds.y + currentRoom.upperBounds.y) / 2f, 0f);
+
+        player.gameObject.transform.position = HelperUtilities.GetSpawnPositionNearestToPlayer(player.gameObject.transform.position);
+    }
+
+    public Player GetPlayer()
+    {
+        return player;
+    }
+
+    public Room GetCurrentRoom()
+    {
+        return currentRoom;
     }
 
     private void OnValidate() 

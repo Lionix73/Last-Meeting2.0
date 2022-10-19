@@ -17,6 +17,16 @@ public static class HelperUtilities
         return false;
     }
 
+    public static bool ValidateCheckNullValue(Object thisObject, string fieldName, UnityEngine.Object objectToCheck)
+    {
+        if (objectToCheck == null)
+        {
+            Debug.Log(fieldName + " is null must contain a value in object " + thisObject.name.ToString());
+            return true;
+        }
+        return false;
+    }
+
     ///<summary>
     ///list empty or contains null value check - return true if there is an error
     ///</summary>
@@ -52,5 +62,50 @@ public static class HelperUtilities
         }
 
         return error;
+    }
+
+    public static bool ValidateCheckPositiveValue(Object thisObject, string fieldname, int valueToCheck, bool isZeroAllowed)
+    {
+        bool error = false;
+
+        if (isZeroAllowed)
+        {
+            if (valueToCheck < 0)
+            {
+                Debug.Log(fieldname + " must contain a postive value or zero in object " + thisObject.name.ToString());
+                error = true;
+            }
+        }
+        else
+        {
+            if (valueToCheck <= 0)
+            {
+                Debug.Log(fieldname + " must contain a postive value in object " + thisObject.name.ToString());
+                error = true;
+            }
+        }
+
+        return error;
+    }
+
+    public static Vector3 GetSpawnPositionNearestToPlayer(Vector3 playerPosition)
+    {
+        Room currentRoom = GameManager.Instance.GetCurrentRoom();
+
+        Grid grid = currentRoom.instantiatedRoom.grid;
+
+        Vector3 nearestSpawnPosition = new Vector3(10000f, 10000f, 0f);
+
+        foreach (Vector2Int spawnPositiongGrid in currentRoom.spawnPositionArray)
+        {
+            Vector3 spawnPositionWorld = grid.CellToWorld((Vector3Int)spawnPositiongGrid);
+
+            if(Vector3.Distance(spawnPositionWorld, playerPosition) < Vector3.Distance(nearestSpawnPosition, playerPosition))
+            {
+                nearestSpawnPosition = spawnPositionWorld;
+            }
+        }
+
+        return nearestSpawnPosition;
     }
 }

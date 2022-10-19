@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7471a407c79dff649b8a887dfb880434, type: 3}
+  m_Name: PlayerDetails_Clay
+  m_EditorClassIdentifier: 
+  playerCharacterName: Clay
+  playerPrefab: {fileID: 3989458339388963286, guid: 4d110ed18d10e69418eba4136afe1ea3, type: 3}
+  runtimeAnimatorController: {fileID: 9100000, guid: 668842ca8e2d05648880b1ffdb548d7e, type: 2}
+  playerHealthAmount: 80
+  playerMiniMapIcon: {fileID: 21300000, guid: 5524940c45db5ae4c88b2ddb14d4b28d, type: 3}
+  playerHandSprite: {fileID: 2070330818, guid: 1418169dc31b04649bdfeb385720f85c, type: 3}
