@@ -121,7 +121,7 @@ public class InstantiatedRoom : MonoBehaviour
 
             case Orientation.east:
             case Orientation.west:
-                BlockDoorwayHorizontally(tilemap, doorway);
+                BlockDoorwayVertically(tilemap, doorway);
                 break;
 
             case Orientation.none:
