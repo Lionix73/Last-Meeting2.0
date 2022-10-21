@@ -14,8 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Forest
   roomTemplateList:
-  - {fileID: 11400000, guid: 64937f5dfd71776408b898c347ca5ee3, type: 2}
-  - {fileID: 11400000, guid: 59b2cad53867c104c81a27cfff17a0d4, type: 2}
   - {fileID: 11400000, guid: dda4b390eff02ca4bbb36f8bebd8f5a3, type: 2}
   - {fileID: 11400000, guid: f994a576521360b4584571e2656fd549, type: 2}
   - {fileID: 11400000, guid: 8b647f42a552d1741aaa27d608c62e63, type: 2}
@@ -25,7 +23,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 262032ebb46021c4594475422196765b, type: 2}
   - {fileID: 11400000, guid: 14146887fb022034aad3ec2842ab183e, type: 2}
   - {fileID: 11400000, guid: 9f9b71a72857ac44d817805abe887112, type: 2}
-  - {fileID: 11400000, guid: f56ead8c2bb94ca4b93268f869d96297, type: 2}
   - {fileID: 11400000, guid: a90841b2aeecdd64cbf062a4c48bd3d1, type: 2}
   roomNodeGraphList:
   - {fileID: 11400000, guid: a67685f785cefc64984a7c5b6f2b8466, type: 2}
