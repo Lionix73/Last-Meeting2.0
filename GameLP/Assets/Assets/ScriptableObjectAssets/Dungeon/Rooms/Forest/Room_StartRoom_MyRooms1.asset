@@ -21,11 +21,11 @@ MonoBehaviour:
   doorwayList:
   - position: {x: 0, y: 11}
     orientation: 0
-    doorPrefab: {fileID: 0}
+    doorPrefab: {fileID: 7562794438401205090, guid: dccc60f500707904e99a450f7140fe74, type: 3}
     doorwayStartCopyPosition: {x: -2, y: 11}
     doorwayCopyTileWidth: 5
     doorwayCopyTileHeight: 5
     isConnected: 0
-    isUnvailable: 0
+    isUnavailable: 0
   spawnPositionArray:
   - {x: 0, y: 0}

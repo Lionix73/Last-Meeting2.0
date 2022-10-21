@@ -21,20 +21,20 @@ MonoBehaviour:
   doorwayList:
   - position: {x: -4, y: -7}
     orientation: 2
-    doorPrefab: {fileID: 0}
+    doorPrefab: {fileID: 7562794438401205090, guid: dccc60f500707904e99a450f7140fe74, type: 3}
     doorwayStartCopyPosition: {x: -6, y: -3}
     doorwayCopyTileWidth: 5
     doorwayCopyTileHeight: 5
     isConnected: 0
-    isUnvailable: 0
+    isUnavailable: 0
   - position: {x: 18, y: -7}
     orientation: 2
-    doorPrefab: {fileID: 0}
+    doorPrefab: {fileID: 7562794438401205090, guid: dccc60f500707904e99a450f7140fe74, type: 3}
     doorwayStartCopyPosition: {x: 16, y: -3}
     doorwayCopyTileWidth: 5
     doorwayCopyTileHeight: 5
     isConnected: 0
-    isUnvailable: 0
+    isUnavailable: 0
   spawnPositionArray:
   - {x: -7, y: 4}
   - {x: -1, y: 4}
