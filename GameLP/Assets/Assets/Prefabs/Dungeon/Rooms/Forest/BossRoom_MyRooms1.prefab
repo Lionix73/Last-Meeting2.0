@@ -40522,7 +40522,7 @@ TilemapRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 2
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: fd5ae752e16da36428c7ae98c49dc19e, type: 2}
@@ -40903,7 +40903,7 @@ GameObject:
   - component: {fileID: 3635018866916658431}
   m_Layer: 11
   m_Name: Tilemap6 MiniMap
-  m_TagString: miniMapPlayer
+  m_TagString: minimapTilemap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -60806,7 +60806,7 @@ TilemapRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
+  m_RenderingLayerMask: 2
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: fd5ae752e16da36428c7ae98c49dc19e, type: 2}

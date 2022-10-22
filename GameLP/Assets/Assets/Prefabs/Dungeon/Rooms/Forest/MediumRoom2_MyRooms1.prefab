@@ -35111,7 +35111,7 @@ GameObject:
   - component: {fileID: 3635018866916658431}
   m_Layer: 11
   m_Name: Tilemap6 MiniMap
-  m_TagString: miniMapPlayer
+  m_TagString: minimapTilemap
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
