@@ -12,16 +12,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a022e72b84d27489c2db7f3469c804, type: 3}
   m_Name: Room_StartRoom_MyRooms2
   m_EditorClassIdentifier: 
-  guid: cdcdd960861df5549b6bc62f5f0cd7c8
-  prefab: {fileID: 3967379677599905053, guid: 54f1a4e9296c66849aecab9ec4898a3c, type: 3}
-  previousPrefab: {fileID: 3967379677599905053, guid: 54f1a4e9296c66849aecab9ec4898a3c, type: 3}
+  guid: 8f1456b4488f8524dac079e540b0cb02
+  prefab: {fileID: 3967379677599905053, guid: fa4ae45051f74234abfd04e2557d9849, type: 3}
+  previousPrefab: {fileID: 3967379677599905053, guid: fa4ae45051f74234abfd04e2557d9849, type: 3}
   roomNodeType: {fileID: 11400000, guid: 534430efeed986e47b9983f918d492e4, type: 2}
   lowerBounds: {x: -9, y: -9}
   upperBounds: {x: 9, y: 11}
   doorwayList:
   - position: {x: 0, y: 11}
     orientation: 0
-    doorPrefab: {fileID: 0}
+    doorPrefab: {fileID: 7562794438401205090, guid: dccc60f500707904e99a450f7140fe74, type: 3}
     doorwayStartCopyPosition: {x: -2, y: 11}
     doorwayCopyTileWidth: 5
     doorwayCopyTileHeight: 5

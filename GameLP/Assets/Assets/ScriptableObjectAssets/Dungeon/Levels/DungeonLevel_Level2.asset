@@ -12,16 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3210d5edee98e4b82e1aec70ba9383, type: 3}
   m_Name: DungeonLevel_Level2
   m_EditorClassIdentifier: 
-  levelName: Forest
+  levelName: Hospital
   roomTemplateList:
-  - {fileID: 11400000, guid: fc878eb7ffa79b64fb2087346de1be47, type: 2}
-  - {fileID: 11400000, guid: 039c6bbacc15ee349b9d934caa204d0b, type: 2}
-  - {fileID: 11400000, guid: 5df98667727ce484ca8413bb27051dc5, type: 2}
-  - {fileID: 11400000, guid: fef29ce02fa80914b953ec156692532a, type: 2}
-  - {fileID: 11400000, guid: db97fb2db34ef504480b003e12c107a6, type: 2}
-  - {fileID: 11400000, guid: adba81fc5fdc77841b4ef4a21d2b294a, type: 2}
-  - {fileID: 11400000, guid: 655536401814c534c8d21e7ad063f8f0, type: 2}
-  - {fileID: 11400000, guid: 38ee8379f8e91e74cbc6879c0411167b, type: 2}
-  - {fileID: 11400000, guid: 99bc5cb9099d4cb4ebbe46e4db52cdaa, type: 2}
+  - {fileID: 11400000, guid: a334dee363594fa44bf27973648a1664, type: 2}
+  - {fileID: 11400000, guid: dd3ef971437842444af7fe45fe3680d9, type: 2}
+  - {fileID: 11400000, guid: 4ee55e9aef6da624185847c11e38d379, type: 2}
+  - {fileID: 11400000, guid: 477505fa734a0a841b181ad2d95d6801, type: 2}
+  - {fileID: 11400000, guid: 778eb9470943b5a4c90eeb6b273bad40, type: 2}
+  - {fileID: 11400000, guid: caa8addc1b4c04d4eae4f74cd09477f9, type: 2}
+  - {fileID: 11400000, guid: 2c9b6655dd31c1148b56336e2e677dfc, type: 2}
+  - {fileID: 11400000, guid: 3db4f404b9b63e14786e6764aeae9e91, type: 2}
+  - {fileID: 11400000, guid: c9712fbac43a2504690129033e92f02d, type: 2}
+  - {fileID: 11400000, guid: 9cb64d9996cda3048a7c50cff8d908ab, type: 2}
   roomNodeGraphList:
   - {fileID: 11400000, guid: 00924478f7291a54c98fdb294937c5bf, type: 2}
