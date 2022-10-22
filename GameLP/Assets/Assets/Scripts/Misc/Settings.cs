@@ -17,6 +17,7 @@ public static class Settings
 
     #region ROOM SETTINGS
 
+    public const float fadeInTime = 0.5f; //Time to fade in the room
     public const int maxChildCorridors = 3; //Max Number of child corridors leading from a room. 
 
     #endregion
@@ -34,5 +35,11 @@ public static class Settings
     public static int rollRight = Animator.StringToHash("rollRight");
     public static int rollLeft = Animator.StringToHash("rollLeft");
     public static int rollDown = Animator.StringToHash("rollDown");
+    public static float baseSpeedForPlayerAnimation = 8f;
+
+    public static int open = Animator.StringToHash("open");
+
+    public const string playerTag = "Player";
+    public const string playerWeapon = "playerWeapon";
     #endregion
 }

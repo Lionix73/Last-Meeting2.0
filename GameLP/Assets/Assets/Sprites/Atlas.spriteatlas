@@ -40,7 +40,6 @@ SpriteAtlas:
   m_PackedSprites:
   - {fileID: 21300000, guid: 0046a100daba8a04883a11116fd431f9, type: 3}
   - {fileID: 21300000, guid: 05fdac90a83560a4dace94ff59056e31, type: 3}
-  - {fileID: 21300000, guid: 2c4edfd0cde04314d8bd813a501ea5c6, type: 3}
   - {fileID: 21300000, guid: c2908ef045d25ef4aa284fd2cc156fab, type: 3}
   - {fileID: 21300000, guid: a85366015f29a9e4ab1f21645df9051d, type: 3}
   - {fileID: 21300000, guid: 752e621147acb9f4da8332134debb977, type: 3}
@@ -300,7 +299,6 @@ SpriteAtlas:
   m_PackedSpriteNamesToIndex:
   - pared3.1izq
   - pared3
-  - PuertaFrontal4repetida
   - patoescopeta
   - BarrelFire
   - pared2der (1)
