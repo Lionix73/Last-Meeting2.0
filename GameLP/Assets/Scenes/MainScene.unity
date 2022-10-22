@@ -379,7 +379,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ed6a52cba5895b4ebe092a3b318e52c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  poolArray: []
+  poolArray:
+  - poolSize: 30
+    prefab: {fileID: 8691971878774621089, guid: a92095d749b2311408d29af295a7e39e, type: 3}
+    componentType: IsFireable
 --- !u!4 &457133019
 Transform:
   m_ObjectHideFlags: 0

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3210d5edee98e4b82e1aec70ba9383, type: 3}
   m_Name: DungeonLevel_Level4
   m_EditorClassIdentifier: 
-  levelName: 
+  levelName: Limbo
   roomTemplateList:
   - {fileID: 11400000, guid: 679278df02cf87848bb17b347be67a60, type: 2}
   - {fileID: 11400000, guid: 4d958eadfa9069745894603e7e66527d, type: 2}

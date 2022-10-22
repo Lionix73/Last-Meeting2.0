@@ -38,8 +38,14 @@ public static class Settings
     public static float baseSpeedForPlayerAnimation = 8f;
 
     public static int open = Animator.StringToHash("open");
+    #endregion
 
+    #region GAMEOBJECT TAGS
     public const string playerTag = "Player";
     public const string playerWeapon = "playerWeapon";
+    #endregion
+
+    #region FIRIGN CONTROL
+    public const float useAimAngleDistance = 3.5f;
     #endregion
 }

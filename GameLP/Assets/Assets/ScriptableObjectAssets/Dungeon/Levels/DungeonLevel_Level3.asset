@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c3210d5edee98e4b82e1aec70ba9383, type: 3}
   m_Name: DungeonLevel_Level3
   m_EditorClassIdentifier: 
-  levelName: 
+  levelName: Basement
   roomTemplateList:
   - {fileID: 11400000, guid: c934852bac3ea864bb91c5ee4a0cb19e, type: 2}
   - {fileID: 11400000, guid: 03f796cf33ac8914080ec84cdd2aeea2, type: 2}
