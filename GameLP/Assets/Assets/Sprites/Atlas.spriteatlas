@@ -82,6 +82,20 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fbb85ce6477a7a245a041bd3d1bb9065, type: 3}
   - {fileID: 21300000, guid: b784d1379b32a9d45844714109851d98, type: 3}
   - {fileID: 21300000, guid: 1f4698673da84dc4d9c452c92677b120, type: 3}
+  - {fileID: -971931248, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: 1446175183, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -1990588472, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: 1429928387, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -387510366, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -1762860841, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -1894339088, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -796078912, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -1649498465, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -286939831, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -1240913836, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -426575638, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -1044326710, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: -1773519256, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
   - {fileID: 21300000, guid: de843cb7c31503a409cbcda2656b6c3f, type: 3}
   - {fileID: 21300000, guid: 2c815cf7b9d45d84695bf73ba3e2bfab, type: 3}
   - {fileID: 21300000, guid: e84e6558f1ed17b45bf020ad0e3c1d3b, type: 3}
@@ -341,6 +355,20 @@ SpriteAtlas:
   - PowerV3
   - ItemHealV2
   - tumba_1
+  - idle_64x64_14
+  - idle_64x64_10
+  - idle_64x64_11
+  - idle_64x64_12
+  - idle_64x64_9
+  - idle_64x64_8
+  - idle_64x64_5
+  - idle_64x64_4
+  - idle_64x64_7
+  - idle_64x64_6
+  - idle_64x64_1
+  - idle_64x64_0
+  - idle_64x64_3
+  - idle_64x64_2
   - pared4izq
   - PuertaLateral2
   - PuertaLateral3
