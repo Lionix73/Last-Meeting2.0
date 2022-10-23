@@ -720,6 +720,12 @@ MonoBehaviour:
   - poolSize: 30
     prefab: {fileID: 8691971878774621089, guid: ac15f8086f184814fb96915d01d2b89e, type: 3}
     componentType: IsFireable
+  - poolSize: 10
+    prefab: {fileID: 8691971878774621089, guid: a4d09223a2b156048a7dfe7b9673bf17, type: 3}
+    componentType: IsFireable
+  - poolSize: 30
+    prefab: {fileID: 8691971878774621089, guid: 3164a3840f98a2a44863ec67b39d0fc3, type: 3}
+    componentType: IsFireable
 --- !u!4 &457133019
 Transform:
   m_ObjectHideFlags: 0
