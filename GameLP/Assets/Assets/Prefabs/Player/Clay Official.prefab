@@ -272,6 +272,9 @@ GameObject:
   - component: {fileID: 169672956633988645}
   - component: {fileID: 6831486039010820118}
   - component: {fileID: 8456130180627083281}
+  - component: {fileID: 6399491454414308991}
+  - component: {fileID: 3102306014030989284}
+  - component: {fileID: -8349785475841462498}
   m_Layer: 10
   m_Name: Clay Official
   m_TagString: Player
@@ -499,6 +502,8 @@ MonoBehaviour:
   setActiveWeaponEvent: {fileID: 0}
   activeWeapon: {fileID: 0}
   weaponFiredEvent: {fileID: 0}
+  reloadWeaponEvent: {fileID: 0}
+  weaponReloadedEvent: {fileID: 0}
   spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &7902886994209917828
@@ -685,6 +690,42 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: bb59048ac68dd4a48bf2815e7e92fe7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6399491454414308991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989458339388963286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 92e181f003a71eb4cb35c165fdf84388, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &3102306014030989284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989458339388963286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 87b660790eb870d4883c78a2200baf39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &-8349785475841462498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989458339388963286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8ee7230f4c0acff429c4a71275d14c5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &7455206610177532154

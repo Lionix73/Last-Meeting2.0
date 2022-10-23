@@ -8,7 +8,6 @@ public class PlayerControl : MonoBehaviour
 {
     [SerializeField] private MovementDetailsSO movementDetails;
 
-
     private Player player;
     private int currentWeaponIndex = 1;
     private float moveSpeed;
@@ -138,6 +137,8 @@ public class PlayerControl : MonoBehaviour
         AimWeaponInput(out weaponDirection, out weaponAngleDegrees, out playerAngleDegrees, out playerAimDirection);
 
         FireWeaponInput(weaponDirection, weaponAngleDegrees, playerAngleDegrees, playerAimDirection);
+
+        ReloadWeaponInput();
     }
 
     private void AimWeaponInput(out Vector3 weaponDirection, out float weaponAngleDegrees, out float playerAngleDegrees, out AimDirection playerAimDirection)
@@ -171,6 +172,23 @@ public class PlayerControl : MonoBehaviour
         {
             currentWeaponIndex = weaponIndex;
             player.setActiveWeaponEvent.CallSetActiveWeaponEvent(player.weaponList[weaponIndex - 1]);
+        }
+    }
+
+    private void ReloadWeaponInput()
+    {
+        Weapon currentWeapon = player.activeWeapon.GetCurrentWeapon();
+
+        if (currentWeapon.isWeaponReloading) return;
+
+        if (currentWeapon.weaponRemainingAmmo < currentWeapon.weaponsDetails.weaponClipAmmoCapacity && !currentWeapon.weaponsDetails.hasInfiniteAmmo)
+            return;
+
+        if (currentWeapon.weaponClipReaminingAmmo == currentWeapon.weaponsDetails.weaponClipAmmoCapacity) return;
+
+        if (Input.GetKeyDown(KeyCode.R))
+        {
+            player.reloadWeaponEvent.CallRealoadWeaponEvent(player.activeWeapon.GetCurrentWeapon(), 0);
         }
     }
 
