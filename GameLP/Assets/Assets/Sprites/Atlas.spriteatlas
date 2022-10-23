@@ -64,6 +64,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0b2a67d3bec6cef41bc07479a7a6b0e1, type: 3}
   - {fileID: 21300000, guid: 979862e35ce16b74891e15ca9ce6a2e9, type: 3}
   - {fileID: 21300000, guid: 7a068ef3c13a92a409e594dde40ccbf2, type: 3}
+  - {fileID: 21300000, guid: 0c524ff373cc712438aa499b1ca574a9, type: 3}
   - {fileID: 21300000, guid: 5ece5724373a5a24fbab2948397968b7, type: 3}
   - {fileID: 21300000, guid: ef4851343c89534449f236b250153c2a, type: 3}
   - {fileID: 21300000, guid: d5fe4e348703cb54ba8a86fe35220aca, type: 3}
@@ -97,6 +98,7 @@ SpriteAtlas:
   - {fileID: -1044326710, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
   - {fileID: -1773519256, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
   - {fileID: 21300000, guid: de843cb7c31503a409cbcda2656b6c3f, type: 3}
+  - {fileID: 21300000, guid: 91ddccc7d3b876446857f528aa7f3164, type: 3}
   - {fileID: 21300000, guid: 2c815cf7b9d45d84695bf73ba3e2bfab, type: 3}
   - {fileID: 21300000, guid: e84e6558f1ed17b45bf020ad0e3c1d3b, type: 3}
   - {fileID: 21300000, guid: 27e9669896059bd469115dd4dedb47d9, type: 3}
@@ -131,6 +133,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: fc43610c609f045448620d9549a259d7, type: 3}
   - {fileID: 21300000, guid: 5524940c45db5ae4c88b2ddb14d4b28d, type: 3}
   - {fileID: 21300000, guid: 28e5450dfcd458146af7c2c3e7612fcd, type: 3}
+  - {fileID: 21300000, guid: 28b27d0d3d50c9743a7b91a8a1fd7788, type: 3}
   - {fileID: 21300000, guid: 1df8461d489526a4c8ca7a06638510b8, type: 3}
   - {fileID: 21300000, guid: 3d8f3b2d75b8fd94ebe527fd3fb20e53, type: 3}
   - {fileID: 21300000, guid: 8438923dc2ddb7d44a0b674f187ee4a3, type: 3}
@@ -337,6 +340,7 @@ SpriteAtlas:
   - LaurelEspalda
   - IvoLateral
   - tile_sotano
+  - Proyectil1
   - Extintor
   - PowerV2
   - Caja_de_fusibles
@@ -370,6 +374,7 @@ SpriteAtlas:
   - idle_64x64_3
   - idle_64x64_2
   - pared4izq
+  - Proyectil2
   - PuertaLateral2
   - PuertaLateral3
   - PuertaFrontal5
@@ -404,6 +409,7 @@ SpriteAtlas:
   - alma250
   - Face1
   - Enemigo4F
+  - patopistola
   - IvoEspalda
   - esquina3.1
   - LayFrontal
