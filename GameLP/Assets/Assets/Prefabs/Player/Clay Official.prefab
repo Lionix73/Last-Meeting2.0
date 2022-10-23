@@ -267,6 +267,8 @@ GameObject:
   - component: {fileID: 92926697372944876}
   - component: {fileID: 5061236970217065283}
   - component: {fileID: 8984680533921396969}
+  - component: {fileID: 8832361595832273404}
+  - component: {fileID: 7973496321329251495}
   m_Layer: 10
   m_Name: Clay Official
   m_TagString: Player
@@ -451,7 +453,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 1
-  m_Mass: 0.9736599
+  m_Mass: 0.97365993
   m_LinearDrag: 0
   m_AngularDrag: 0
   m_GravityScale: 0
@@ -490,6 +492,7 @@ MonoBehaviour:
   movementToPositionEvent: {fileID: 0}
   idleEvent: {fileID: 0}
   aimWeaponEvent: {fileID: 0}
+  setActiveWeaponEvent: {fileID: 0}
   spriteRenderer: {fileID: 0}
   animator: {fileID: 0}
 --- !u!114 &7902886994209917828
@@ -615,6 +618,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 65add8744ff739245a01b1be2c4f1904, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &8832361595832273404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989458339388963286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b90e1b12d24bc94aa01622d99289791, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7973496321329251495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3989458339388963286}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3697417b8b5ed045b0755b4eca02a92, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weaponSpriteRenderer: {fileID: 1531762486}
+  weaponPolygonCollider2D: {fileID: 1531762485}
+  weaponShootPositionTransform: {fileID: 1928910001462482520}
+  weaponEffectPositionTransform: {fileID: 6937569740800857322}
 --- !u!1 &7455206610177532154
 GameObject:
   m_ObjectHideFlags: 0
