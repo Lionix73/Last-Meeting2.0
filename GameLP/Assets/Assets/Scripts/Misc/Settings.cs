@@ -48,4 +48,8 @@ public static class Settings
     #region FIRIGN CONTROL
     public const float useAimAngleDistance = 3.5f;
     #endregion
+
+    #region UI PARAMETERS
+    public const float uiAmmoIconSpacing = 15f;
+    #endregion
 }
