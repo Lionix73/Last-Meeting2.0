@@ -5,7 +5,6 @@ using UnityEngine;
 [RequireComponent(typeof(FireWeaponEvent))]
 [RequireComponent(typeof(ReloadWeaponEvent))]
 [RequireComponent(typeof(WeaponFiredEvent))]
-
 [DisallowMultipleComponent]
 public class FireWeapon : MonoBehaviour
 {
@@ -145,6 +144,8 @@ public class FireWeapon : MonoBehaviour
 
         weaponFiredEvent.CallWeaponFiredEvent(activeWeapon.GetCurrentWeapon());
 
+        WeaponShootEffect(aimAngle);
+
         WeaponSoundEffect();
     }
 
@@ -156,6 +157,18 @@ public class FireWeapon : MonoBehaviour
     private void ResetPreChargeTimer()
     {
         firePreChargeTimer = activeWeapon.GetCurrentWeapon().weaponsDetails.weaponPrechargeTime;
+    }
+
+    private void WeaponShootEffect(float aimAngle)
+    {
+        if (activeWeapon.GetCurrentWeapon().weaponsDetails.weaponShootEffect != null && activeWeapon.GetCurrentWeapon().weaponsDetails.weaponShootEffect.weaponShootEffectPrefab != null)
+        {
+            WeaponShootEffect weaponShootEffect = (WeaponShootEffect)PoolManager.Instance.ReuseComponent(activeWeapon.GetCurrentWeapon().weaponsDetails.weaponShootEffect.weaponShootEffectPrefab, activeWeapon.GetShootEffectPosition(), Quaternion.identity);
+
+            weaponShootEffect.SetShootEffect(activeWeapon.GetCurrentWeapon().weaponsDetails.weaponShootEffect, aimAngle);
+
+            weaponShootEffect.gameObject.SetActive(true);
+        }
     }
 
     private void WeaponSoundEffect()

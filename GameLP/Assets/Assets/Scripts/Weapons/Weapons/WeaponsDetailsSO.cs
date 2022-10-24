@@ -21,16 +21,16 @@ public class WeaponsDetailsSO : ScriptableObject
 
     public AmmoDetailsSO weaponCurrentAmmo;
 
+    public WeaponShootEffectSO weaponShootEffect;
+
     #region  Tooltip
     [Tooltip("the firing sound effect SO for the weapon")]
     #endregion
-
     public SoundEffectSO weaponFiringSoundEffect;
 
     #region  Tooltip
     [Tooltip("the reloading sound effect SO for the weapon")]
     #endregion
-
     public SoundEffectSO weaponReloadingSoundEffect;
 
     #region Header WEAPON OPERATING VALUES 
