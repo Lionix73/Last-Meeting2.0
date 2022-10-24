@@ -48,6 +48,8 @@ public class Ammo : MonoBehaviour, IsFireable
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        AmmoHitEffect();
+
         DisableAmmo();
     }
 
@@ -128,6 +130,18 @@ public class Ammo : MonoBehaviour, IsFireable
     private void DisableAmmo()
     {
         gameObject.SetActive(false);
+    }
+
+    private void AmmoHitEffect()
+    {
+        if (ammoDetails.ammoHitEffect != null && ammoDetails.ammoHitEffect.ammoHitEffectPrefab != null)
+        {
+            AmmoHitEffect ammoHitEffect = (AmmoHitEffect)PoolManager.Instance.ReuseComponent(ammoDetails.ammoHitEffect.ammoHitEffectPrefab, transform.position, Quaternion.identity);
+
+            ammoHitEffect.SetHitEffect(ammoDetails.ammoHitEffect);
+
+            ammoHitEffect.gameObject.SetActive(true);
+        }
     }
 
     public void SetAmmoMaterial(Material material)
