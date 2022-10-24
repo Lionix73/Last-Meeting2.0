@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SoundEffectName: Canon Reload
   soundPrefab: {fileID: 3518911561667639831, guid: 858c49da0936606479dd1d17ed3a090d, type: 3}
-  SoundEffectClip: {fileID: 8300000, guid: 2c603889228a0794686920e2c1d88d6e, type: 3}
+  SoundEffectClip: {fileID: 8300000, guid: d213f7dd9108e224cb923ddfc8136c24, type: 3}
   SoundEffectPitchRandomVariationMin: 0.8
   SoundEffectPitchRandomVariationMax: 1.2
   SoundEffectVolume: 1

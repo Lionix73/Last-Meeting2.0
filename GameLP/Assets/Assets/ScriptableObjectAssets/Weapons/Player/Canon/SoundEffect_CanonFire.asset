@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SoundEffectName: Canon Fire
   soundPrefab: {fileID: 3518911561667639831, guid: 858c49da0936606479dd1d17ed3a090d, type: 3}
-  SoundEffectClip: {fileID: 8300000, guid: c5d39e077e05af94e8f4af8d2125ce24, type: 3}
+  SoundEffectClip: {fileID: 8300000, guid: 274e5c4738cc8fa4989c5ccc3a8206fe, type: 3}
   SoundEffectPitchRandomVariationMin: 0.8
   SoundEffectPitchRandomVariationMax: 1.2
-  SoundEffectVolume: 1
+  SoundEffectVolume: 0.748

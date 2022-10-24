@@ -81,6 +81,28 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 9dfa20b6a90611048b84274e5ab5a299, type: 3}
   - {fileID: 21300000, guid: 63e2e4d6e017de54d874c8a1828bb501, type: 3}
   - {fileID: 21300000, guid: fbb85ce6477a7a245a041bd3d1bb9065, type: 3}
+  - {fileID: 1477421201, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -127734295, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 1641592917, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -761048694, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 1490801463, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -3248636, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 661179637, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -1340210566, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -613483718, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -1748612473, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 954287942, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -161217281, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 394124824, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 116306928, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -1319548893, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 801983231, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -755216137, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 1349294301, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: -1444348476, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 780535757, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 1356968829, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
+  - {fileID: 1896965028, guid: 801eec27820809e46b533cc637f6ba8a, type: 3}
   - {fileID: 21300000, guid: b784d1379b32a9d45844714109851d98, type: 3}
   - {fileID: 21300000, guid: 1f4698673da84dc4d9c452c92677b120, type: 3}
   - {fileID: -971931248, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
@@ -129,6 +151,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 2171beba0359c824c9fa95fabb7550d7, type: 3}
   - {fileID: 21300000, guid: 837680da8bf02db44bd2d374e148f7c2, type: 3}
   - {fileID: 21300000, guid: 498c327b58227284f82d04a31307c30c, type: 3}
+  - {fileID: 21300000, guid: cad4baab9eefe5c4ea5274436084e0e9, type: 3}
   - {fileID: 21300000, guid: bc6eaeab2c2a2ff4f8b38aae9490fd5a, type: 3}
   - {fileID: 21300000, guid: fc43610c609f045448620d9549a259d7, type: 3}
   - {fileID: 21300000, guid: 5524940c45db5ae4c88b2ddb14d4b28d, type: 3}
@@ -357,6 +380,28 @@ SpriteAtlas:
   - LaurelFrontal
   - Face5
   - PowerV3
+  - DashClay1_20
+  - DashClay1_21
+  - DashClay1_8
+  - DashClay1_9
+  - DashClay1_4
+  - DashClay1_5
+  - DashClay1_6
+  - DashClay1_7
+  - DashClay1_0
+  - DashClay1_1
+  - DashClay1_2
+  - DashClay1_3
+  - DashClay1_17
+  - DashClay1_16
+  - DashClay1_15
+  - DashClay1_14
+  - DashClay1_13
+  - DashClay1_12
+  - DashClay1_11
+  - DashClay1_10
+  - DashClay1_19
+  - DashClay1_18
   - ItemHealV2
   - tumba_1
   - idle_64x64_14
@@ -405,6 +450,7 @@ SpriteAtlas:
   - ItemHealV3
   - Tree
   - pared2abajo (1)
+  - Cursorpro2.0
   - canon
   - alma250
   - Face1
