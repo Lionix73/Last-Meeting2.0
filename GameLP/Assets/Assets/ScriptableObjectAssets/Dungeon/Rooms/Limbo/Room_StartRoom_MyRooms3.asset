@@ -16,13 +16,13 @@ MonoBehaviour:
   prefab: {fileID: 3967379677599905053, guid: 6dfa3bb030ba30442a3119c1293410d4, type: 3}
   previousPrefab: {fileID: 3967379677599905053, guid: 6dfa3bb030ba30442a3119c1293410d4, type: 3}
   roomNodeType: {fileID: 11400000, guid: 534430efeed986e47b9983f918d492e4, type: 2}
-  lowerBounds: {x: -9, y: -9}
-  upperBounds: {x: 9, y: 11}
+  lowerBounds: {x: -11, y: -11}
+  upperBounds: {x: 11, y: 11}
   doorwayList:
   - position: {x: 0, y: 11}
     orientation: 0
     doorPrefab: {fileID: 7562794438401205090, guid: dccc60f500707904e99a450f7140fe74, type: 3}
-    doorwayStartCopyPosition: {x: -2, y: 11}
+    doorwayStartCopyPosition: {x: -3, y: 11}
     doorwayCopyTileWidth: 5
     doorwayCopyTileHeight: 5
     isConnected: 0

@@ -144,6 +144,8 @@ public class FireWeapon : MonoBehaviour
         }
 
         weaponFiredEvent.CallWeaponFiredEvent(activeWeapon.GetCurrentWeapon());
+
+        WeaponSoundEffect();
     }
 
     private void ResetCoolDownTimer()
@@ -154,5 +156,13 @@ public class FireWeapon : MonoBehaviour
     private void ResetPreChargeTimer()
     {
         firePreChargeTimer = activeWeapon.GetCurrentWeapon().weaponsDetails.weaponPrechargeTime;
+    }
+
+    private void WeaponSoundEffect()
+    {
+        if(activeWeapon.GetCurrentWeapon().weaponsDetails.weaponFiringSoundEffect != null)
+        {
+            SoundEffectManager.Instance.PlaySoundEffect(activeWeapon.GetCurrentWeapon().weaponsDetails.weaponFiringSoundEffect);
+        }
     }
 }
