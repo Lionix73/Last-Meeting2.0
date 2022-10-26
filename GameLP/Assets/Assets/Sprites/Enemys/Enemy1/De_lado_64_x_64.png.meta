@@ -46,7 +46,7 @@ TextureImporter:
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 7
-  spritePivot: {x: 0.5, y: 0.5}
+  spritePivot: {x: 0.5, y: 0}
   spritePixelsToUnits: 125
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -115,7 +115,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: De_lado_64_x_64_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 183
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a696c82897171134bb7eb46a5fb90c62
+      internalID: -2096364831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: De_lado_64_x_64_1
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 183
+        width: 43
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1900929731291034096ea6e9ce2232b8
+      internalID: 134423874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: De_lado_64_x_64_2
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 183
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e4704f2060e5740a7369ed2b945c6d
+      internalID: -926654984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: De_lado_64_x_64_3
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 184
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43245cf9fec23b5409cd4466630f6972
+      internalID: -594497563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: De_lado_64_x_64_4
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 112
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1ccfb838aa23a341909967bab6cf5ba
+      internalID: -1422046426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: De_lado_64_x_64_5
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 112
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d9d16b4ded76e14fae1b318ff6d10f6
+      internalID: -1079950117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: De_lado_64_x_64_6
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 113
+        width: 42
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7dd1d2f462d1444087c0804304e33b7
+      internalID: 1541837009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: De_lado_64_x_64_7
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 113
+        width: 42
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0469b9dcf7f2c3642989acc3ba6cf5a5
+      internalID: 325701766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -126,7 +294,15 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      De_lado_64_x_64_3: -594497563
+      De_lado_64_x_64_1: 134423874
+      De_lado_64_x_64_5: -1079950117
+      De_lado_64_x_64_7: 325701766
+      De_lado_64_x_64_4: -1422046426
+      De_lado_64_x_64_0: -2096364831
+      De_lado_64_x_64_6: 1541837009
+      De_lado_64_x_64_2: -926654984
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

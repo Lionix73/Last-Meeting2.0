@@ -123,6 +123,14 @@ SpriteAtlas:
   - {fileID: -426575638, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
   - {fileID: -1044326710, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
   - {fileID: -1773519256, guid: d94f5fa748370de42a638711416fe9fd, type: 3}
+  - {fileID: 325701766, guid: 3c1ca1b7d6c69104c997480192bddafd, type: 3}
+  - {fileID: 1541837009, guid: 3c1ca1b7d6c69104c997480192bddafd, type: 3}
+  - {fileID: -1079950117, guid: 3c1ca1b7d6c69104c997480192bddafd, type: 3}
+  - {fileID: -1422046426, guid: 3c1ca1b7d6c69104c997480192bddafd, type: 3}
+  - {fileID: -594497563, guid: 3c1ca1b7d6c69104c997480192bddafd, type: 3}
+  - {fileID: -926654984, guid: 3c1ca1b7d6c69104c997480192bddafd, type: 3}
+  - {fileID: 134423874, guid: 3c1ca1b7d6c69104c997480192bddafd, type: 3}
+  - {fileID: -2096364831, guid: 3c1ca1b7d6c69104c997480192bddafd, type: 3}
   - {fileID: 21300000, guid: de843cb7c31503a409cbcda2656b6c3f, type: 3}
   - {fileID: 21300000, guid: 91ddccc7d3b876446857f528aa7f3164, type: 3}
   - {fileID: 21300000, guid: 2c815cf7b9d45d84695bf73ba3e2bfab, type: 3}
@@ -334,6 +342,11 @@ SpriteAtlas:
   - {fileID: 1051514663, guid: 3915cddd6522cd243b934cfd624a7065, type: 3}
   - {fileID: 21300000, guid: 7be0dafdcd0f52346a6028cf9d74ecbf, type: 3}
   - {fileID: 21300000, guid: ad70cffd94afe2c4687e4d448383f037, type: 3}
+  - {fileID: 1428776631, guid: 84640c0e837d41649a1eaae023769300, type: 3}
+  - {fileID: -613945411, guid: 84640c0e837d41649a1eaae023769300, type: 3}
+  - {fileID: 904568822, guid: 84640c0e837d41649a1eaae023769300, type: 3}
+  - {fileID: 505981386, guid: 84640c0e837d41649a1eaae023769300, type: 3}
+  - {fileID: -1363428329, guid: 84640c0e837d41649a1eaae023769300, type: 3}
   - {fileID: 21300000, guid: 30ed5a2e093f84d47addf2fbac18254a, type: 3}
   - {fileID: 21300000, guid: b8ca335e89c3e03498cbdf96b94d3637, type: 3}
   - {fileID: 21300000, guid: 8ee2db7ec0b9e5447bfdbda51dc83930, type: 3}
@@ -432,6 +445,14 @@ SpriteAtlas:
   - idle_64x64_0
   - idle_64x64_3
   - idle_64x64_2
+  - De_lado_64_x_64_7
+  - De_lado_64_x_64_6
+  - De_lado_64_x_64_5
+  - De_lado_64_x_64_4
+  - De_lado_64_x_64_3
+  - De_lado_64_x_64_2
+  - De_lado_64_x_64_1
+  - De_lado_64_x_64_0
   - pared4izq
   - Proyectil2
   - PuertaLateral2
@@ -643,6 +664,11 @@ SpriteAtlas:
   - Clay1.0_9
   - esquina1.1
   - Enemigo3F
+  - Frontal_64_x_64_3
+  - Frontal_64_x_64_2
+  - Frontal_64_x_64_1
+  - Frontal_64_x_64_0
+  - Frontal_64_x_64_4
   - ClayLateral
   - tumba_2
   - esquina2
