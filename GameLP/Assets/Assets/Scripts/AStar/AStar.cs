@@ -16,7 +16,7 @@ public static class AStar
                                             room.templateUpperBounds.y - room.templateLowerBounds.y + 1);
 
         Node startNode = gridNodes.GetGridNode(startGridPosition.x, startGridPosition.y);
-        Node targetNode =  gridNodes.GetGridNode(endGridPosition.x, endGridPosition.y);
+        Node targetNode = gridNodes.GetGridNode(endGridPosition.x, endGridPosition.y);
 
         Node endPathNode = FindShortestPath(startNode, targetNode, gridNodes, openNodeList, closedNodeHashSet, room.instantiatedRoom);
 
@@ -84,9 +84,9 @@ public static class AStar
 
         Node validNeighbourNode;
 
-        for (int i = -1; i < 1; i++)
+        for (int i = -1; i <= 1; i++)
         {
-            for (int j = -1; j < 1; j++)
+            for (int j = -1; j <=  1; j++)
             {
                 if(i == 0 && j == 0)
                     continue;

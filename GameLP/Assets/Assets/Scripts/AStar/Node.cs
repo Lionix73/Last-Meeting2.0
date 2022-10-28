@@ -5,7 +5,7 @@ public class Node : IComparable<Node>
 {
     public Vector2Int gridPosition;
     public int gCost = 0;
-    public int hCost = 0;
+    public int hCost = 0; 
     public Node parentNode;
 
     public Node(Vector2Int gridPosition)
