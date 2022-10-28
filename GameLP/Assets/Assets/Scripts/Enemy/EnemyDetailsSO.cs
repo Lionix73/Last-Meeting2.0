@@ -21,8 +21,15 @@ public class EnemyDetailsSO : ScriptableObject
 
     public GameObject enemyPrefab;
 
+    #region Tooltip
+    [Tooltip("Distance to the player before enemy starts chasing")]
+    #endregion    
+
+    public float chaseDistance = 50f;
+
     private void OnValidate() {
         HelperUtilities.ValidateCheckEmptyString(this, nameof(enemyName), enemyName);
         HelperUtilities.ValidateCheckNullValue(this, nameof(enemyPrefab), enemyPrefab);
+        HelperUtilities.ValidateCheckPositiveValue(this, nameof(chaseDistance), chaseDistance, false);
     }
 }

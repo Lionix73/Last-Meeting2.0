@@ -7,6 +7,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -7571429310815259683, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+      propertyPath: movementDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: b29f5b90de8aede468b91eff3c6cd5aa, type: 2}
+    - target: {fileID: -7538694046555243150, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+      propertyPath: enemyDetails
+      value: 
+      objectReference: {fileID: 11400000, guid: 6654aab8cf3aee943a2ca42e022a34a9, type: 2}
     - target: {fileID: 4312071812563410, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
       propertyPath: m_Color.b
       value: 1
@@ -26,6 +34,14 @@ PrefabInstance:
     - target: {fileID: 6859612646057774153, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859612646057774153, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6859612646057774153, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6859612646057774153, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
       propertyPath: m_LocalPosition.x
