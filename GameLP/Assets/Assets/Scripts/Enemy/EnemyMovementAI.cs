@@ -138,8 +138,7 @@ public class EnemyMovementAI : MonoBehaviour
         else
         {
             for (int i = -1; i < 1; i++)
-            {
-                
+            {      
                 for (int j = -1; j < 1; j++)
                 {
                     if(j == 0 && i == 0) continue;
@@ -152,12 +151,10 @@ public class EnemyMovementAI : MonoBehaviour
                     }
                     catch
                     {
-                        
                         continue;
                     }
                 }
             }
-
             return playerCellPosition;
         }
     }
