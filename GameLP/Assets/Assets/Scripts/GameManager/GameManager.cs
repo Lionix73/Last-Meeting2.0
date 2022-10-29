@@ -135,6 +135,11 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         return currentRoom;
     }
 
+    public DungeonLevelSO GetCurrentDungeonLevel()
+    {
+        return dungeonLevelList[currentDungeonLevelListIndex];
+    }
+
     private void OnValidate() 
     {
         HelperUtilities.ValidateCheckEnumerableValues(this, nameof(dungeonLevelList), dungeonLevelList);
