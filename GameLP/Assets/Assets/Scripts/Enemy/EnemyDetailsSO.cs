@@ -27,9 +27,23 @@ public class EnemyDetailsSO : ScriptableObject
 
     public float chaseDistance = 50f;
 
+    public Material enemyStandardMaterial;
+
+    #region Header ENEMY MATERIALIZE SETTINGS
+    [Space(10)]
+    [Header("ENEMY MATERIALIZE SETTINGS")]
+    #endregion
+
+    public float enemyMaterializeTime;
+    public Shader enemyMaterializeShader;
+    public Color enemyMaterializeColor;
+
     private void OnValidate() {
         HelperUtilities.ValidateCheckEmptyString(this, nameof(enemyName), enemyName);
         HelperUtilities.ValidateCheckNullValue(this, nameof(enemyPrefab), enemyPrefab);
         HelperUtilities.ValidateCheckPositiveValue(this, nameof(chaseDistance), chaseDistance, false);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(enemyStandardMaterial), enemyStandardMaterial);
+        HelperUtilities.ValidateCheckPositiveValue(this, nameof(enemyMaterializeTime), enemyMaterializeTime, true);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(enemyMaterializeShader), enemyMaterializeShader);
     }
 }

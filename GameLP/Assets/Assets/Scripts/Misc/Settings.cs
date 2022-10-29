@@ -23,6 +23,7 @@ public static class Settings
     #endregion
 
     #region ANIMATOR PARAMETERS
+    //For Player
     public static int aimUp = Animator.StringToHash("aimUp");
     public static int aimDown = Animator.StringToHash("aimDown");
     public static int aimUpRight = Animator.StringToHash("aimRight");
@@ -37,6 +38,10 @@ public static class Settings
     public static int rollDown = Animator.StringToHash("rollDown");
     public static float baseSpeedForPlayerAnimation = 8f;
 
+    //For Enemy
+    public static float baseSpeedForEnemyAnimations = 3f;
+
+    //For Door
     public static int open = Animator.StringToHash("open");
     #endregion
 
@@ -52,6 +57,7 @@ public static class Settings
     #region ASTAR PATHFINDING PARAMETERS 
     public const int defaultAStarMovementPenalty = 40;
     public const int preferredPathAStarMovementPenalty= 1;
+    public const int targetFrameRateToSpreadPathfindingOver = 60;
     public const float playerMoveDistanceToRebuildPath = 3f;
     public const float enemyPathToRebuildCooldown = 2f;
 
