@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bc500c1f472d2e4c8b395e2c7af0a6d, type: 3}
+  m_Name: SoundEffect_PistolFire_Enemy
+  m_EditorClassIdentifier: 
+  SoundEffectName: Pistol EnemyFire
+  soundPrefab: {fileID: 3518911561667639831, guid: 858c49da0936606479dd1d17ed3a090d, type: 3}
+  SoundEffectClip: {fileID: 8300000, guid: 71d623ca1199efc429d66921b7070dda, type: 3}
+  SoundEffectPitchRandomVariationMin: 0.86
+  SoundEffectPitchRandomVariationMax: 1.18
+  SoundEffectVolume: 0.52

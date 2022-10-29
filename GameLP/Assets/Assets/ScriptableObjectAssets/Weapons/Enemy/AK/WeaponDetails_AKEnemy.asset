@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb38a7cc96b182b4e8c349500b2bcb51, type: 3}
+  m_Name: WeaponDetails_AKEnemy
+  m_EditorClassIdentifier: 
+  weaponName: 'AK Enemy '
+  weaponSprite: {fileID: 21300000, guid: dff74299f2cf7674eb05930ed6b07f8e, type: 3}
+  weaponShootPosition: {x: 0.596, y: 0.104, z: 0}
+  weaponCurrentAmmo: {fileID: 11400000, guid: cb0929fc259922041b48891a006ea90f, type: 2}
+  weaponShootEffect: {fileID: 11400000, guid: 2d4885c1213d521459579714dce083c6, type: 2}
+  weaponFiringSoundEffect: {fileID: 11400000, guid: afb22ca0d4f61ec468e1ce404b60887a, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: c2263fbe97b42374c80a47993cda1b67, type: 2}
+  hasInfiniteAmmo: 1
+  hasInfiniteClipCapacity: 0
+  weaponClipAmmoCapacity: 12
+  weaponAmmoCapacity: 0
+  weaponFireRate: 0.33
+  weaponPrechargeTime: 0
+  weaponReloadTime: 2

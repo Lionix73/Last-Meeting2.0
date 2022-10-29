@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb38a7cc96b182b4e8c349500b2bcb51, type: 3}
+  m_Name: WeaponDetails_PistolJefe
+  m_EditorClassIdentifier: 
+  weaponName: Pistola Jefe
+  weaponSprite: {fileID: 21300000, guid: 63ad0606bd6d665498cfcf954024039a, type: 3}
+  weaponShootPosition: {x: 0.596, y: 0.104, z: 0}
+  weaponCurrentAmmo: {fileID: 11400000, guid: 4d7b21fc6f09b80438eb8e9aedfcefdc, type: 2}
+  weaponShootEffect: {fileID: 11400000, guid: abf0343ef9b88de4ead8da3e7b41195f, type: 2}
+  weaponFiringSoundEffect: {fileID: 11400000, guid: 37b94dfc154b4a242be4a906c5bdf3ad, type: 2}
+  weaponReloadingSoundEffect: {fileID: 11400000, guid: fb6e24606ab51684995a7d27dc57e87c, type: 2}
+  hasInfiniteAmmo: 1
+  hasInfiniteClipCapacity: 0
+  weaponClipAmmoCapacity: 10
+  weaponAmmoCapacity: 0
+  weaponFireRate: 0.25
+  weaponPrechargeTime: 0
+  weaponReloadTime: 1.2
