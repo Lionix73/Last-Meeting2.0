@@ -41,6 +41,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 0046a100daba8a04883a11116fd431f9, type: 3}
   - {fileID: 21300000, guid: aaace950325cd4e4b86d89978b453ab7, type: 3}
   - {fileID: 21300000, guid: 05fdac90a83560a4dace94ff59056e31, type: 3}
+  - {fileID: 21300000, guid: 583f3fc0acbfeb84ca8ed99877e16895, type: 3}
   - {fileID: 21300000, guid: c2908ef045d25ef4aa284fd2cc156fab, type: 3}
   - {fileID: 21300000, guid: a85366015f29a9e4ab1f21645df9051d, type: 3}
   - {fileID: 21300000, guid: 752e621147acb9f4da8332134debb977, type: 3}
@@ -140,6 +141,15 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 01c0d6a86bc90ca429160ad9808bdad4, type: 3}
   - {fileID: 21300000, guid: 99a948a86c6b0f045885dde404ba0b7e, type: 3}
   - {fileID: 21300000, guid: 58f460b8a4da8d046a6dd66dceeac6e8, type: 3}
+  - {fileID: 899721104, guid: e38915191a4af194ca680814ea34fa4f, type: 3}
+  - {fileID: 980465676, guid: e38915191a4af194ca680814ea34fa4f, type: 3}
+  - {fileID: -71246911, guid: e38915191a4af194ca680814ea34fa4f, type: 3}
+  - {fileID: -77077949, guid: e38915191a4af194ca680814ea34fa4f, type: 3}
+  - {fileID: -1745809513, guid: e38915191a4af194ca680814ea34fa4f, type: 3}
+  - {fileID: -838599763, guid: e38915191a4af194ca680814ea34fa4f, type: 3}
+  - {fileID: 1588598035, guid: e38915191a4af194ca680814ea34fa4f, type: 3}
+  - {fileID: -1202145430, guid: e38915191a4af194ca680814ea34fa4f, type: 3}
+  - {fileID: -96820981, guid: e38915191a4af194ca680814ea34fa4f, type: 3}
   - {fileID: 21300000, guid: e1d55c19c88353045921db16723521ca, type: 3}
   - {fileID: 21300000, guid: f4c29f2946de4ac49936db455e0f9f70, type: 3}
   - {fileID: 21300000, guid: 47b00199f1ec1634ea2136f85fdace72, type: 3}
@@ -363,6 +373,7 @@ SpriteAtlas:
   - pared3.1izq
   - fotograma0014
   - pared3
+  - slime
   - patoescopeta
   - BarrelFire
   - pared2der (1)
@@ -462,6 +473,15 @@ SpriteAtlas:
   - LaurelLateral
   - patorifle
   - UI Health
+  - Slime_Idle_8
+  - Slime_Idle_3
+  - Slime_Idle_2
+  - Slime_Idle_1
+  - Slime_Idle_0
+  - Slime_Idle_7
+  - Slime_Idle_6
+  - Slime_Idle_5
+  - Slime_Idle_4
   - tile_hospital2
   - Charco_de_sangre
   - Face5
