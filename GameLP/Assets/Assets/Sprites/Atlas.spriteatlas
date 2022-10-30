@@ -55,8 +55,33 @@ SpriteAtlas:
   - {fileID: 21300000, guid: c9bc08812f31b60428daae7e778217d4, type: 3}
   - {fileID: 21300000, guid: c97025912a63c2a41adf95838f536856, type: 3}
   - {fileID: 21300000, guid: 6dd138f13c6f6ec42b06d8cc9624e548, type: 3}
+  - {fileID: 21300000, guid: 3342234276eedbc4d9b4ee8e0f1bb45b, type: 3}
   - {fileID: 21300000, guid: c2004272874690a4498f51716235faaf, type: 3}
   - {fileID: 21300000, guid: f2631a92db445b94dbdcf26012f384ae, type: 3}
+  - {fileID: 447466076, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: 1553386674, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -443608869, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -1446493954, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -1108993341, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -136579938, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: 537346571, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -630886448, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -1079076969, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -1656749228, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: 594873445, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: 1218150732, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -582170858, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: 1251491071, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -885833971, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -1255618664, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: 1035038581, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -1744005111, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -863199998, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -214200538, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: 1666467031, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: 1232045138, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: 1076039517, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
+  - {fileID: -411320239, guid: 5fb0d7a2c7cae0440a8015a15b75043c, type: 3}
   - {fileID: 21300000, guid: bd3b42b2457971a45a96e85ee4578676, type: 3}
   - {fileID: 21300000, guid: b1b731c24a171384b8cb453e6c3d0b59, type: 3}
   - {fileID: 21300000, guid: 65f185d2e74690844986fd1e7d8438ac, type: 3}
@@ -387,8 +412,33 @@ SpriteAtlas:
   - pared1abajo (1)
   - PuertaLateral1
   - PuertaLateral4
+  - Extramov
   - sword
   - ItemHealV1
+  - emigos23_23
+  - emigos23_22
+  - emigos23_21
+  - emigos23_20
+  - emigos23_16
+  - emigos23_17
+  - emigos23_26
+  - emigos23_25
+  - emigos23_15
+  - emigos23_24
+  - emigos23_13
+  - emigos23_11
+  - emigos23_18
+  - emigos23_19
+  - emigos23_3
+  - emigos23_2
+  - emigos23_1
+  - emigos23_0
+  - emigos23_7
+  - emigos23_6
+  - emigos23_5
+  - emigos23_4
+  - emigos23_9
+  - emigos23_8
   - pared2izq (1)
   - esquina3
   - Limbo1

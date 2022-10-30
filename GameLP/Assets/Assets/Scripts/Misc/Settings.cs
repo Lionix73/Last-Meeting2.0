@@ -19,7 +19,7 @@ public static class Settings
 
     public const float fadeInTime = 0.5f; //Time to fade in the room
     public const int maxChildCorridors = 3; //Max Number of child corridors leading from a room. 
-
+    public const float doorUnlockDelay = 1f;
     #endregion
 
     #region ANIMATOR PARAMETERS
@@ -60,10 +60,18 @@ public static class Settings
     public const int targetFrameRateToSpreadPathfindingOver = 60;
     public const float playerMoveDistanceToRebuildPath = 3f;
     public const float enemyPathToRebuildCooldown = 2f;
+    #endregion
 
+    #region ENEMT PARAMETERS
+    public const int defaultEnemyHealth = 20;
     #endregion
 
     #region UI PARAMETERS
+    public const float uiHeartSpacing = 80f;
     public const float uiAmmoIconSpacing = 15f;
     #endregion
+
+    #region CONTACT DAMAGE PARAMETERS
+    public const float contactDamageCollisionResetDelay = 0.5f;
+    #endregion 
 }

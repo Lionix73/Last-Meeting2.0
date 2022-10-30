@@ -54,6 +54,26 @@ public class EnemyDetailsSO : ScriptableObject
     public bool firingLineOfSightRequired;
 
 
+    #region Header ENEMY HEALTH
+    [Space(10)]
+    [Header("HEALTH")]
+    #endregion
+    #region Tooltip
+    [Tooltip("The health of the enemy for each level")]
+    #endregion  
+    public EnemyHealthDetails[] enemyHealthDetailsArray;
+
+    #region Tooltip
+    [Tooltip("Select if the inmunity inmediately after being hit. If so specify the inmunity time in seconds in the other field")]
+    #endregion  
+    public bool isInmuneAfterHit = false;
+
+    #region Tooltip
+    [Tooltip("Inmunity in seconds after being hit")]
+    #endregion  
+    public float hitInmunityTime;
+
+
     private void OnValidate() {
         HelperUtilities.ValidateCheckEmptyString(this, nameof(enemyName), enemyName);
         HelperUtilities.ValidateCheckNullValue(this, nameof(enemyPrefab), enemyPrefab);
@@ -63,5 +83,12 @@ public class EnemyDetailsSO : ScriptableObject
         HelperUtilities.ValidateCheckNullValue(this, nameof(enemyMaterializeShader), enemyMaterializeShader);
         HelperUtilities.ValidateCheckPositiveRange(this, nameof(firingIntervalMin), firingIntervalMin, nameof(firingIntervalMax), firingIntervalMax, false);
         HelperUtilities.ValidateCheckPositiveRange(this, nameof(firingDurationMin), firingDurationMin, nameof(firingDurationMax), firingDurationMax, false);
+        
+        HelperUtilities.ValidateCheckEnumerableValues(this, nameof(enemyHealthDetailsArray), enemyHealthDetailsArray);
+
+        if(isInmuneAfterHit)
+        {
+            HelperUtilities.ValidateCheckPositiveValue(this, nameof(hitInmunityTime), hitInmunityTime, false);
+        }
     }
 }

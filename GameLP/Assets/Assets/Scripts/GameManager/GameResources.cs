@@ -90,6 +90,7 @@ public class GameResources : MonoBehaviour
     [Space(10)]
     [Header("UI")]
     #endregion
+    public GameObject heartPrefab;
     public GameObject ammoIconPrefab;
 
     private void OnValidate()
