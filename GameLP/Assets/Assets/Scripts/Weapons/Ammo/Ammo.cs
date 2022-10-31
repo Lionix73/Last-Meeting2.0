@@ -43,6 +43,11 @@ public class Ammo : MonoBehaviour, IsFireable
 
         if (ammoRange < 0f)
         {
+            if(ammoDetails.isPlayerAmmo)
+            {
+                StaticEventHandler.CallMultiplierEvent(false);
+            }
+
             DisableAmmo();
         }
     }
@@ -62,12 +67,31 @@ public class Ammo : MonoBehaviour, IsFireable
     {
         Health health = collision.GetComponent<Health>();
 
+        bool enemyHit = false;
+
         if(health != null)
         {
             isColliding = true;
 
             health.TakeDamage(ammoDetails.ammoDamage);
-        } 
+
+            if(health.enemy != null)
+            {
+                enemyHit = true;
+            }
+        }
+
+        if(ammoDetails.isPlayerAmmo)
+        {
+            if(enemyHit)
+            {
+                StaticEventHandler.CallMultiplierEvent(true);
+            }
+            else
+            {
+                StaticEventHandler.CallMultiplierEvent(false);
+            }
+        }
     }
 
     public void InitialiseAmmo(AmmoDetailsSO ammoDetails, float aimAngle, float weaponAimAngle, float ammoSpeed, Vector3 weaponAimDirectionVector, bool overrideAmmoMovement = false)

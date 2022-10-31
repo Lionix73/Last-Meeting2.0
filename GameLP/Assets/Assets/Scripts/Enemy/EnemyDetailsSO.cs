@@ -56,7 +56,7 @@ public class EnemyDetailsSO : ScriptableObject
 
     #region Header ENEMY HEALTH
     [Space(10)]
-    [Header("HEALTH")]
+    [Header("ENEMY HEALTH")]
     #endregion
     #region Tooltip
     [Tooltip("The health of the enemy for each level")]
@@ -73,6 +73,10 @@ public class EnemyDetailsSO : ScriptableObject
     #endregion  
     public float hitInmunityTime;
 
+    #region Tooltip
+    [Tooltip("Select to display a health bar for the enemy")]
+    #endregion
+    public bool isHealthBarDisplayed = false;
 
     private void OnValidate() {
         HelperUtilities.ValidateCheckEmptyString(this, nameof(enemyName), enemyName);
@@ -83,7 +87,6 @@ public class EnemyDetailsSO : ScriptableObject
         HelperUtilities.ValidateCheckNullValue(this, nameof(enemyMaterializeShader), enemyMaterializeShader);
         HelperUtilities.ValidateCheckPositiveRange(this, nameof(firingIntervalMin), firingIntervalMin, nameof(firingIntervalMax), firingIntervalMax, false);
         HelperUtilities.ValidateCheckPositiveRange(this, nameof(firingDurationMin), firingDurationMin, nameof(firingDurationMax), firingDurationMax, false);
-        
         HelperUtilities.ValidateCheckEnumerableValues(this, nameof(enemyHealthDetailsArray), enemyHealthDetailsArray);
 
         if(isInmuneAfterHit)

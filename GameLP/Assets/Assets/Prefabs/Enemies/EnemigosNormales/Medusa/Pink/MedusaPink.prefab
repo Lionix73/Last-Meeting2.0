@@ -31,9 +31,21 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 353845469159077372, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3369453327200521393, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
       propertyPath: m_Name
       value: MedusaPink
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275921838322133148, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 2.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4275921838322133148, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 2.5
       objectReference: {fileID: 0}
     - target: {fileID: 6859612646057774153, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
       propertyPath: m_RootOrder

@@ -6,12 +6,21 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
+    #region Header References
+    [Space(10)]
+    [Header("References")]
+    #endregion
+    #region Tooltip
+    [Tooltip("Populate with the HealthBar component on the HealthBar gameobject")]
+    #endregion
+    [SerializeField] private HealthBar healthBar;
+
     private int startingHealth;
     private int currentHealth;
     private HealthEvent healthEvent;
     private Player player;
     private Coroutine inmunityCoroutine;
-    private bool isInmuneAfeterHit = false;
+    private bool isInmuneAfterHit = false;
     private float inmunityTime = 0f;
     private SpriteRenderer spriteRenderer = null;
     private const float spriteFlashInterval = 0.2f;
@@ -30,6 +39,34 @@ public class Health : MonoBehaviour
 
         player = GetComponent<Player>();
         enemy = GetComponent<Enemy>();
+
+        if(player != null)
+        {
+            if(player.playerDetails.isInmuneAfterHit)
+            {
+                isInmuneAfterHit = true;
+                inmunityTime = player.playerDetails.hitInmunityTime;
+                spriteRenderer = player.spriteRenderer;
+            }
+        }
+        else if(enemy != null)
+        {
+            if(enemy.enemyDetails.isInmuneAfterHit)
+            {
+                isInmuneAfterHit = true;
+                inmunityTime = enemy.enemyDetails.hitInmunityTime;
+                spriteRenderer = enemy.spriteRendererArray[0];
+            }
+        }
+
+        if(enemy != null && enemy.enemyDetails.isHealthBarDisplayed == true && healthBar != null)
+        {
+            healthBar.EnableHealthBar();
+        }
+        else if(healthBar != null)
+        {
+            healthBar.DisableHealthBar();
+        }
     }
 
     public void TakeDamage(int damageAmount)
@@ -47,19 +84,24 @@ public class Health : MonoBehaviour
             CallHealthEvent(damageAmount);
 
             PostHitInmunity();
+
+            if(healthBar != null)
+            {
+                healthBar.SetHealthBarValue((float)currentHealth / (float)startingHealth);
+            }
         }
 
-        if(isDamageable && isRolling)
-        {
-            Debug.Log("Dodged bullet by Rolling");
-        }
+        // if(isDamageable && isRolling)
+        // {
+        //     Debug.Log("Dodged bullet by Rolling");
+        // }
     }
 
     private void PostHitInmunity()
     {
         if(gameObject.activeSelf == false) return;
 
-        if(isInmuneAfeterHit)
+        if(isInmuneAfterHit)
         {
             if(inmunityCoroutine != null)
             {

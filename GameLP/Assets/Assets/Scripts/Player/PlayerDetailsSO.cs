@@ -30,7 +30,7 @@ public class PlayerDetailsSO : ScriptableObject
     #endregion
     public int playerHealthAmount;
 
-    public bool isInmuneAfeterHit = false;
+    public bool isInmuneAfterHit = false;
 
     public float hitInmunityTime;
 
@@ -63,7 +63,7 @@ public class PlayerDetailsSO : ScriptableObject
         HelperUtilities.ValidateCheckNullValue(this, nameof(runtimeAnimatorController), runtimeAnimatorController);
         HelperUtilities.ValidateCheckEnumerableValues(this, nameof(startingWeaponList), startingWeaponList);
 
-        if(isInmuneAfeterHit)
+        if(isInmuneAfterHit)
         {
             HelperUtilities.ValidateCheckPositiveValue(this, nameof(hitInmunityTime), hitInmunityTime, false);
         }
