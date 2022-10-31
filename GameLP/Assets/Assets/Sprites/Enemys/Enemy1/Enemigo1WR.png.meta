@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ad7cbb4df510bab4aa08f70f8cf979f8
+guid: 5a295da6f79c8894b86841b44e40ada4
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -108,10 +108,10 @@ TextureImporter:
       name: Enemigo1WR_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 183
-        width: 42
-        height: 64
+        x: 28
+        y: 630
+        width: 144
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,8 +119,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d9f3dd09bf1e5f4180048924eb70c54
-      internalID: -1535154223
+      spriteID: 5acc2de0feb44e64eb86cb69c275ab0e
+      internalID: -2059673020
       vertices: []
       indices: 
       edges: []
@@ -129,10 +129,10 @@ TextureImporter:
       name: Enemigo1WR_1
       rect:
         serializedVersion: 2
-        x: 65
-        y: 183
-        width: 43
-        height: 63
+        x: 224
+        y: 630
+        width: 148
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,8 +140,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7807b6722a0306c49a5050bf453f95ec
-      internalID: -1224705976
+      spriteID: e8e92653f861ab94390768643cab6d63
+      internalID: 393001533
       vertices: []
       indices: 
       edges: []
@@ -150,10 +150,10 @@ TextureImporter:
       name: Enemigo1WR_2
       rect:
         serializedVersion: 2
-        x: 116
-        y: 183
-        width: 42
-        height: 64
+        x: 399
+        y: 630
+        width: 145
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,8 +161,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5312ac0d89da9f6459f9a0ac61b5ab67
-      internalID: -97783146
+      spriteID: a956fe3fcc50f3c4587c5a0a68eac462
+      internalID: 431464737
       vertices: []
       indices: 
       edges: []
@@ -171,10 +171,10 @@ TextureImporter:
       name: Enemigo1WR_3
       rect:
         serializedVersion: 2
-        x: 168
-        y: 184
-        width: 42
-        height: 64
+        x: 578
+        y: 633
+        width: 144
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,8 +182,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 91513472b2e05324289c2d6322d539e2
-      internalID: -1969478234
+      spriteID: a260d79596f72fd46b1f3077472b7288
+      internalID: 1015538001
       vertices: []
       indices: 
       edges: []
@@ -192,10 +192,10 @@ TextureImporter:
       name: Enemigo1WR_4
       rect:
         serializedVersion: 2
-        x: 9
-        y: 112
-        width: 42
-        height: 63
+        x: 31
+        y: 385
+        width: 144
+        height: 217
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,8 +203,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0df6363ba1bba5b48b65ec52d08139f5
-      internalID: -1808532865
+      spriteID: 45f26cd918702a74fbc404d6c83cf5d9
+      internalID: -1698834262
       vertices: []
       indices: 
       edges: []
@@ -213,10 +213,10 @@ TextureImporter:
       name: Enemigo1WR_5
       rect:
         serializedVersion: 2
-        x: 63
-        y: 112
-        width: 42
-        height: 64
+        x: 217
+        y: 385
+        width: 144
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 753c1b4176966ac4ba4a3a3f6cde775d
-      internalID: -1855562483
+      spriteID: 0d93ff45cd67b9b479149adbddddd141
+      internalID: -905415022
       vertices: []
       indices: 
       edges: []
@@ -234,10 +234,10 @@ TextureImporter:
       name: Enemigo1WR_6
       rect:
         serializedVersion: 2
-        x: 115
-        y: 113
-        width: 42
-        height: 63
+        x: 396
+        y: 389
+        width: 144
+        height: 216
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,8 +245,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b8bb44eab93d57e498ed0a9a0b338040
-      internalID: 1161769753
+      spriteID: 7a13d82ecef746941a3e33391c7e17bf
+      internalID: -272455613
       vertices: []
       indices: 
       edges: []
@@ -255,10 +255,10 @@ TextureImporter:
       name: Enemigo1WR_7
       rect:
         serializedVersion: 2
-        x: 170
-        y: 113
-        width: 42
-        height: 64
+        x: 585
+        y: 389
+        width: 144
+        height: 220
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,8 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d418ffee2f6d9e14799c59a881ee5b51
-      internalID: -774995152
+      spriteID: e60bc534f8452324f8a4305b08e262d4
+      internalID: -1912635838
       vertices: []
       indices: 
       edges: []
@@ -283,14 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enemigo1WR_2: -97783146
-      Enemigo1WR_6: 1161769753
-      Enemigo1WR_4: -1808532865
-      Enemigo1WR_0: -1535154223
-      Enemigo1WR_7: -774995152
-      Enemigo1WR_5: -1855562483
-      Enemigo1WR_3: -1969478234
-      Enemigo1WR_1: -1224705976
+      Enemigo1WR_2: 431464737
+      Enemigo1WR_6: -272455613
+      Enemigo1WR_4: -1698834262
+      Enemigo1WR_0: -2059673020
+      Enemigo1WR_7: -1912635838
+      Enemigo1WR_5: -905415022
+      Enemigo1WR_3: 1015538001
+      Enemigo1WR_1: 393001533
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

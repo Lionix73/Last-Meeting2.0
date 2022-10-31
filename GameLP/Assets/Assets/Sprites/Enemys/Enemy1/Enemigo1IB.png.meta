@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 935455c047a1c6a4090e3f231e55c252
+guid: c57ebfa03f1a6844dbff23d31a789e0f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Enemigo1IB_0
+      name: Diablo_arriba_idle_64x64_resolucion_chida_0
       rect:
         serializedVersion: 2
-        x: 51
-        y: 173
-        width: 23
-        height: 37
+        x: 175
+        y: 595
+        width: 80
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7be0dd5b709ba994eabffc29b924fdc4
-      internalID: -1601361711
+      spriteID: 1d76e29ba465e294793e8bee47e5f104
+      internalID: -1286109640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo1IB_1
+      name: Diablo_arriba_idle_64x64_resolucion_chida_1
       rect:
         serializedVersion: 2
-        x: 104
-        y: 173
-        width: 23
-        height: 38
+        x: 358
+        y: 595
+        width: 79
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: db8e5cf782fef9d47a2157da3c6e02d9
-      internalID: 1136521297
+      spriteID: 10022feebf999eb42982cdaa58a468b8
+      internalID: 880631801
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo1IB_2
+      name: Diablo_arriba_idle_64x64_resolucion_chida_2
       rect:
         serializedVersion: 2
-        x: 154
-        y: 173
-        width: 23
-        height: 38
+        x: 530
+        y: 595
+        width: 79
+        height: 131
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 379d56dc7985023408f9b5812db685de
-      internalID: 196866450
+      spriteID: caacfecadefe3f44da4b129310091173
+      internalID: 1596975729
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo1IB_3
+      name: Diablo_arriba_idle_64x64_resolucion_chida_3
       rect:
         serializedVersion: 2
-        x: 51
-        y: 99
-        width: 23
-        height: 38
+        x: 175
+        y: 341
+        width: 80
+        height: 130
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 55111da18e0e7414295330f8639809f6
-      internalID: 785449277
+      spriteID: 3d18a65849b3e7e4886a607ea43d87cb
+      internalID: -1773171511
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo1IB_4
+      name: Diablo_arriba_idle_64x64_resolucion_chida_4
       rect:
         serializedVersion: 2
-        x: 105
-        y: 99
-        width: 23
-        height: 37
+        x: 361
+        y: 341
+        width: 79
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9d64089832029e458dd4fb5bdcbf75e
-      internalID: 1774093945
+      spriteID: cc79043a36c445c43bc9468e8a8cbaab
+      internalID: 1923667112
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Enemigo1IB_5
+      name: Diablo_arriba_idle_64x64_resolucion_chida_5
       rect:
         serializedVersion: 2
-        x: 157
-        y: 100
-        width: 23
-        height: 37
+        x: 540
+        y: 344
+        width: 79
+        height: 127
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,8 +224,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ab2d3b7b90eb56149901d49e8896e6a0
-      internalID: -628150938
+      spriteID: b837f678e7c1e7b4a82d0205c031a8a5
+      internalID: 927862087
       vertices: []
       indices: 
       edges: []
@@ -241,12 +241,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Enemigo1IB_0: -1601361711
-      Enemigo1IB_3: 785449277
-      Enemigo1IB_5: -628150938
-      Enemigo1IB_2: 196866450
-      Enemigo1IB_4: 1774093945
-      Enemigo1IB_1: 1136521297
+      Diablo_arriba_idle_64x64_resolucion_chida_0: -1286109640
+      Diablo_arriba_idle_64x64_resolucion_chida_5: 927862087
+      Diablo_arriba_idle_64x64_resolucion_chida_4: 1923667112
+      Diablo_arriba_idle_64x64_resolucion_chida_3: -1773171511
+      Diablo_arriba_idle_64x64_resolucion_chida_2: 1596975729
+      Diablo_arriba_idle_64x64_resolucion_chida_1: 880631801
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
