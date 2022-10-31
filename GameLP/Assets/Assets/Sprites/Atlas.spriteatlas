@@ -46,6 +46,7 @@ SpriteAtlas:
   - {fileID: 1418255041, guid: e27fe71016c15814a803a553ad2af2f0, type: 3}
   - {fileID: 21300000, guid: e9c84940668bd2d408ba50a4c2756e6b, type: 3}
   - {fileID: 21300000, guid: aaace950325cd4e4b86d89978b453ab7, type: 3}
+  - {fileID: 21300000, guid: 386c6190462fb3d44b6235459543f691, type: 3}
   - {fileID: 21300000, guid: 05fdac90a83560a4dace94ff59056e31, type: 3}
   - {fileID: 1774093945, guid: 935455c047a1c6a4090e3f231e55c252, type: 3}
   - {fileID: -628150938, guid: 935455c047a1c6a4090e3f231e55c252, type: 3}
@@ -83,6 +84,7 @@ SpriteAtlas:
   - {fileID: 907648376, guid: 1e8b82121fa6fb647a68a938ad571040, type: 3}
   - {fileID: 21300000, guid: c2004272874690a4498f51716235faaf, type: 3}
   - {fileID: 21300000, guid: f2631a92db445b94dbdcf26012f384ae, type: 3}
+  - {fileID: 21300000, guid: af7227a2329af0044abffb4b0a9ec43d, type: 3}
   - {fileID: 21300000, guid: bd3b42b2457971a45a96e85ee4578676, type: 3}
   - {fileID: 21300000, guid: b1b731c24a171384b8cb453e6c3d0b59, type: 3}
   - {fileID: 21300000, guid: 65f185d2e74690844986fd1e7d8438ac, type: 3}
@@ -149,6 +151,7 @@ SpriteAtlas:
   - {fileID: 1548633290, guid: 6ac34515b1049cf4095fa5bfc6001ebb, type: 3}
   - {fileID: -2040033893, guid: 6ac34515b1049cf4095fa5bfc6001ebb, type: 3}
   - {fileID: 1786960802, guid: 6ac34515b1049cf4095fa5bfc6001ebb, type: 3}
+  - {fileID: 21300000, guid: 798eba1556c07304880bd9aff31f968a, type: 3}
   - {fileID: 21300000, guid: a826d435dfd34d648aba31808d96c82f, type: 3}
   - {fileID: 21300000, guid: 7fd6aa7555cd2734a8f3c9da51034295, type: 3}
   - {fileID: -1211002776, guid: 2157fbb5b9b12e945846974bd3cd9ef3, type: 3}
@@ -501,6 +504,7 @@ SpriteAtlas:
   - Enemigo1WF_4
   - IvoIL
   - fotograma0014
+  - pistolaenemigo
   - pared3
   - Enemigo1IB_4
   - Enemigo1IB_5
@@ -538,6 +542,7 @@ SpriteAtlas:
   - Enemigo1IF_2
   - sword
   - ItemHealV1
+  - armaenemigo1
   - pared2izq (1)
   - esquina3
   - Limbo1
@@ -604,6 +609,7 @@ SpriteAtlas:
   - Enemigo4W_15
   - Enemigo4W_10
   - Enemigo4W_13
+  - rifleenemigo
   - LayLateral
   - pared4der
   - IvoIF_10

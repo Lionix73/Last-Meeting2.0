@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: WeaponDetails_EscopetaEnemy
   m_EditorClassIdentifier: 
   weaponName: Escopeta Enemy
-  weaponSprite: {fileID: 21300000, guid: 957e7c5a4532c7b4fa28cd31bf5aee5d, type: 3}
+  weaponSprite: {fileID: 21300000, guid: af7227a2329af0044abffb4b0a9ec43d, type: 3}
   weaponShootPosition: {x: 0.596, y: 0.104, z: 0}
   weaponCurrentAmmo: {fileID: 11400000, guid: cf72d9e098611804d948869e6534613c, type: 2}
   weaponShootEffect: {fileID: 11400000, guid: 6fcafaf36395c8743b682f25b35c71c0, type: 2}
