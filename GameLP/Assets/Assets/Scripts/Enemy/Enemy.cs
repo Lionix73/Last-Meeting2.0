@@ -70,11 +70,13 @@ public class Enemy : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void OnEnable() {
+    private void OnEnable() 
+    {
         healthEvent.OnHealthChanged += HealthEvent_OnHealthLost; 
     }
 
-    private void OnDisable() {
+    private void OnDisable() 
+    {
         healthEvent.OnHealthChanged -= HealthEvent_OnHealthLost; 
     }
 
