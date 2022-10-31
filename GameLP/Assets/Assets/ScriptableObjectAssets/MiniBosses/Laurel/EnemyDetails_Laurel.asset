@@ -36,3 +36,4 @@ MonoBehaviour:
     enemyHealthAmount: 400
   isInmuneAfterHit: 0
   hitInmunityTime: 0
+  isHealthBarDisplayed: 1

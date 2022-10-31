@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 public static class Settings
 {
@@ -43,6 +44,8 @@ public static class Settings
 
     //For Door
     public static int open = Animator.StringToHash("open");
+    public static int destroy = Animator.StringToHash("destroy");
+    public static String stateDestroyed = "Destroyed";
     #endregion
 
     #region GAMEOBJECT TAGS
@@ -62,7 +65,7 @@ public static class Settings
     public const float enemyPathToRebuildCooldown = 2f;
     #endregion
 
-    #region ENEMT PARAMETERS
+    #region ENEMY PARAMETERS
     public const int defaultEnemyHealth = 20;
     #endregion
 

@@ -29,6 +29,10 @@ public class RoomLightingControl : MonoBehaviour
         {
             FadeInRoomLighting();
 
+            instantiatedRoom.ActivateEnvironmentGameObjects();
+
+            FadeInEnvironmentLighting();
+
             FadeInDoors();
 
             instantiatedRoom.room.isLit = true;
@@ -61,6 +65,40 @@ public class RoomLightingControl : MonoBehaviour
         instantiatedRoom.decoration2Tilemap.GetComponent<TilemapRenderer>().material = GameResources.Instance.litMaterial;
         instantiatedRoom.frontTilemap.GetComponent<TilemapRenderer>().material = GameResources.Instance.litMaterial;
         instantiatedRoom.minimapTilemap.GetComponent<TilemapRenderer>().material = GameResources.Instance.litMaterial;
+    }
+
+    private void FadeInEnvironmentLighting()
+    {
+        Material material = new Material(GameResources.Instance.variableLitShader);
+
+        Enviroment[] environmentComponents = GetComponentsInChildren<Enviroment>();
+
+        foreach (Enviroment environmentComponent in environmentComponents)
+        {
+            if(environmentComponent.spriteRenderer != null)
+            {
+                environmentComponent.spriteRenderer.material = material;
+            }
+        }
+
+        StartCoroutine(FadeInEnvironmentLightingRoutine(material, environmentComponents));
+    }
+
+    private IEnumerator FadeInEnvironmentLightingRoutine(Material material, Enviroment[] environmentComponents)
+    {
+        for (float i = 0.05f; i <= 1f; i += Time.deltaTime / Settings.fadeInTime)
+        {
+            material.SetFloat("Alpha_Slider", i);
+            yield return null;
+        }
+
+        foreach (Enviroment environmentComponent in environmentComponents)
+        {
+            if(environmentComponent.spriteRenderer != null)
+            {
+                environmentComponent.spriteRenderer.material = GameResources.Instance.litMaterial;
+            }
+        }
     }
 
     private void FadeInDoors()
