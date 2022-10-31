@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95d8bd72bc7ffef42bcbe9ca794125ce, type: 3}
+  m_Name: AmmoDetails_Cuernitos
+  m_EditorClassIdentifier: 
+  ammoName: Cuernitos Disparo
+  isPlayerAmmo: 0
+  ammoSprite: {fileID: 21300000, guid: e36e8bbd18074d341b170885ac002038, type: 3}
+  ammoPrefabArray:
+  - {fileID: 6551019553391412282, guid: 246a0792aa700ef4ca35ab929bb04216, type: 3}
+  - {fileID: 2360452631547801229, guid: 70e545f9072fa5e47bc49e81754aa34b, type: 3}
+  - {fileID: 246199350900166058, guid: 69719703ac7d20d419d6795f93267882, type: 3}
+  - {fileID: 6223753194313565024, guid: db0843f862f204c4982a29a9436de952, type: 3}
+  - {fileID: 719686229374104672, guid: 147fa09c290731d469288c4856ba65c2, type: 3}
+  ammoMaterial: {fileID: 2100000, guid: 33a55999e44f4724191171c59fc64319, type: 2}
+  ammoChargeTime: 0.5
+  ammoChargeMaterial: {fileID: 2100000, guid: c64696a09f1cb1a4d9766d1fe9778ca5, type: 2}
+  ammoHitEffect: {fileID: 11400000, guid: 9b2453bb75ac4a64c8d6d6ef7e282adf, type: 2}
+  ammoDamage: 5
+  ammoSpeedMin: 7
+  ammoSpeedMax: 12
+  ammoRange: 30
+  ammoRotationSpeed: 120
+  ammoSpreadMin: 1
+  ammoSpreadMax: 2
+  ammoSpawnAmountMin: 1
+  ammoSpawnAmountMax: 1
+  ammoSpawnIntervalMin: 0
+  ammoSpawnIntervalMax: 0
+  isAmmoTrail: 0
+  ammoTrailTime: 0
+  ammoTrailMaterial: {fileID: 0}
+  ammoTrailStartWidth: 0
+  ammoTrailEndWidth: 0

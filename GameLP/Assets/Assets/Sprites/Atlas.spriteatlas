@@ -88,6 +88,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: bd3b42b2457971a45a96e85ee4578676, type: 3}
   - {fileID: 21300000, guid: b1b731c24a171384b8cb453e6c3d0b59, type: 3}
   - {fileID: 21300000, guid: 65f185d2e74690844986fd1e7d8438ac, type: 3}
+  - {fileID: 21300000, guid: 7c5aa503e9d84894eb74b6f57c5a325d, type: 3}
   - {fileID: 21300000, guid: 7501060399b95154fb4c58e29eda459f, type: 3}
   - {fileID: 21300000, guid: ba84c2731c30aec4298ec96261395558, type: 3}
   - {fileID: 21300000, guid: bc4a8873dd7127646945b3b47c6af560, type: 3}
@@ -202,6 +203,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 91ddccc7d3b876446857f528aa7f3164, type: 3}
   - {fileID: 21300000, guid: 2c815cf7b9d45d84695bf73ba3e2bfab, type: 3}
   - {fileID: 21300000, guid: e84e6558f1ed17b45bf020ad0e3c1d3b, type: 3}
+  - {fileID: 21300000, guid: 858543888ba625b478767a338765e0f4, type: 3}
   - {fileID: 21300000, guid: 27e9669896059bd469115dd4dedb47d9, type: 3}
   - {fileID: 21300000, guid: 4e799d983a8d1694da486d6cc55b65e4, type: 3}
   - {fileID: 21300000, guid: 01c0d6a86bc90ca429160ad9808bdad4, type: 3}
@@ -546,6 +548,7 @@ SpriteAtlas:
   - pared2izq (1)
   - esquina3
   - Limbo1
+  - patoblaster
   - fotograma0020
   - Face2
   - Face3
@@ -660,6 +663,7 @@ SpriteAtlas:
   - Proyectil2
   - PuertaLateral2
   - PuertaLateral3
+  - blasterenemigo
   - PuertaFrontal5
   - Enemigo3E
   - LaurelLateral
