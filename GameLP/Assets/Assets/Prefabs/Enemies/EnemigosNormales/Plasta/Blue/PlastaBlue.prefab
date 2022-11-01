@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: m_Color.r
       value: 0.43867922
       objectReference: {fileID: 0}
+    - target: {fileID: 4312071812563410, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+      propertyPath: m_RenderingLayerMask
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 1091026130257043211, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.167
