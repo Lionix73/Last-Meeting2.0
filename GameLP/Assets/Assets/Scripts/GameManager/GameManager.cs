@@ -256,7 +256,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
     
         StartCoroutine(DisplayDungeonLevelText());
         
-        RoomEnemiesDefeated();
+        // RoomEnemiesDefeated();
     }
 
     private IEnumerator DisplayDungeonLevelText()

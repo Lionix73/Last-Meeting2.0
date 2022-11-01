@@ -401,7 +401,7 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
         room.id = roomNode.id;
         room.prefab = roomTemplate.prefab;
         room.battleMusic = roomTemplate.battleMusic;
-        room.battleMusic = roomTemplate.ambientMusic;
+        room.ambientMusic = roomTemplate.ambientMusic;
         room.roomNodeType = roomTemplate.roomNodeType;
         room.lowerBounds = roomTemplate.lowerBounds;
         room.upperBounds = roomTemplate.upperBounds;
@@ -465,10 +465,11 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
 
             room.instantiatedRoom = instantiatedRoom;
 
-            if(!room.roomNodeType.isBossRoom)
-            {
-                room.isClearedOfEnemies = true;
-            }
+            // Demo code to set rooms as cleared, except for boss 
+            //if(!room.roomNodeType.isBossRoom)
+            //{
+            //    room.isClearedOfEnemies = true;
+            //}
         }
     }
 
