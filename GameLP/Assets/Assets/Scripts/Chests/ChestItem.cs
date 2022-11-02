@@ -7,16 +7,19 @@ public class ChestItem : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     private TextMeshPro textTMP;
-    private MaterializeEffects materializeEffects;
+    private MaterializeEffects materializeEffect;
     [HideInInspector] public bool isItemMaterialized = false;
 
     private void Awake()
     {
-        spriteRenderer = GetComponent<SpriteRenderer>();
-        textTMP = GetComponent<TextMeshPro>();
-        materializeEffects = GetComponent<MaterializeEffects>();
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        textTMP = GetComponentInChildren<TextMeshPro>();
+        materializeEffect = GetComponent<MaterializeEffects>();
     }
 
+    /// <summary>
+    /// Initialize the chest item
+    /// </summary>
     public void Initialize(Sprite sprite, string text, Vector3 spawnPosition, Color materializeColor)
     {
         spriteRenderer.sprite = sprite;
@@ -25,14 +28,18 @@ public class ChestItem : MonoBehaviour
         StartCoroutine(MaterializeItem(materializeColor, text));
     }
 
+    /// <summary>
+    /// Materialize the chest item
+    /// </summary>
     private IEnumerator MaterializeItem(Color materializeColor, string text)
     {
         SpriteRenderer[] spriteRendererArray = new SpriteRenderer[] { spriteRenderer };
 
-        yield return StartCoroutine(materializeEffects.MaterializeRoutine(GameResources.Instance.materializeShader, materializeColor, 1f, spriteRendererArray, GameResources.Instance.litMaterial));
+        yield return StartCoroutine(materializeEffect.MaterializeRoutine(GameResources.Instance.materializeShader, materializeColor, 1f, spriteRendererArray, GameResources.Instance.litMaterial));
 
         isItemMaterialized = true;
 
         textTMP.text = text;
     }
+
 }
