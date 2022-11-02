@@ -8,7 +8,6 @@ using UnityEngine.Rendering;
 [RequireComponent(typeof(Health))]
 [RequireComponent(typeof(DealContactDamage))]
 [RequireComponent(typeof(ReceiveContactDamage))]
-
 [RequireComponent(typeof(DestroyedEvent))]
 [RequireComponent(typeof(Destroyed))]
 [RequireComponent(typeof(PlayerControl))]
@@ -138,5 +137,15 @@ public class Player : MonoBehaviour
         setActiveWeaponEvent.CallSetActiveWeaponEvent(weapon);
 
         return weapon;
+    }
+
+    public bool IsWeaponHeldByPlayer(WeaponsDetailsSO weaponsDetails)
+    {
+        foreach (Weapon weapon in weaponList)
+        {
+            if (weapon.weaponsDetails == weaponsDetails) return true;
+        }
+
+        return false;
     }
 }

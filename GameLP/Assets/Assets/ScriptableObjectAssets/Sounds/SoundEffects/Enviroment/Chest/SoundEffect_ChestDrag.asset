@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SoundEffectName: Chest Drag
   soundPrefab: {fileID: 3518911561667639831, guid: 858c49da0936606479dd1d17ed3a090d, type: 3}
-  SoundEffectClip: {fileID: 0}
+  SoundEffectClip: {fileID: 8300000, guid: 585f8bb677a3cb148baf7114c459c8a1, type: 3}
   SoundEffectPitchRandomVariationMin: 0.8
   SoundEffectPitchRandomVariationMax: 1
   SoundEffectVolume: 0.6

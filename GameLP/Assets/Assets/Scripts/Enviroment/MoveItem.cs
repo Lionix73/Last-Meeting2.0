@@ -12,14 +12,14 @@ public class MoveItem : MonoBehaviour
     [SerializeField] private SoundEffectSO moveSoundEffect;
 
     [HideInInspector] public BoxCollider2D boxCollider2D;
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D Rigidbody2D;
     private InstantiatedRoom instantiatedRoom;
     private Vector3 previousPosition;
 
     private void Awake() 
     {
         boxCollider2D = GetComponent<BoxCollider2D>();
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        Rigidbody2D = GetComponent<Rigidbody2D>();
         instantiatedRoom = GetComponentInParent<InstantiatedRoom>();
 
         instantiatedRoom.moveableItemsList.Add(this);
@@ -38,7 +38,7 @@ public class MoveItem : MonoBehaviour
         
         previousPosition = transform.position;
 
-        if(Mathf.Abs(rigidbody2D.velocity.x) > 0.001f || Mathf.Abs(rigidbody2D.velocity.y) > 0.001f)
+        if(Mathf.Abs(Rigidbody2D.velocity.x) > 0.001f || Mathf.Abs(Rigidbody2D.velocity.y) > 0.001f)
         {
             if(moveSoundEffect != null && Time.frameCount % 10 == 0)
             {

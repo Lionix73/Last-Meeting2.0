@@ -9,14 +9,14 @@ public class Table : MonoBehaviour
     [SerializeField] private float itemMass;
     private BoxCollider2D boxCollider2D;
     private Animator animator;
-    private Rigidbody2D rigidbody2D;
+    private Rigidbody2D Rigidbody2D;
     private bool itemUsed = false;
 
     private void Awake() 
     {
         boxCollider2D = GetComponent<BoxCollider2D>();
         animator = GetComponent<Animator>();
-        rigidbody2D = GetComponent<Rigidbody2D>();
+        Rigidbody2D = GetComponent<Rigidbody2D>();
     }
 
     private void UseItem()
@@ -46,7 +46,7 @@ public class Table : MonoBehaviour
 
             gameObject.layer = LayerMask.NameToLayer("Environment");
 
-            rigidbody2D.mass = itemMass;
+            Rigidbody2D.mass = itemMass;
 
             SoundEffectManager.Instance.PlaySoundEffect(GameResources.Instance.tableFlip);
 

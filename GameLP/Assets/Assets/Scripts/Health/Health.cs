@@ -34,7 +34,8 @@ public class Health : MonoBehaviour
         healthEvent = GetComponent<HealthEvent>();
     }
 
-    private void Start() {
+    private void Start() 
+    {
         CallHealthEvent(0);
 
         player = GetComponent<Player>();
@@ -150,5 +151,23 @@ public class Health : MonoBehaviour
     public int GetStartingHealth()
     {
         return startingHealth;
+    }
+
+    public void AddHealth(int healhtPercent)
+    {
+        int healthIncrease = Mathf.RoundToInt((startingHealth * healhtPercent));
+
+        int totalHealth = currentHealth + healthIncrease;
+
+        if (totalHealth > startingHealth)
+        {
+            currentHealth = startingHealth;
+        }
+        else
+        {
+            currentHealth = totalHealth;
+        }
+
+        CallHealthEvent(0);
     }
 }
