@@ -34,6 +34,7 @@ public class GameResources : MonoBehaviour
     [Header("MUSIC")]
     #endregion
     public AudioMixerGroup musicMasterMixerGroup;
+    public MusicTrackSO mainMenuMusic;
     public AudioMixerSnapshot musicOnFullSnapShot;
     public AudioMixerSnapshot musicLowSnapShot;
     public AudioMixerSnapshot musicOffSnapShot;
@@ -136,6 +137,7 @@ public class GameResources : MonoBehaviour
     {
         HelperUtilities.ValidateCheckNullValue(this, nameof(roomNodeTypeList), roomNodeTypeList);
         HelperUtilities.ValidateCheckNullValue(this, nameof(currentPlayer), currentPlayer);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(mainMenuMusic), mainMenuMusic);
         HelperUtilities.ValidateCheckNullValue(this, nameof(soundsMasterMixerGroup), soundsMasterMixerGroup);
         HelperUtilities.ValidateCheckNullValue(this, nameof(doorOpenCloseSoundEffect), doorOpenCloseSoundEffect);
         HelperUtilities.ValidateCheckNullValue(this, nameof(tableFlip), tableFlip);
