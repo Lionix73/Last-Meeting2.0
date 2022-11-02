@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "PlayerDetails_", menuName = "Scriptable Objects/Player/PlayerDetails")]
+[CreateAssetMenu(fileName = "PlayerDetails_", menuName = "Scriptable Objects/Player/Player Details")]
 public class PlayerDetailsSO : ScriptableObject
 {
     #region Header PLAYER BASE DETAILS
@@ -28,26 +28,44 @@ public class PlayerDetailsSO : ScriptableObject
     [Space(10)]
     [Header("HEALTH")]
     #endregion
+    #region Tooltip
+    [Tooltip("Player starting health amount")]
+    #endregion
     public int playerHealthAmount;
-
-    public bool isInmuneAfterHit = false;
-
-    public float hitInmunityTime;
+    #region Tooltip
+    [Tooltip("Select if has immunity period immediately after being hit.  If so specify the immunity time in seconds in the other field")]
+    #endregion
+    public bool isImmuneAfterHit = false;
+    #region Tooltip
+    [Tooltip("Immunity time in seconds after being hit")]
+    #endregion
+    public float hitImmunityTime;
 
     #region Header WEAPON
     [Space(10)]
     [Header("WEAPON")]
     #endregion
+    #region Tooltip
+    [Tooltip("Player  initial starting weapon")]
+    #endregion
     public WeaponsDetailsSO startingWeapon;
-
+    #region Tooltip
+    [Tooltip("Populate with the list of starting weapons")]
+    #endregion
     public List<WeaponsDetailsSO> startingWeaponList;
 
     #region Header OTHER
     [Space(10)]
     [Header("OTHER")]
     #endregion
+    #region Tooltip
+    [Tooltip("Player icon sprite to be used in the minimap")]
+    #endregion
     public Sprite playerMiniMapIcon;
 
+    #region Tooltip
+    [Tooltip("Player hand sprite")]
+    #endregion
     public Sprite playerHandSprite;
 
     #region Validation
@@ -63,11 +81,12 @@ public class PlayerDetailsSO : ScriptableObject
         HelperUtilities.ValidateCheckNullValue(this, nameof(runtimeAnimatorController), runtimeAnimatorController);
         HelperUtilities.ValidateCheckEnumerableValues(this, nameof(startingWeaponList), startingWeaponList);
 
-        if(isInmuneAfterHit)
+        if (isImmuneAfterHit)
         {
-            HelperUtilities.ValidateCheckPositiveValue(this, nameof(hitInmunityTime), hitInmunityTime, false);
+            HelperUtilities.ValidateCheckPositiveValue(this, nameof(hitImmunityTime), hitImmunityTime, false);
         }
     }
 #endif
     #endregion
+
 }

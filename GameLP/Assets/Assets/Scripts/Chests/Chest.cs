@@ -5,7 +5,7 @@ using TMPro;
 [RequireComponent(typeof(Animator))]
 [RequireComponent(typeof(SpriteRenderer))]
 [RequireComponent(typeof(MaterializeEffects))]
-public class Chest : MonoBehaviour, IUsable
+public class Chest : MonoBehaviour, IUseable
 {
     [ColorUsage(false, true)]
     [SerializeField] private Color materializeColor;

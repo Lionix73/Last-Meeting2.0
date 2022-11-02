@@ -391,7 +391,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ead564b1590520478e6a2e967ef9814, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  movementDetails: {fileID: 0}
+  movementDetails: {fileID: 11400000, guid: 190aba16b4a583841b2f38a9207660ef, type: 2}
   moveSpeed: 0
   updateFrameNumber: 1
 --- !u!114 &7691658048603424807

@@ -310,11 +310,11 @@ public class PlayerControl : MonoBehaviour
 
             foreach (Collider2D collider2D in collider2DArray)
             {
-                IUsable iUsable = collider2D.GetComponent<IUsable>();
+                IUseable IUseable = collider2D.GetComponent<IUseable>();
 
-                if(iUsable != null)
+                if(IUseable != null)
                 {
-                    iUsable.UseItem();
+                    IUseable.UseItem();
                 }
             }
         }

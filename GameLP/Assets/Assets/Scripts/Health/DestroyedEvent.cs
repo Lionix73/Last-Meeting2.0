@@ -2,7 +2,6 @@ using System;
 using UnityEngine;
 
 [DisallowMultipleComponent]
-
 public class DestroyedEvent : MonoBehaviour
 {
     public event Action<DestroyedEvent, DestroyedEventArgs> OnDestroyed;
@@ -16,5 +15,6 @@ public class DestroyedEvent : MonoBehaviour
 public class DestroyedEventArgs : EventArgs
 {
     public bool playerDied;
-    public int points;   
+    public int points;
 }
+

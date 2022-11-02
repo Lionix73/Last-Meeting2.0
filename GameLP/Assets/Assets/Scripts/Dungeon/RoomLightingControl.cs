@@ -71,9 +71,9 @@ public class RoomLightingControl : MonoBehaviour
     {
         Material material = new Material(GameResources.Instance.variableLitShader);
 
-        Enviroment[] environmentComponents = GetComponentsInChildren<Enviroment>();
+        Environment[] environmentComponents = GetComponentsInChildren<Environment>();
 
-        foreach (Enviroment environmentComponent in environmentComponents)
+        foreach (Environment environmentComponent in environmentComponents)
         {
             if(environmentComponent.spriteRenderer != null)
             {
@@ -84,7 +84,7 @@ public class RoomLightingControl : MonoBehaviour
         StartCoroutine(FadeInEnvironmentLightingRoutine(material, environmentComponents));
     }
 
-    private IEnumerator FadeInEnvironmentLightingRoutine(Material material, Enviroment[] environmentComponents)
+    private IEnumerator FadeInEnvironmentLightingRoutine(Material material, Environment[] environmentComponents)
     {
         for (float i = 0.05f; i <= 1f; i += Time.deltaTime / Settings.fadeInTime)
         {
@@ -92,7 +92,7 @@ public class RoomLightingControl : MonoBehaviour
             yield return null;
         }
 
-        foreach (Enviroment environmentComponent in environmentComponents)
+        foreach (Environment environmentComponent in environmentComponents)
         {
             if(environmentComponent.spriteRenderer != null)
             {
