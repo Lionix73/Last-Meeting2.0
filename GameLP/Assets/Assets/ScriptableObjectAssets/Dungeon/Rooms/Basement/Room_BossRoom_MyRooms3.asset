@@ -12,31 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4a022e72b84d27489c2db7f3469c804, type: 3}
   m_Name: Room_BossRoom_MyRooms3
   m_EditorClassIdentifier: 
-  guid: d3b3c1e0f78cccc47877c193d677b475
+  guid: 2a362bfb9b9a762488a13905c781a672
   prefab: {fileID: 3967379677599905053, guid: 56ac4fd796f3d1b4e9abcd1b812302dc, type: 3}
   previousPrefab: {fileID: 3967379677599905053, guid: 56ac4fd796f3d1b4e9abcd1b812302dc, type: 3}
   battleMusic: {fileID: 11400000, guid: 41e385b85e3ddbf43be7ae87c6ccea72, type: 2}
   ambientMusic: {fileID: 11400000, guid: 4b892fc7804826d41b68972985fa8838, type: 2}
   roomNodeType: {fileID: 11400000, guid: 8e4226f3138a6de439e8c583940bf3e1, type: 2}
-  lowerBounds: {x: -9, y: -9}
-  upperBounds: {x: 11, y: 14}
+  lowerBounds: {x: -28, y: -21}
+  upperBounds: {x: 24, y: 32}
   doorwayList:
-  - position: {x: -2, y: 32}
-    orientation: 0
-    doorPrefab: {fileID: 7562794438401205090, guid: dccc60f500707904e99a450f7140fe74, type: 3}
-    doorwayStartCopyPosition: {x: -5, y: 32}
-    doorwayCopyTileWidth: 5
-    doorwayCopyTileHeight: 5
-    isConnected: 0
-    isUnavailable: 0
-  - position: {x: 24, y: 5}
-    orientation: 1
-    doorPrefab: {fileID: 7854827242869148560, guid: a5df7bbf0385ff74e860e8422266fce2, type: 3}
-    doorwayStartCopyPosition: {x: 20, y: 8}
-    doorwayCopyTileWidth: 5
-    doorwayCopyTileHeight: 5
-    isConnected: 0
-    isUnavailable: 0
   - position: {x: -2, y: -21}
     orientation: 2
     doorPrefab: {fileID: 7562794438401205090, guid: dccc60f500707904e99a450f7140fe74, type: 3}
@@ -49,6 +33,22 @@ MonoBehaviour:
     orientation: 3
     doorPrefab: {fileID: 7854827242869148560, guid: a5df7bbf0385ff74e860e8422266fce2, type: 3}
     doorwayStartCopyPosition: {x: -28, y: 8}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 5
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 24, y: 5}
+    orientation: 1
+    doorPrefab: {fileID: 7854827242869148560, guid: a5df7bbf0385ff74e860e8422266fce2, type: 3}
+    doorwayStartCopyPosition: {x: 20, y: 8}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 5
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: -2, y: 32}
+    orientation: 0
+    doorPrefab: {fileID: 7562794438401205090, guid: dccc60f500707904e99a450f7140fe74, type: 3}
+    doorwayStartCopyPosition: {x: -5, y: 32}
     doorwayCopyTileWidth: 5
     doorwayCopyTileHeight: 5
     isConnected: 0

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4a022e72b84d27489c2db7f3469c804, type: 3}
-  m_Name: Room_LargeRoom_MyRooms3
+  m_Name: Room_LargeRoom_MyRooms4
   m_EditorClassIdentifier: 
   guid: e4cf76102eab41a4a81448ef0c00658c
   prefab: {fileID: 3967379677599905053, guid: f071f757483a23147a2fe51ff215a923, type: 3}

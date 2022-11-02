@@ -10,34 +10,35 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4a022e72b84d27489c2db7f3469c804, type: 3}
-  m_Name: Room_CorridorNS_MyRooms3
+  m_Name: Room_CorridorNS2_MyRooms4
   m_EditorClassIdentifier: 
-  guid: 2eb41339a22e320498311c265cf28171
-  prefab: {fileID: 3967379677599905053, guid: 0eee41cdee7c95f4b871211d5d477414, type: 3}
-  previousPrefab: {fileID: 3967379677599905053, guid: 0eee41cdee7c95f4b871211d5d477414, type: 3}
+  guid: e688cf63c1849b743b4d572121faa2eb
+  prefab: {fileID: 3967379677599905053, guid: 0e5cf8ae6285aa142b3a1a69de9f1b04, type: 3}
+  previousPrefab: {fileID: 3967379677599905053, guid: 0e5cf8ae6285aa142b3a1a69de9f1b04, type: 3}
   battleMusic: {fileID: 11400000, guid: 14722d02bea064e4d8066b2a9c9de150, type: 2}
   ambientMusic: {fileID: 11400000, guid: 4b892fc7804826d41b68972985fa8838, type: 2}
   roomNodeType: {fileID: 11400000, guid: fd3a850aa74e0a24e89cec9e7bf150d8, type: 2}
-  lowerBounds: {x: -8, y: -10}
-  upperBounds: {x: 3, y: 18}
+  lowerBounds: {x: 0, y: -4}
+  upperBounds: {x: 6, y: 18}
   doorwayList:
-  - position: {x: -6, y: 18}
-    orientation: 0
-    doorPrefab: {fileID: 0}
-    doorwayStartCopyPosition: {x: 0, y: 0}
-    doorwayCopyTileWidth: 0
-    doorwayCopyTileHeight: 0
-    isConnected: 0
-    isUnavailable: 0
-  - position: {x: 1, y: -10}
+  - position: {x: 3, y: -4}
     orientation: 2
     doorPrefab: {fileID: 0}
-    doorwayStartCopyPosition: {x: 0, y: 0}
-    doorwayCopyTileWidth: 0
-    doorwayCopyTileHeight: 0
+    doorwayStartCopyPosition: {x: 1, y: -3}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 2
+    isConnected: 0
+    isUnavailable: 0
+  - position: {x: 3, y: 18}
+    orientation: 0
+    doorPrefab: {fileID: 0}
+    doorwayStartCopyPosition: {x: 1, y: 18}
+    doorwayCopyTileWidth: 5
+    doorwayCopyTileHeight: 2
     isConnected: 0
     isUnavailable: 0
   spawnPositionArray:
-  - {x: -3, y: 1}
+  - {x: 3, y: -1}
+  - {x: 3, y: 15}
   enemiesByLevelList: []
   roomEnemySpawnParametersList: []
