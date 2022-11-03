@@ -723,6 +723,7 @@ SpriteAtlas:
   - {fileID: 8784337606989860369, guid: 7b09fa81c81d79547aaf426aac115e8a, type: 3}
   - {fileID: -2316078177831284074, guid: 7b09fa81c81d79547aaf426aac115e8a, type: 3}
   - {fileID: 6099516406439767007, guid: 7b09fa81c81d79547aaf426aac115e8a, type: 3}
+  - {fileID: 21300000, guid: a5eb5591e0a0bb540a26c10b24d99d43, type: 3}
   - {fileID: -7417496012070166234, guid: 8610b891946039b4f97d698654784120, type: 3}
   - {fileID: -2299328056803698529, guid: 8610b891946039b4f97d698654784120, type: 3}
   - {fileID: -1739730522169575265, guid: 8610b891946039b4f97d698654784120, type: 3}
@@ -2324,6 +2325,7 @@ SpriteAtlas:
   - {fileID: 6885472169216985511, guid: fd601ae8938f52b4ca42f6003d7973dc, type: 3}
   - {fileID: 4391387007993161189, guid: fd601ae8938f52b4ca42f6003d7973dc, type: 3}
   - {fileID: 4448164829021322237, guid: fd601ae8938f52b4ca42f6003d7973dc, type: 3}
+  - {fileID: 21300000, guid: 733b5ce80e7da5b4ea363d64447ff70a, type: 3}
   - {fileID: 1535397687002710566, guid: 910962f895f566246b14fb04e4dc81dd, type: 3}
   - {fileID: -3742492459140011373, guid: 910962f895f566246b14fb04e4dc81dd, type: 3}
   - {fileID: -8483983351948412750, guid: 910962f895f566246b14fb04e4dc81dd, type: 3}
@@ -5553,6 +5555,7 @@ SpriteAtlas:
   - SlimeBlockKingIdleDown_Red_0
   - SlimeBlockKingIdleDown_Red_1
   - SlimeBlockKingIdleDown_Red_4
+  - vida
   - wall_old_blood08_1
   - wall_old_blood08_0
   - wall_old_blood08_3
@@ -7154,6 +7157,7 @@ SpriteAtlas:
   - sandstone_floor2_3
   - sandstone_floor2_0
   - sandstone_floor2_1
+  - Pausa
   - rect_gray1_3
   - rect_gray1_2
   - rect_gray1_1

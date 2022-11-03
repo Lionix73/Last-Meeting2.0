@@ -29,6 +29,12 @@ public class GameResources : MonoBehaviour
 
     public RoomNodeTypeListSO roomNodeTypeList;
 
+    #region PLAYER SELECTION
+    [Space(10)]
+    [Header("PLAYER SELECTION")]
+    #endregion
+    public GameObject playerSelectionPrefab;
+
     #region  header MUSIC
     [Space(10)]
     [Header("MUSIC")]
@@ -47,6 +53,7 @@ public class GameResources : MonoBehaviour
     [Tooltip("The current player scriptable object")]
     #endregion Tooltip
     public CurrentPlayerSO currentPlayer;
+    public List<PlayerDetailsSO> playerDetailsList;
 
     #region  Header SOUNDS
     [Space(10)]
@@ -136,6 +143,8 @@ public class GameResources : MonoBehaviour
     private void OnValidate()
     {
         HelperUtilities.ValidateCheckNullValue(this, nameof(roomNodeTypeList), roomNodeTypeList);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(playerSelectionPrefab), playerSelectionPrefab);
+        HelperUtilities.ValidateCheckEnumerableValues(this, nameof(playerDetailsList), playerDetailsList);
         HelperUtilities.ValidateCheckNullValue(this, nameof(currentPlayer), currentPlayer);
         HelperUtilities.ValidateCheckNullValue(this, nameof(mainMenuMusic), mainMenuMusic);
         HelperUtilities.ValidateCheckNullValue(this, nameof(soundsMasterMixerGroup), soundsMasterMixerGroup);
