@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Basement
   roomTemplateList:
-  - {fileID: 11400000, guid: c934852bac3ea864bb91c5ee4a0cb19e, type: 2}
+  - {fileID: 11400000, guid: 8d181de0448fcf54782af217b253f39a, type: 2}
   - {fileID: 11400000, guid: 03f796cf33ac8914080ec84cdd2aeea2, type: 2}
   - {fileID: 11400000, guid: f9426d47a119175499f00b3efee30621, type: 2}
   - {fileID: 11400000, guid: 9ade0cb9d785b664886089e3f7f7f983, type: 2}

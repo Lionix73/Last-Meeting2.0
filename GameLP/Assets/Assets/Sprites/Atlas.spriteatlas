@@ -157,6 +157,7 @@ SpriteAtlas:
   - {fileID: 741142460, guid: 2157fbb5b9b12e945846974bd3cd9ef3, type: 3}
   - {fileID: -535752645, guid: 2157fbb5b9b12e945846974bd3cd9ef3, type: 3}
   - {fileID: 21300000, guid: 6c95252621b9cac478b18bcb80a5fef1, type: 3}
+  - {fileID: 21300000, guid: 6e36b856680999d4e92c35460abc56d9, type: 3}
   - {fileID: 21300000, guid: 9d5f8276e1a6c624abef67170b7db208, type: 3}
   - {fileID: 21300000, guid: 9f406396756ba154aab6d3f3afa1c87c, type: 3}
   - {fileID: 21300000, guid: 748a2a961421ced479936f8689cfdad5, type: 3}
@@ -622,6 +623,7 @@ SpriteAtlas:
   - IvoIF_3
   - IvoIF_2
   - caja_sangre_192
+  - Menu
   - pared4
   - super_hongosisimo
   - silla

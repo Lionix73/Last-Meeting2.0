@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Hospital
   roomTemplateList:
-  - {fileID: 11400000, guid: a334dee363594fa44bf27973648a1664, type: 2}
+  - {fileID: 11400000, guid: 04424155220e39d4586f6161dd06277d, type: 2}
   - {fileID: 11400000, guid: dd3ef971437842444af7fe45fe3680d9, type: 2}
   - {fileID: 11400000, guid: 4ee55e9aef6da624185847c11e38d379, type: 2}
   - {fileID: 11400000, guid: 477505fa734a0a841b181ad2d95d6801, type: 2}

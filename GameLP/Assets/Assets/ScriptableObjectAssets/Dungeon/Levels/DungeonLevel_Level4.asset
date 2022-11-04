@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Limbo
   roomTemplateList:
-  - {fileID: 11400000, guid: 679278df02cf87848bb17b347be67a60, type: 2}
+  - {fileID: 11400000, guid: 39a7de445ca3930498e6c41cb982d2a4, type: 2}
   - {fileID: 11400000, guid: 4d958eadfa9069745894603e7e66527d, type: 2}
   - {fileID: 11400000, guid: 0e8afce4abbad8342b49c01ba3bba68f, type: 2}
   - {fileID: 11400000, guid: a8034a9cc34dc16499d54160b8a3a384, type: 2}
