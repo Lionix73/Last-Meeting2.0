@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e9c84940668bd2d408ba50a4c2756e6b
+guid: 8430f48d880c102458fe6bae802415f7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IvoIL_0
+      name: Slime_movimiento_64_x_64_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 194
-        width: 42
-        height: 54
+        x: 94
+        y: 702
+        width: 134
+        height: 41
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,19 +119,82 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7d2f3a5348bd1e44ac723800cc0c58a
-      internalID: -1206869253
+      spriteID: db6af52fb19ac914aab093ff4f878bce
+      internalID: 376278532
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_1
+      name: Slime_movimiento_64_x_64_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 194
-        width: 43
+        x: 341
+        y: 702
+        width: 110
+        height: 58
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cce0b227ccace5c45af8563f65b6f366
+      internalID: -927975257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_movimiento_64_x_64_2
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 733
+        width: 103
+        height: 75
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28bee85b76972904498929711a9f714f
+      internalID: 871096136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_movimiento_64_x_64_3
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 530
+        width: 76
+        height: 110
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca9d285fff50a764494ab950a15f5859
+      internalID: 1740861005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slime_movimiento_64_x_64_4
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 523
+        width: 145
         height: 55
       alignment: 7
       pivot: {x: 0.5, y: 0}
@@ -140,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1020b85f72963a24e93d806a1be45131
-      internalID: -630965827
+      spriteID: 76da2cbac4b062d4eb046f4eb86c15fe
+      internalID: 634314810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_2
+      name: Slime_movimiento_64_x_64_6
       rect:
         serializedVersion: 2
-        x: 166
-        y: 192
-        width: 44
-        height: 54
+        x: 107
+        y: 516
+        width: 110
+        height: 58
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be6e0dcad6764bc4ea741b20165130bb
-      internalID: 1871733573
+      spriteID: 185775aecb560ab4dabc44454696e809
+      internalID: -1046422796
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_3
+      name: Slime_movimiento_64_x_64_5
       rect:
         serializedVersion: 2
-        x: 32
-        y: 124
-        width: 46
-        height: 55
+        x: 599
+        y: 574
+        width: 6
+        height: 11
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e046f76a3b22041a3180cc51750902
-      internalID: 666998844
+      spriteID: d3be7307105e9224c9ed7ec77b5029c9
+      internalID: -1621499528
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_4
+      name: Slime_movimiento_64_x_64_7
       rect:
         serializedVersion: 2
-        x: 99
-        y: 123
-        width: 48
-        height: 54
+        x: 733
+        y: 537
+        width: 7
+        height: 6
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,134 +266,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4854794682495484391996185ab0cb76
-      internalID: 1586787414
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IvoIL_5
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 123
-        width: 49
-        height: 55
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2d7301f544bb02f48a56e7941d784f03
-      internalID: 60596343
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IvoIL_6
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 60
-        width: 45
-        height: 54
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: c7972aa7ecef9814288147dc58b45774
-      internalID: -1125130563
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IvoIL_7
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 58
-        width: 48
-        height: 55
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4be936bd8ec57134bb55374b0b25f9fe
-      internalID: -217038709
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IvoIL_8
-      rect:
-        serializedVersion: 2
-        x: 167
-        y: 58
-        width: 50
-        height: 54
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 05098c9d833a50a4c92dfa852828af30
-      internalID: 722599430
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IvoIL_9
-      rect:
-        serializedVersion: 2
-        x: 29
-        y: 1
-        width: 51
-        height: 55
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4919711f26259d6488c7282a1821bd3c
-      internalID: -896110481
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: IvoIL_10
-      rect:
-        serializedVersion: 2
-        x: 99
-        y: 1
-        width: 42
-        height: 54
-      alignment: 7
-      pivot: {x: 0.5, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 23792ce01ec8a9445b62c8a547852c4b
-      internalID: -1225771290
+      spriteID: 81d29b3cd52ae5f4dbca8406d0e6b66c
+      internalID: 1535167246
       vertices: []
       indices: 
       edges: []
@@ -346,17 +283,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IvoIL_7: -217038709
-      IvoIL_0: -1206869253
-      IvoIL_6: -1125130563
-      IvoIL_4: 1586787414
-      IvoIL_1: -630965827
-      IvoIL_8: 722599430
-      IvoIL_9: -896110481
-      IvoIL_2: 1871733573
-      IvoIL_10: -1225771290
-      IvoIL_3: 666998844
-      IvoIL_5: 60596343
+      Slime_movimiento_64_x_64_3: 1740861005
+      Slime_movimiento_64_x_64_0: 376278532
+      Slime_movimiento_64_x_64_4: 634314810
+      Slime_movimiento_64_x_64_2: 871096136
+      Slime_movimiento_64_x_64_7: 1535167246
+      Slime_movimiento_64_x_64_6: -1046422796
+      Slime_movimiento_64_x_64_5: -1621499528
+      Slime_movimiento_64_x_64_1: -927975257
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

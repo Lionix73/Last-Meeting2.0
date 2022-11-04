@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e38915191a4af194ca680814ea34fa4f
+guid: a03b32ff03f7ae843a948a235010db8c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -101,29 +101,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Slime_Idle_0
+      name: bossest_0
       rect:
         serializedVersion: 2
-        x: 39
-        y: 198
-        width: 39
-        height: 16
+        x: 54
+        y: 1266
+        width: 109
+        height: 242
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -131,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2c1375772be5dad4bbb9874804c46dc2
-      internalID: -1745809513
+      spriteID: a0fc8fcc14aad694aa3e58a0d721ae59
+      internalID: 1188220052
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Idle_1
+      name: bossest_1
       rect:
         serializedVersion: 2
-        x: 98
-        y: 200
-        width: 39
-        height: 16
+        x: 324
+        y: 1266
+        width: 109
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -152,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a8d62662f85db1d45a52a9cafd552634
-      internalID: -77077949
+      spriteID: 7fc6cca3ea5b5e345b404a01ebd0d5a8
+      internalID: 1762472698
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Idle_2
+      name: bossest_2
       rect:
         serializedVersion: 2
-        x: 156
-        y: 201
-        width: 39
-        height: 16
+        x: 585
+        y: 1266
+        width: 109
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -173,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 03261ddcc1985564e8107274b8f87004
-      internalID: -71246911
+      spriteID: 6c10f26e0c50f2e44ae0ad2bde8f21e9
+      internalID: 822362951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Idle_3
+      name: bossest_3
       rect:
         serializedVersion: 2
-        x: 38
-        y: 139
-        width: 39
-        height: 17
+        x: 831
+        y: 1266
+        width: 110
+        height: 246
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -194,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 072c9f091d40a78409feaae555a05591
-      internalID: 980465676
+      spriteID: aa69aedc2590f014196d4697b7c7100c
+      internalID: 1534647254
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Idle_4
+      name: bossest_4
       rect:
         serializedVersion: 2
-        x: 97
-        y: 141
-        width: 39
-        height: 17
+        x: 52
+        y: 1010
+        width: 109
+        height: 242
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -215,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf0db93470c00ce4a9f26d6015ba35d4
-      internalID: -96820981
+      spriteID: 13eaf4ab60cb51948ab2d700eff3ab23
+      internalID: 1244005589
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Idle_5
+      name: bossest_5
       rect:
         serializedVersion: 2
-        x: 160
-        y: 139
-        width: 39
-        height: 17
+        x: 328
+        y: 1010
+        width: 110
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -236,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5b74019d3c5be4c4fa0117aabc58fa84
-      internalID: -1202145430
+      spriteID: 3eb7d25ddb111484e9c332c66f0dce23
+      internalID: -41312502
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Idle_6
+      name: bossest_6
       rect:
         serializedVersion: 2
-        x: 39
-        y: 78
-        width: 39
-        height: 16
+        x: 581
+        y: 1011
+        width: 109
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8bae050496308524b995e232d31896e8
-      internalID: 1588598035
+      spriteID: 4921a18c3bfbc7f4280aaff55cc77b26
+      internalID: 709649520
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Idle_7
+      name: bossest_7
       rect:
         serializedVersion: 2
-        x: 102
-        y: 78
-        width: 39
-        height: 16
+        x: 827
+        y: 1010
+        width: 110
+        height: 246
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -278,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b65ffaa9d1091b24a8c7ac50d65f1866
-      internalID: -838599763
+      spriteID: 085225680d063a541b14121d09af1f5b
+      internalID: -1364906691
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Slime_Idle_8
+      name: bossest_8
       rect:
         serializedVersion: 2
-        x: 165
-        y: 77
-        width: 39
-        height: 16
+        x: 47
+        y: 756
+        width: 109
+        height: 242
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -299,8 +287,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 364e6c026612eda4c8f75103df65d3bf
-      internalID: 899721104
+      spriteID: afc0e699431a64045a8548f36986c2b1
+      internalID: -1754462599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossest_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 753
+        width: 109
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c7ecef1d65862b4083892de4f0e041b
+      internalID: 2015366126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossest_10
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 752
+        width: 109
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b85ff81056b63f543a4e8f64a6c82920
+      internalID: -2112472665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossest_11
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 751
+        width: 110
+        height: 242
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f11453de733d4864c848722f043c60ff
+      internalID: -952910280
       vertices: []
       indices: 
       edges: []
@@ -316,15 +367,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Slime_Idle_5: -1202145430
-      Slime_Idle_4: -96820981
-      Slime_Idle_7: -838599763
-      Slime_Idle_1: -77077949
-      Slime_Idle_8: 899721104
-      Slime_Idle_6: 1588598035
-      Slime_Idle_0: -1745809513
-      Slime_Idle_2: -71246911
-      Slime_Idle_3: 980465676
+      bossest_6: 709649520
+      bossest_11: -952910280
+      bossest_2: 822362951
+      bossest_5: -41312502
+      bossest_1: 1762472698
+      bossest_4: 1244005589
+      bossest_0: 1188220052
+      bossest_3: 1534647254
+      bossest_10: -2112472665
+      bossest_8: -1754462599
+      bossest_7: -1364906691
+      bossest_9: 2015366126
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e9c84940668bd2d408ba50a4c2756e6b
+guid: d87f62591e10fa54fb2aa31b883966f7
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -47,7 +47,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 16
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,13 +105,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: IvoIL_0
+      name: bossmov_0
       rect:
         serializedVersion: 2
-        x: 34
-        y: 194
-        width: 42
-        height: 54
+        x: 73
+        y: 1266
+        width: 113
+        height: 255
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -119,20 +119,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7d2f3a5348bd1e44ac723800cc0c58a
-      internalID: -1206869253
+      spriteID: 18e123a64b9384944a6402249a19d902
+      internalID: -1806920092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_1
+      name: bossmov_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 194
-        width: 43
-        height: 55
+        x: 331
+        y: 1267
+        width: 109
+        height: 258
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -140,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1020b85f72963a24e93d806a1be45131
-      internalID: -630965827
+      spriteID: 5006e8e8f21463f4b90f77aa5ed569e0
+      internalID: -1883709364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_2
+      name: bossmov_2
       rect:
         serializedVersion: 2
-        x: 166
-        y: 192
-        width: 44
-        height: 54
+        x: 586
+        y: 1266
+        width: 109
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -161,20 +161,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be6e0dcad6764bc4ea741b20165130bb
-      internalID: 1871733573
+      spriteID: dd1a81b2be8e8c24f8ba3b2a3663ff6e
+      internalID: 2052798082
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_3
+      name: bossmov_3
       rect:
         serializedVersion: 2
-        x: 32
-        y: 124
-        width: 46
-        height: 55
+        x: 837
+        y: 1265
+        width: 109
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -182,20 +182,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 26e046f76a3b22041a3180cc51750902
-      internalID: 666998844
+      spriteID: 93dbffb3b6fc5a04c8f22c344a9aa766
+      internalID: 767849558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_4
+      name: bossmov_4
       rect:
         serializedVersion: 2
-        x: 99
-        y: 123
-        width: 48
-        height: 54
+        x: 68
+        y: 1011
+        width: 113
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -203,20 +203,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4854794682495484391996185ab0cb76
-      internalID: 1586787414
+      spriteID: f32d2570b34935644a7470ed3152ca4c
+      internalID: -1439298865
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_5
+      name: bossmov_5
       rect:
         serializedVersion: 2
-        x: 167
-        y: 123
-        width: 49
-        height: 55
+        x: 324
+        y: 1011
+        width: 109
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,20 +224,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d7301f544bb02f48a56e7941d784f03
-      internalID: 60596343
+      spriteID: 50073a17ecabf2542bafc485f47e4f03
+      internalID: -1897922318
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_6
+      name: bossmov_6
       rect:
         serializedVersion: 2
-        x: 31
-        y: 60
-        width: 45
-        height: 54
+        x: 67
+        y: 747
+        width: 110
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -245,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c7972aa7ecef9814288147dc58b45774
-      internalID: -1125130563
+      spriteID: d24235f3fc3ff9c47903dc80dd4b8d75
+      internalID: -1486398632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_7
+      name: bossmov_7
       rect:
         serializedVersion: 2
-        x: 99
-        y: 58
-        width: 48
-        height: 55
+        x: 327
+        y: 747
+        width: 110
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,20 +266,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4be936bd8ec57134bb55374b0b25f9fe
-      internalID: -217038709
+      spriteID: b124dd562f0a7ac4e897b6139783b720
+      internalID: 384198498
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_8
+      name: bossmov_8
       rect:
         serializedVersion: 2
-        x: 167
-        y: 58
-        width: 50
-        height: 54
+        x: 578
+        y: 747
+        width: 110
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -287,20 +287,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 05098c9d833a50a4c92dfa852828af30
-      internalID: 722599430
+      spriteID: 8fabb27d1fa5df24a9e5dfe0d74f5775
+      internalID: 2092870398
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_9
+      name: bossmov_9
       rect:
         serializedVersion: 2
-        x: 29
-        y: 1
-        width: 51
-        height: 55
+        x: 847
+        y: 750
+        width: 110
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,20 +308,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4919711f26259d6488c7282a1821bd3c
-      internalID: -896110481
+      spriteID: cec2c97f8f2782449bb4eb0b8fe25336
+      internalID: 2028658257
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: IvoIL_10
+      name: bossmov_10
       rect:
         serializedVersion: 2
-        x: 99
-        y: 1
-        width: 42
-        height: 54
+        x: 52
+        y: 489
+        width: 114
+        height: 250
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -329,8 +329,155 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 23792ce01ec8a9445b62c8a547852c4b
-      internalID: -1225771290
+      spriteID: b8aabdd9280db5d4bb7cb3a5825fcb06
+      internalID: -1015411390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossmov_11
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 493
+        width: 110
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77c1bdcb5a457140ba87d7e3963a953
+      internalID: 57924658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossmov_12
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 489
+        width: 105
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 634d457db8a1a364b9de128292a595c4
+      internalID: 1435959179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossmov_13
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 491
+        width: 113
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98948b0cf5124fe4eafbbd84154dd2ba
+      internalID: -1751350451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossmov_14
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 234
+        width: 105
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdd9e0378024e30468e9d93c82b485d6
+      internalID: -1814301459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossmov_15
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 233
+        width: 109
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09d5e3a4cb087c4893b5ac95c2fb332
+      internalID: 1709667374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossmov_16
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 227
+        width: 105
+        height: 246
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b646f53c50c1c654e98c370ffd3dc3c0
+      internalID: -1649462125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bossmov_17
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 227
+        width: 102
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4ae59edd2f97b347b94f3a7b30f0660
+      internalID: 260098130
       vertices: []
       indices: 
       edges: []
@@ -346,17 +493,24 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      IvoIL_7: -217038709
-      IvoIL_0: -1206869253
-      IvoIL_6: -1125130563
-      IvoIL_4: 1586787414
-      IvoIL_1: -630965827
-      IvoIL_8: 722599430
-      IvoIL_9: -896110481
-      IvoIL_2: 1871733573
-      IvoIL_10: -1225771290
-      IvoIL_3: 666998844
-      IvoIL_5: 60596343
+      bossmov_16: -1649462125
+      bossmov_7: 384198498
+      bossmov_0: -1806920092
+      bossmov_4: -1439298865
+      bossmov_2: 2052798082
+      bossmov_6: -1486398632
+      bossmov_5: -1897922318
+      bossmov_14: -1814301459
+      bossmov_17: 260098130
+      bossmov_1: -1883709364
+      bossmov_9: 2028658257
+      bossmov_8: 2092870398
+      bossmov_15: 1709667374
+      bossmov_10: -1015411390
+      bossmov_12: 1435959179
+      bossmov_13: -1751350451
+      bossmov_3: 767849558
+      bossmov_11: 57924658
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

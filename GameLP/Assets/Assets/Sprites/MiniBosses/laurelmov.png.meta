@@ -1,0 +1,655 @@
+fileFormatVersion: 2
+guid: b3b98c512dcf113429c7764a46ec7753
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: laurelmov_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1266
+        width: 82
+        height: 258
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78790cecebc89fc4e9753d93fd4ed441
+      internalID: -1722386196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1266
+        width: 66
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e766a820c3469542ab2c42b75186059
+      internalID: 703313454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_3
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1266
+        width: 70
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48730ffec1a78a4383b2168277e1a6d
+      internalID: 2051174724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_4
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1266
+        width: 70
+        height: 214
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 355c25e0e13c6594fbf5865b9b2fe0b2
+      internalID: 1489684507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_9
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1015
+        width: 66
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 158466370b673ec439eb757341ba9b49
+      internalID: -224047482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_11
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 1015
+        width: 70
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8e99bcb10dbb59449ecac8bdc57453d
+      internalID: -444927685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_13
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1015
+        width: 74
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529d54762ef7aa04a8c0e5f1d68e4f12
+      internalID: 967178276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_15
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 1016
+        width: 66
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6f27ac002f9064b82c860c81307735
+      internalID: 1604690649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_18
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 773
+        width: 74
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86fdb59b4f24e645b338c5ddcab0858
+      internalID: 364211188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_20
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 773
+        width: 74
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e78d7a9d0b85b140b8965ac5267035a
+      internalID: 1699760088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_22
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 771
+        width: 70
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 784220097f63b0f4c8a940da66a509f7
+      internalID: -292097258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_24
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 772
+        width: 74
+        height: 210
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4c513aabf660884aad63588ee24ba75
+      internalID: 621359305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_26
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 498
+        width: 66
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a07fada35e9364da4ae878d2e24168
+      internalID: 1022702214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_28
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 498
+        width: 70
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a28f0d8d4486c1045a2636f36da6573b
+      internalID: -1368582567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_29
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 498
+        width: 74
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3f2bfaf5762b54388fc1a77391fed3
+      internalID: 494207159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_31
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 498
+        width: 74
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fd3a34536c0de46a7b7edb7ca0a8f7
+      internalID: -1657052274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_34
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 239
+        width: 94
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4edbe8478eda2d4f89ff4b5c169a711
+      internalID: 473171171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_36
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 238
+        width: 94
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88f9dcdf19cbbec44b1446e8b92c7b1c
+      internalID: 2021811654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_38
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 239
+        width: 78
+        height: 214
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29d776fa1b8face44843443a9f08bbc3
+      internalID: -1484890330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_39
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 238
+        width: 78
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fbc7e3bd7944144a1f3c5bfbebef1f
+      internalID: -1359717197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 82
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a427996d41a4d47996c9eb2d14401d
+      internalID: -1326763201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_43
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 0
+        width: 82
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7461fafba8248734587ec27eb0d8c458
+      internalID: 1401456755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: laurelmov_45
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 0
+        width: 98
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b9da8f7353a4a498b0493ab1874258
+      internalID: 1165597457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      laurelmov_43: 1401456755
+      laurelmov_9: -224047482
+      laurelmov_19: -173422897
+      laurelmov_1: 1292354921
+      laurelmov_38: -1484890330
+      laurelmov_27: -2139315472
+      laurelmov_35: 239070643
+      laurelmov_7: -93578443
+      laurelmov_39: -1359717197
+      laurelmov_28: -1368582567
+      laurelmov_0: -1722386196
+      laurelmov_29: 494207159
+      laurelmov_33: 1972984152
+      laurelmov_40: 464417299
+      laurelmov_15: 1604690649
+      laurelmov_31: -1657052274
+      laurelmov_45: 1165597457
+      laurelmov_26: 1022702214
+      laurelmov_12: -1824255849
+      laurelmov_36: 2021811654
+      laurelmov_20: 1699760088
+      laurelmov_32: 1206424555
+      laurelmov_30: 1389239939
+      laurelmov_41: -721448491
+      laurelmov_3: 2051174724
+      laurelmov_25: -1478223295
+      laurelmov_14: -840339697
+      laurelmov_37: -1553286082
+      laurelmov_5: -1203587757
+      laurelmov_23: -1967982078
+      laurelmov_8: -1442174983
+      laurelmov_21: 1514390115
+      laurelmov_44: -1072323848
+      laurelmov_17: 1054289823
+      laurelmov_46: -1797939194
+      laurelmov_48: 1458629320
+      laurelmov_10: -1364863010
+      laurelmov_13: 967178276
+      laurelmov_22: -292097258
+      laurelmov_4: 1489684507
+      laurelmov_6: 975629474
+      laurelmov_18: 364211188
+      laurelmov_16: -1378601386
+      laurelmov_11: -444927685
+      laurelmov_24: 621359305
+      laurelmov_42: -1326763201
+      laurelmov_34: 473171171
+      laurelmov_2: 703313454
+      laurelmov_47: 2093464816
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

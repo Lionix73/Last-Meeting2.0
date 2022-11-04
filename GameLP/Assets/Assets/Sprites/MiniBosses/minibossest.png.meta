@@ -1,0 +1,667 @@
+fileFormatVersion: 2
+guid: 105993c65529bf14cb75c6944bb3c9b8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: minibossest_0
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 1267
+        width: 70
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb44fc4458dfca4aa7c782da98ec958
+      internalID: -1662924340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 1266
+        width: 74
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d76ade88fabf3048acc05e88c4f558d
+      internalID: 1766208667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_4
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 1266
+        width: 66
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 539366f663509e643bb1de27557ff8df
+      internalID: 2040927005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_6
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 1266
+        width: 70
+        height: 218
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d8cc9d1bc41614bb46de2790f8a4a3
+      internalID: 1772166645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_8
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1013
+        width: 70
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f4022d2513d484486e21575f2c7d07
+      internalID: -1460895016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_10
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 1016
+        width: 66
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc712609d9ed1f64a8e711c7ae9e1b9f
+      internalID: 114528246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_12
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 1016
+        width: 66
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 284c2d359430b0a4da0f9943e7614869
+      internalID: -1134366292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_14
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1012
+        width: 70
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b3c1a9f1a93c2418555a89243f389d
+      internalID: 2002664108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_16
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 773
+        width: 66
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a02bc36c788eba47a2ea52c85ba3a5c
+      internalID: 149042775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_18
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 771
+        width: 66
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fdfd1b7dd940c44a82dd6cc4280ce8a
+      internalID: -997524530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_20
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 771
+        width: 62
+        height: 226
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc8c8235d53d4f341b172ab111274a4c
+      internalID: -1439900786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_22
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 772
+        width: 66
+        height: 222
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d82701cc7eb1634895b39678465233f
+      internalID: -1573346936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_24
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 494
+        width: 172
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0b07992284f0004780054254a15de42
+      internalID: 858437932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_25
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 498
+        width: 168
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c2193633362f864c85fa7999cbbf7e5
+      internalID: -794380702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_26
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 498
+        width: 164
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8805062f8bc3b14e950013efff5cbc6
+      internalID: -1444868800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_27
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 499
+        width: 168
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 955c402a7d789374894777fb550d3f6b
+      internalID: 1916866271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_28
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 236
+        width: 176
+        height: 203
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f743b53c9a300d84aaa7c6b479582d86
+      internalID: 1651561295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_30
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 239
+        width: 172
+        height: 214
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36033757e6ec58449ae787539f30ae62
+      internalID: 127515445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_32
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 238
+        width: 160
+        height: 215
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f712d8d28edc35b45ba7c1b596277ad4
+      internalID: -81767157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_34
+      rect:
+        serializedVersion: 2
+        x: 805
+        y: 233
+        width: 168
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22b606ac55f94a34987f51fba36567c7
+      internalID: -190095336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_36
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 176
+        height: 204
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1ea94f233b9df6418ec482be530862c
+      internalID: -1901096542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_37
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1
+        width: 164
+        height: 211
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774d02d8acf3a7941b35cdd01f6d573e
+      internalID: 1362702013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_38
+      rect:
+        serializedVersion: 2
+        x: 573
+        y: 1
+        width: 148
+        height: 210
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab24520cdfc80ce4a8e4334b6552575d
+      internalID: 319235939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: minibossest_39
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 0
+        width: 156
+        height: 207
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679202aeebe7b1c498e46fe80f0bc19f
+      internalID: 101906757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      minibossest_29: -143429202
+      minibossest_27: 1916866271
+      minibossest_26: -1444868800
+      minibossest_30: 127515445
+      minibossest_3: -378417020
+      minibossest_18: -997524530
+      minibossest_21: 2139659323
+      minibossest_10: 114528246
+      minibossest_11: 547378078
+      minibossest_20: -1439900786
+      minibossest_14: 2002664108
+      minibossest_9: 1133153991
+      minibossest_38: 319235939
+      minibossest_33: -143840715
+      minibossest_37: 1362702013
+      minibossest_17: -2064102988
+      minibossest_12: -1134366292
+      minibossest_31: 1992041030
+      minibossest_1: -1062518623
+      minibossest_7: 1095305244
+      minibossest_23: 371610932
+      minibossest_32: -81767157
+      minibossest_36: -1901096542
+      minibossest_4: 2040927005
+      minibossest_13: -1674572812
+      minibossest_16: 149042775
+      minibossest_22: -1573346936
+      minibossest_39: 101906757
+      minibossest_6: 1772166645
+      minibossest_25: -794380702
+      minibossest_28: 1651561295
+      minibossest_0: -1662924340
+      minibossest_19: -2118996022
+      minibossest_2: 1766208667
+      minibossest_8: -1460895016
+      minibossest_34: -190095336
+      minibossest_15: 1559774823
+      minibossest_5: -1669022685
+      minibossest_35: -2147116718
+      minibossest_24: 858437932
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
