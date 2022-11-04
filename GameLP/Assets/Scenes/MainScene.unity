@@ -599,7 +599,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &143114367
 GameObject:
@@ -931,7 +931,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &287013591
 AudioListener:
@@ -1001,7 +1001,6 @@ GameObject:
   m_Component:
   - component: {fileID: 300167484}
   - component: {fileID: 300167485}
-  - component: {fileID: 300167486}
   m_Layer: 0
   m_Name: DungeonBuilder
   m_TagString: Untagged
@@ -1022,7 +1021,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &300167485
 MonoBehaviour:
@@ -1034,18 +1033,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4890bb2aca5c3e34e92139e338c2458a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &300167486
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 300167483}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5ef1be4bcdef8b54e974a7d254472cdb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &311393214
@@ -2757,7 +2744,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: be4835d608d81cd4e932db219760868d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  minimapPlayer: {fileID: 1342360807}
+  miniMapPlayer: {fileID: 1342360807}
 --- !u!1 &638805603
 GameObject:
   m_ObjectHideFlags: 0
@@ -5197,7 +5184,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1345727024}
   - component: {fileID: 1345727023}
-  - component: {fileID: 1345727021}
   - component: {fileID: 1345727020}
   - component: {fileID: 1345727019}
   m_Layer: 0
@@ -5274,21 +5260,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1345727021
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1345727018}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 64676b5db86d2f241b18286a2e493f81, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 0}
-  smoothing: 0.05
-  offset: {x: 0, y: 0, z: -1}
 --- !u!20 &1345727023
 Camera:
   m_ObjectHideFlags: 0

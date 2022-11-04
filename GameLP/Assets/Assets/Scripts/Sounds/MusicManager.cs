@@ -112,7 +112,7 @@ public class MusicManager : SingletonMonobehaviour<MusicManager>
         }
         else
         {
-            GameResources.Instance.musicMasterMixerGroup.audioMixer.SetFloat("musicVolume", HelperUtilities.LinnearToDecibels(musicVolume));
+            GameResources.Instance.musicMasterMixerGroup.audioMixer.SetFloat("musicVolume", HelperUtilities.LinearToDecibels(musicVolume));
         }
     }
 }

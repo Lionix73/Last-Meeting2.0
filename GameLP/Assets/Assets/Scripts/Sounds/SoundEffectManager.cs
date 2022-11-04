@@ -67,7 +67,7 @@ public class SoundEffectManager : SingletonMonobehaviour<SoundEffectManager>
         }
         else
         {
-            GameResources.Instance.soundsMasterMixerGroup.audioMixer.SetFloat("soundsVolume", HelperUtilities.LinnearToDecibels(soundsVolume));
+            GameResources.Instance.soundsMasterMixerGroup.audioMixer.SetFloat("soundsVolume", HelperUtilities.LinearToDecibels(soundsVolume));
         }
     }
 }

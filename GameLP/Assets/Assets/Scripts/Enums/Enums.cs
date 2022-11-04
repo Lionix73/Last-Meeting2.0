@@ -50,5 +50,5 @@ public enum GameState
     gameLost,
     gamePaused,
     dungeonOverviewMap,
-    restartGame   
+    restartGame
 }

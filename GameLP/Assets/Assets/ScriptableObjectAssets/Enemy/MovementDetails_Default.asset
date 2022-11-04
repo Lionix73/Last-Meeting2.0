@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MovementDetails_Default
   m_EditorClassIdentifier: 
   minMoveSpeed: 8
-  maxMoveSpeed: 8
+  maxMoveSpeed: 8.5
   rollSpeed: 0
   rollDistance: 0
   rollCoolDownTime: 0

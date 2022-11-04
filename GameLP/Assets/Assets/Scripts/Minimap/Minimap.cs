@@ -6,38 +6,48 @@ using UnityEngine;
 public class Minimap : MonoBehaviour
 {
     #region Tooltip
-    [Tooltip("Populate with the child MimimapPlayer gameObject")]
+    [Tooltip("Populate with the child MinimapPlayer gameobject")]
     #endregion Tooltip
 
-    [SerializeField] private GameObject minimapPlayer;
+    [SerializeField] private GameObject miniMapPlayer;
 
     private Transform playerTransform;
 
-    private void Start() 
+    private void Start()
     {
         playerTransform = GameManager.Instance.GetPlayer().transform;
 
+        // Populate player as cinemachine camera target
         CinemachineVirtualCamera cinemachineVirtualCamera = GetComponentInChildren<CinemachineVirtualCamera>();
         cinemachineVirtualCamera.Follow = playerTransform;
 
-        SpriteRenderer spriteRenderer = minimapPlayer.GetComponent<SpriteRenderer>();
-
-        if(spriteRenderer != null)
+        // Set minimap player icon
+        SpriteRenderer spriteRenderer = miniMapPlayer.GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
         {
-            spriteRenderer.sprite = GameManager.Instance.GetPlayerMinimapIcon();
-        }     
-    } 
+            spriteRenderer.sprite = GameManager.Instance.GetPlayerMiniMapIcon();
+        }
+    }
 
     private void Update()
     {
-        if(playerTransform != null && minimapPlayer != null)
+        // Move the minimap player to follow the player
+        if (playerTransform != null && miniMapPlayer != null)
         {
-            minimapPlayer.transform.position = playerTransform.position; 
-        }    
+            miniMapPlayer.transform.position = playerTransform.position;
+        }
     }
 
-    private void OnValidate() 
+    #region Validation
+
+#if UNITY_EDITOR
+
+    private void OnValidate()
     {
-        HelperUtilities.ValidateCheckNullValue(this, nameof(minimapPlayer), minimapPlayer);    
+        HelperUtilities.ValidateCheckNullValue(this, nameof(miniMapPlayer), miniMapPlayer);
     }
+
+#endif
+
+    #endregion Validation
 }

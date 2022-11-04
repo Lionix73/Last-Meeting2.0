@@ -155,7 +155,7 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
 
         while(roomOverlaps)
         {
-            List<Doorway> unconnectedAvailablePatentDoorways = GetUnconnectedAvailableDoorways(parentRoom.doorwayList).ToList(); 
+            List<Doorway> unconnectedAvailablePatentDoorways = GetUnconnectedAvailableDoorways(parentRoom.doorWayList).ToList(); 
         
             if(unconnectedAvailablePatentDoorways.Count == 0)
             {
@@ -220,7 +220,7 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
 
     private bool PlaceTheRoom(Room parentRoom,Doorway doorwayParent,Room room)
     {
-        Doorway doorway = GetOppositeDoorway(doorwayParent, room.doorwayList);
+        Doorway doorway = GetOppositeDoorway(doorwayParent, room.doorWayList);
 
         if(doorway == null)
         {
@@ -412,7 +412,7 @@ public class DungeonBuilder : SingletonMonobehaviour<DungeonBuilder>
         room.templateUpperBounds = roomTemplate.upperBounds;
 
         room.childRoomIDList = CopyStringList(roomNode.childRoomNodeIDList);
-        room.doorwayList = CopyDoorwayList(roomTemplate.doorwayList);
+        room.doorWayList = CopyDoorwayList(roomTemplate.doorwayList);
 
         if(roomNode.parentRoomNodeIDList.Count == 0)
         {

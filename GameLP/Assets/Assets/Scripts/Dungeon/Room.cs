@@ -19,7 +19,7 @@ public class Room
     public List<RoomEnemySpawnParameters> roomLevelEnemySpawnParametersList;
     public List<string> childRoomIDList;
     public string parentRoomID;
-    public List<Doorway> doorwayList;
+    public List<Doorway> doorWayList;
     public bool isPositioned = false;
     public InstantiatedRoom instantiatedRoom;
     public bool isLit = false;
@@ -29,9 +29,12 @@ public class Room
     public Room()
     {
         childRoomIDList = new List<string>();
-        doorwayList = new List<Doorway>();
+        doorWayList = new List<Doorway>();
     }
 
+    /// <summary>
+    /// Get the number of enemies to spawn for this room in this dungeon level
+    /// </summary>
     public int GetNumberOfEnemiesToSpawn(DungeonLevelSO dungeonLevel)
     {
         foreach (RoomEnemySpawnParameters roomEnemySpawnParameters in roomLevelEnemySpawnParametersList)
@@ -45,6 +48,9 @@ public class Room
         return 0;
     }
 
+    /// <summary>
+    /// Get the room enemy spawn parameters for this dungeon level - if none found then return null
+    /// </summary>
     public RoomEnemySpawnParameters GetRoomEnemySpawnParameters(DungeonLevelSO dungeonLevel)
     {
         foreach (RoomEnemySpawnParameters roomEnemySpawnParameters in roomLevelEnemySpawnParametersList)
@@ -54,7 +60,6 @@ public class Room
                 return roomEnemySpawnParameters;
             }
         }
-
         return null;
     }
 }
