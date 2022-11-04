@@ -14,15 +14,20 @@ public class MainMenuUI : MonoBehaviour
     #endregion Tooltip
     [SerializeField] private GameObject playButton;
 
+    [SerializeField] private GameObject quitButton;
+
     #region Tooltip
     [Tooltip("Populate with the high scores button gameObject")]
     #endregion Tooltip
     [SerializeField] private GameObject highScoresButton;
 
+    [SerializeField] private GameObject instructionsButton;
+
     #region Tooltip
     [Tooltip("Populate with the enter the main menu button gameObject")]
     #endregion Tooltip
     [SerializeField] private GameObject returnToMainMenuButton;
+    private bool isInstructionSeceneLoaded = false;
     private bool isHighScoresSceneLoaded = false;
 
     // Start is called before the first frame update
@@ -43,9 +48,9 @@ public class MainMenuUI : MonoBehaviour
     public void LoadHighScores()
     {
         playButton.SetActive(false);
-        //quitButton.SetActive(false);
+        quitButton.SetActive(false);
         highScoresButton.SetActive(false);
-        //instructionsButton.SetActive(false);
+        instructionsButton.SetActive(false);
         isHighScoresSceneLoaded = true;
 
         SceneManager.UnloadSceneAsync("CharacterSelectorScene");
@@ -65,27 +70,48 @@ public class MainMenuUI : MonoBehaviour
             SceneManager.UnloadSceneAsync("HighScoreScene");
             isHighScoresSceneLoaded = false;
         }
-        // else if (isInstructionSceneLoaded)
-        // {
-        //     SceneManager.UnloadSceneAsync("InstructionsScene");
-        //     isInstructionSceneLoaded = false;
-        // }
+        else if (isInstructionSeceneLoaded)
+        {
+            SceneManager.UnloadSceneAsync("InstructionScene");
+             isInstructionSeceneLoaded = false;
+        }
 
         playButton.SetActive(true);
-        //quitButton.SetActive(true);
+        quitButton.SetActive(true);
         highScoresButton.SetActive(true);
-        //instructionsButton.SetActive(true);
+        instructionsButton.SetActive(true);
 
         // Load character selector scene additively
         SceneManager.LoadScene("CharacterSelectorScene", LoadSceneMode.Additive);
     }
 
+    public void LoadInstructions()
+    {
+        playButton.SetActive(false);
+        quitButton.SetActive(false);
+        highScoresButton.SetActive(false);
+        instructionsButton.SetActive(false);
+        isInstructionSeceneLoaded = true;
+
+        SceneManager.UnloadSceneAsync("CharacterSelectorScene");
+
+        returnToMainMenuButton.SetActive(true);
+
+        // Load character selector scene additively
+        SceneManager.LoadScene("InstructionScene", LoadSceneMode.Additive);
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
+
     private void OnValidate()
     {
         HelperUtilities.ValidateCheckNullValue(this, nameof(playButton), playButton);
-        //HelperUtilities.ValidateCheckNullValue(this, nameof(quitButton), quitButton);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(quitButton), quitButton);
         HelperUtilities.ValidateCheckNullValue(this, nameof(highScoresButton), highScoresButton);
-        //HelperUtilities.ValidateCheckNullValue(this, nameof(instructionsButton), instructionsButton);
+        HelperUtilities.ValidateCheckNullValue(this, nameof(instructionsButton), instructionsButton);
         HelperUtilities.ValidateCheckNullValue(this, nameof(returnToMainMenuButton), returnToMainMenuButton);
     }
 }
