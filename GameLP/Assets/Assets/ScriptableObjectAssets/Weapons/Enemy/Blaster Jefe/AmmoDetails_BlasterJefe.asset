@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AmmoDetails_BlasterJefe
   m_EditorClassIdentifier: 
   ammoName: Blaster Jefe Ammo
-  isPlayerAmmo: 1
+  isPlayerAmmo: 0
   ammoSprite: {fileID: 21300000, guid: 4df9cc7131cd27f4288bca5e76c82034, type: 3}
   ammoPrefabArray:
   - {fileID: 8691971878774621089, guid: 9adac85cfc37d33418f48762ac1ccfdc, type: 3}

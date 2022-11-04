@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AmmoDetails_AKEnemy
   m_EditorClassIdentifier: 
   ammoName: AK Enemy Ammo
-  isPlayerAmmo: 1
+  isPlayerAmmo: 0
   ammoSprite: {fileID: 21300000, guid: e36e8bbd18074d341b170885ac002038, type: 3}
   ammoPrefabArray:
   - {fileID: 8691971878774621089, guid: 9adac85cfc37d33418f48762ac1ccfdc, type: 3}
