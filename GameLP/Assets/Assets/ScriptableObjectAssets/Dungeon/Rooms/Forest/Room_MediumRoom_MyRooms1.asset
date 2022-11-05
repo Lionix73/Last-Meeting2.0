@@ -125,6 +125,6 @@ MonoBehaviour:
     minTotalEnemiesToSpawn: 12
     maxTotalEnemiesToSpawn: 15
     minConcurrentEnemies: 6
-    maxConcurrentEnemies: 11
+    maxConcurrentEnemies: 10
     minSpawnInterval: 3
     maxSpawnInterval: 4

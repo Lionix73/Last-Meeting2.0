@@ -574,7 +574,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
         // Display level completed
         yield return StartCoroutine(DisplayMessageRoutine("BIEN HECHO " + GameResources.Instance.currentPlayer.playerName + "! \n\nHAS SOBREVIVIDO A ESTA ETAPA DE TU PESADILLA", Color.white, 5f));
 
-        yield return StartCoroutine(DisplayMessageRoutine("NO DEJES NADA ATRAS ....DESPUES PRESIONA DEVOLVER\n\nPARA DESCENDER MAS PROFUNDO EN LA PESADILLA", Color.white, 5f));
+        yield return StartCoroutine(DisplayMessageRoutine("NO DEJES NADA ATRAS ....DESPUES PRESIONA ENTER\n\nPARA DESCENDER MAS PROFUNDO EN LA PESADILLA", Color.white, 5f));
 
         // Fade out canvas
         yield return StartCoroutine(Fade(1f, 0f, 2f, new Color(0f, 0f, 0f, 0.4f)));
@@ -664,7 +664,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
         yield return StartCoroutine(DisplayMessageRoutine("TU PUNTAJE " + gameScore.ToString("###,###0") + "\n\n" + rankText, Color.white, 4f));
 
-        yield return StartCoroutine(DisplayMessageRoutine("PRESIONA DEVOLVER PARA REINICIAR EL JUEGO", Color.white, 0f));
+        yield return StartCoroutine(DisplayMessageRoutine("PRESIONA ENTER PARA REINICIAR EL JUEGO", Color.white, 0f));
 
         // Set game state to restart game
         gameState = GameState.restartGame;
@@ -724,7 +724,7 @@ public class GameManager : SingletonMonobehaviour<GameManager>
 
         yield return StartCoroutine(DisplayMessageRoutine("TU PUNTAJE " + gameScore.ToString("###,###0") + "\n\n" + rankText, Color.white, 4f));
 
-        yield return StartCoroutine(DisplayMessageRoutine("PRESIONA DEVOLVER PARA REINICIAR EL JUEGO", Color.white, 0f));
+        yield return StartCoroutine(DisplayMessageRoutine("PRESIONA ENTER PARA REINICIAR EL JUEGO", Color.white, 0f));
 
         // Set game state to restart game
         gameState = GameState.restartGame;

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebd2a1f44a9cc354a88b5cb12206c00c, type: 3}
   m_Name: MovementDetails_MedusaPink
   m_EditorClassIdentifier: 
-  minMoveSpeed: 8
+  minMoveSpeed: 5
   maxMoveSpeed: 8
   rollSpeed: 0
   rollDistance: 0
-  rollCoolDownTime: 0
+  rollCooldownTime: 0

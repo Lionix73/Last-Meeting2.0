@@ -384,6 +384,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 4eeb857bee2c8474bbe9f4434dc978ef, type: 3}
   - {fileID: 21300000, guid: cad4baab9eefe5c4ea5274436084e0e9, type: 3}
   - {fileID: 21300000, guid: bc6eaeab2c2a2ff4f8b38aae9490fd5a, type: 3}
+  - {fileID: 21300000, guid: 64567cdb82ede544db3d10e1f39fc8f4, type: 3}
   - {fileID: 21300000, guid: fc43610c609f045448620d9549a259d7, type: 3}
   - {fileID: 21300000, guid: 5524940c45db5ae4c88b2ddb14d4b28d, type: 3}
   - {fileID: 21300000, guid: 4ffbbd1c549b35d46864dff019bd9abf, type: 3}
@@ -975,6 +976,7 @@ SpriteAtlas:
   - vida
   - Cursorpro2.0
   - canon
+  - armaboss
   - alma250
   - Face1
   - fotograma0003

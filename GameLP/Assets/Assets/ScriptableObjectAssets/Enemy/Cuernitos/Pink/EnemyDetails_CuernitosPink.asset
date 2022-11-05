@@ -33,7 +33,7 @@ MonoBehaviour:
   - dungeonLevel: {fileID: 11400000, guid: 981d8dc139ea20a4ba07022c3f8a82ce, type: 2}
     enemyHealthAmount: 40
   - dungeonLevel: {fileID: 11400000, guid: e7937511569504f439f5b73cc7fb274b, type: 2}
-    enemyHealthAmount: 50
+    enemyHealthAmount: 35
   isImmuneAfterHit: 0
   hitImmunityTime: 0
   isHealthBarDisplayed: 0
