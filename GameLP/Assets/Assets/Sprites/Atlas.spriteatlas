@@ -382,6 +382,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 837680da8bf02db44bd2d374e148f7c2, type: 3}
   - {fileID: 21300000, guid: 498c327b58227284f82d04a31307c30c, type: 3}
   - {fileID: 21300000, guid: 4eeb857bee2c8474bbe9f4434dc978ef, type: 3}
+  - {fileID: 21300000, guid: d53cc77b2010f884985d688245080967, type: 3}
   - {fileID: 21300000, guid: cad4baab9eefe5c4ea5274436084e0e9, type: 3}
   - {fileID: 21300000, guid: bc6eaeab2c2a2ff4f8b38aae9490fd5a, type: 3}
   - {fileID: 21300000, guid: 64567cdb82ede544db3d10e1f39fc8f4, type: 3}
@@ -974,6 +975,7 @@ SpriteAtlas:
   - Tree
   - pared2abajo (1)
   - vida
+  - LOGO
   - Cursorpro2.0
   - canon
   - armaboss
