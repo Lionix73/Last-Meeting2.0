@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   SoundEffectName: Blaster Jefe Reload
   soundPrefab: {fileID: 3518911561667639831, guid: 858c49da0936606479dd1d17ed3a090d, type: 3}
-  SoundEffectClip: {fileID: 8300000, guid: 3a23ff12c7253704a92030876b18c839, type: 3}
+  SoundEffectClip: {fileID: 8300000, guid: 5dc21d792fab32647906008e9b9ae8b7, type: 3}
   SoundEffectPitchRandomVariationMin: 0.8
   SoundEffectPitchRandomVariationMax: 1.2
-  SoundEffectVolume: 0.5
+  SoundEffectVolume: 1
