@@ -17,7 +17,7 @@ PrefabInstance:
       objectReference: {fileID: 21300000, guid: fe3ef9735e0235540965900a6dff8339, type: 3}
     - target: {fileID: 353845469159077372, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.7
+      value: 3.21
       objectReference: {fileID: 0}
     - target: {fileID: 3369453327200521393, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
       propertyPath: m_Name
@@ -31,6 +31,10 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.9411764
       objectReference: {fileID: 0}
+    - target: {fileID: 5942380785327750106, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+      propertyPath: healthBar
+      value: 
+      objectReference: {fileID: 4965058363942550665}
     - target: {fileID: 6859612646057774153, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -81,3 +85,14 @@ PrefabInstance:
       objectReference: {fileID: 9100000, guid: 0f372b3c644e5ce4a9d95f7f7f25d99a, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+--- !u!114 &4965058363942550665 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4002503436300105828, guid: 2dddb934334cae4449ed73646ec9bae1, type: 3}
+  m_PrefabInstance: {fileID: 8317253431627744493}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11b1343777cc00544b4f8bb5c3ba40e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
