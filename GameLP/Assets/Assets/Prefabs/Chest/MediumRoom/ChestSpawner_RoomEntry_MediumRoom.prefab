@@ -69,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7620010273591378095, guid: 8e40edc94d8679948acbe37fd1700eb1, type: 3}
       propertyPath: numberOfItemsToSpawnMin
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7620010273591378095, guid: 8e40edc94d8679948acbe37fd1700eb1, type: 3}
       propertyPath: weaponSpawnByLevelList.Array.size
