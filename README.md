@@ -10,7 +10,7 @@ This game is a roguelike set in a dungeon with 3 levels and intense boss fights.
 - Boss fights at the end of each level.
 - Roguelike progression with permadeath mechanics.
 
-*Note: The game was created using assets and techniques learned from a Unity online course.*
+*Note: The game was created using techniques learned from a Unity online course.*
 
 ## Authors and Credits
 Created by 
