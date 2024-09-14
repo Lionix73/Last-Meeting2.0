@@ -17,7 +17,7 @@ Created by
 
 ### Main Programmers
 - Santiago Cárdenas
-- [Alejandro López](www.linkedin.com/in/alejandro-lopez-ramirez-34479b2a1) / [@Lionix73](https://x.com/Lionix73/)
+- [Alejandro López](https://www.linkedin.com/in/alejandro-lopez-ramirez-34479b2a1/) / [@Lionix73](https://x.com/Lionix73/)
 
 ### Main Artists
 - Luisa Rodríguez / [@guaya_bas](https://www.instagram.com/guaya_bas/)
