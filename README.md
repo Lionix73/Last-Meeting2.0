@@ -19,6 +19,6 @@ Created by
 - Santiago Cárdenas
 - [Alejandro López](www.linkedin.com/in/alejandro-lopez-ramirez-34479b2a1) / [@Lionix73](https://x.com/Lionix73/)
 
-### Main Artist
+### Main Artists
 - Luisa Rodríguez / [@guaya_bas](https://www.instagram.com/guaya_bas/)
 - Juan Jose Builes
