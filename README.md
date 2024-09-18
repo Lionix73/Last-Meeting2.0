@@ -16,7 +16,7 @@ This game is a roguelike set in a dungeon with 3 levels and intense boss fights.
 Created by 
 
 ### Main Programmers
-- Santiago Cárdenas
+- Santiago Cárdenas / [@SantiCG](https://www.instagram.com/santi_cg18/)
 - [Alejandro López](https://www.linkedin.com/in/alejandro-lopez-ramirez-34479b2a1/) / [@Lionix73](https://x.com/Lionix73/)
 
 ### Main Artists
